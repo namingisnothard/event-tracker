@@ -1,0 +1,2363 @@
+{
+  "asOf": "2026-09-12",
+  "rangeEnd": "2026-12-31",
+  "events": [
+    {
+      "id": "venice-biennale-arte-2026",
+      "title": "Venice Biennale · In Minor Keys",
+      "startDate": "2026-05-09",
+      "endDate": "2026-11-22",
+      "city": "Venice",
+      "country": "Italy",
+      "venue": "Giardini, Arsenale and city venues",
+      "category": "art",
+      "description": "The 61st International Art Exhibition brings contemporary art and national pavilions across Venice. Already open; visit before the November closing.",
+      "access": "Public tickets",
+      "closedWeekdays": [
+        1
+      ],
+      "openDates": [
+        "2026-05-11",
+        "2026-06-01",
+        "2026-09-07",
+        "2026-11-16"
+      ],
+      "scheduleNote": "Giardini and Arsenale are closed Mondays, except 11 May, 1 June, 7 September and 16 November. Individual pavilions may have additional closures.",
+      "sourceUrl": "https://www.labiennale.org/it/arte/2026",
+      "url": "https://www.labiennale.org/en/tickets",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.labiennale.org/it/arte/2026",
+        "https://www.labiennale.org/en/art/2026/information"
+      ],
+      "accessNote": "Public tickets; check venue opening days before visiting.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "venice-film-festival-2026",
+      "title": "Venice International Film Festival",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-12",
+      "city": "Venice",
+      "country": "Italy",
+      "venue": "Lido di Venezia festival cinemas",
+      "category": "film",
+      "description": "The 83rd Venice International Film Festival reaches its final day on 12 September, with public screenings on the Lido.",
+      "access": "Public tickets",
+      "accessNote": "Check the public screening programme for remaining sessions and admission; closing-ceremony access is not guaranteed.",
+      "notes": "Already underway; only 12 September remains inside this preview's date window.",
+      "sourceUrl": "https://www.labiennale.org/en/cinema/2026",
+      "url": "https://www.labiennale.org/en/cinema/2026/program-cinema-2026-public",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.labiennale.org/en/cinema/2026",
+        "https://www.labiennale.org/en/cinema/2026/program-cinema-2026-public"
+      ],
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "ars-electronica-festival-2026",
+      "title": "Ars Electronica · Negotiating Humanity",
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-13",
+      "city": "Linz",
+      "country": "Austria",
+      "venue": "OK Quarter, MED Campus, Danube Triangle and city venues",
+      "category": "art",
+      "subcategory": "Art & technology",
+      "description": "Linz's international media-art festival connects exhibitions, performances, technology and society. Its final weekend runs 12–13 September.",
+      "access": "Public tickets",
+      "accessNote": "Festival tickets are sold online and at festival information desks; check programme entries for individual access requirements.",
+      "notes": "Already underway; 12–13 September remain inside this preview's date window.",
+      "sourceUrl": "https://ars.electronica.art/negotiatinghumanity/en/",
+      "url": "https://ars.electronica.art/negotiatinghumanity/en/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://ars.electronica.art/negotiatinghumanity/en/"
+      ],
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "berlin-art-week-2026",
+      "title": "Berlin Art Week",
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-13",
+      "city": "Berlin",
+      "country": "Germany",
+      "venue": "Museums, galleries, collections and venues across Berlin",
+      "category": "art",
+      "description": "Contemporary art exhibitions, performances, screenings and talks across Berlin. The final weekend includes the Meet the Artist programme.",
+      "access": "Mixed access",
+      "accessNote": "Many events are free; partner venues set individual admission prices. Selected tours, performances and screenings require registration.",
+      "notes": "Already underway; 12–13 September remain inside this preview's date window.",
+      "sourceUrl": "https://berlinartweek.de/en/about-berlin-art-week/",
+      "url": "https://berlinartweek.de/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://berlinartweek.de/en/about-berlin-art-week/",
+        "https://berlinartweek.de/ihr-besuch/",
+        "https://berlinartweek.de/?lang=de"
+      ],
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "hay-festival-segovia-2026",
+      "title": "Hay Festival Segovia",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-13",
+      "city": "Segovia",
+      "country": "Spain",
+      "venue": "IE University, Teatro Juan Bravo and city venues",
+      "category": "literature",
+      "subcategory": "Literature & ideas",
+      "description": "Conversations with international writers and thinkers connect literature, philosophy, architecture and visual art in Segovia's historic centre. The final weekend remains on 12–13 September.",
+      "access": "Public tickets",
+      "accessNote": "Book individual events; check each session's language, venue and remaining availability.",
+      "notes": "Already underway; 12–13 September remain inside the tracker window. Main festival dates are 10–13 September 2026.",
+      "sourceUrl": "https://www.hayfestival.com/segovia/home",
+      "sourceUrls": [
+        "https://www.hayfestival.com/segovia/home",
+        "https://www.hayfestival.com/news/blog.aspx?post=1850",
+        "https://www.hayfestival.com/segovia/programme-quick-view.aspx?SectionFilterID=983&pview=0"
+      ],
+      "url": "https://www.hayfestival.com/segovia/home",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "celine-dion-paris",
+      "startDate": "2026-09-12",
+      "endDate": "2026-10-17",
+      "dates": [
+        "2026-09-12",
+        "2026-09-16",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-23",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-14",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "city": "Paris",
+      "country": "France",
+      "venue": "Plenitude Arena, Nanterre (formerly Paris La Défense Arena)",
+      "category": "music",
+      "subcategory": "Pop",
+      "description": "A major stage comeback with French and English favourites. Sixteen selected concert nights; check the official sellers for availability.",
+      "sourceUrl": "https://paris.celinedion.com/",
+      "verifiedAt": "2026-09-12",
+      "title": "Céline Dion · Paris 2026",
+      "url": "https://paris.celinedion.com/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://paris.celinedion.com/"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "london-design-festival-2026",
+      "title": "London Design Festival",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-20",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Design districts and venues across London",
+      "category": "design",
+      "description": "A citywide week of installations, exhibitions, open studios and design conversations. Explore the programme by neighbourhood and discipline.",
+      "access": "Mixed access",
+      "sourceUrl": "https://londondesignfestival.com/programme",
+      "url": "https://londondesignfestival.com/programme",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://londondesignfestival.com/programme"
+      ],
+      "accessNote": "Access and booking vary by individual event.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "moon-celebration-week-2026",
+      "title": "Moon Celebration Week",
+      "category": "astronomy",
+      "subcategory": "Astronomy, science & creativity",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-20",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Royal Observatory Greenwich, National Maritime Museum and partner venues",
+      "description": "Lunar talks, tours, workshops and an astrophotography evening connect space science with art and the history of Moon mapping.",
+      "access": "Mixed access",
+      "accessNote": "Some activities are free; tours and evening events have separate tickets. Check individual dates, age guidance and booking requirements.",
+      "notes": "The programme runs 12–20 September; individual activities do not run every day.",
+      "sourceUrl": "https://www.rmg.co.uk/whats-on/national-maritime-museum-royal-observatory/moon-celebration-week",
+      "url": "https://www.rmg.co.uk/whats-on/national-maritime-museum-royal-observatory/moon-celebration-week",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.rmg.co.uk/whats-on/national-maritime-museum-royal-observatory/moon-celebration-week"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    },
+    {
+      "id": "reeperbahn-festival",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-19",
+      "city": "Hamburg",
+      "country": "Germany",
+      "venue": "Clubs and venues around St. Pauli",
+      "category": "music",
+      "subcategory": "Festival",
+      "description": "Four days of emerging artists and club discoveries across Hamburg's St. Pauli neighbourhood.",
+      "sourceUrl": "https://www.hamburg.de/kultur/festival/reeperbahn-festival-402628",
+      "verifiedAt": "2026-09-12",
+      "title": "Reeperbahn Festival",
+      "url": "https://www.reeperbahnfestival.com/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.hamburg.de/kultur/festival/reeperbahn-festival-402628"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "london-fashion-week-ss27",
+      "title": "London Fashion Week · SS27",
+      "startDate": "2026-09-17",
+      "endDate": "2026-09-21",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Designer venues across London",
+      "category": "fashion",
+      "description": "British fashion's spring/summer showcase. Runway events are mainly invitation only; the official schedule also identifies public showcases and pop-ups.",
+      "access": "Mixed access",
+      "sourceUrl": "https://londonfashionweek.co.uk/schedule",
+      "url": "https://londonfashionweek.co.uk/schedule",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://londonfashionweek.co.uk/schedule"
+      ],
+      "accessNote": "Industry access for most shows; selected events marked OPEN TO PUBLIC.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "motogp-austria-2026",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-20",
+      "city": "Spielberg",
+      "country": "Austria",
+      "venue": "Red Bull Ring",
+      "category": "sport",
+      "description": "A full MotoGP weekend at Austria’s Red Bull Ring.",
+      "url": "https://motogppremier.motogp.com/2026-motogp-austria",
+      "sourceUrl": "https://motogppremier.motogp.com/2026-motogp-austria",
+      "notes": "Friday–Sunday event weekend; grand prix race September 20.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "MotoGP Austrian Grand Prix",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://motogppremier.motogp.com/2026-motogp-austria"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "san-sebastian-film-festival-2026",
+      "title": "San Sebastián Film Festival",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-26",
+      "city": "San Sebastián",
+      "country": "Spain",
+      "venue": "Kursaal, Victoria Eugenia and city cinemas",
+      "category": "film",
+      "description": "The festival's 74th edition pairs international premieres, competitions and filmmaker appearances with a coastal Basque city break.",
+      "access": "Public tickets",
+      "sourceUrl": "https://www.sansebastianfestival.com/programacion",
+      "url": "https://www.sansebastianfestival.com/programacion",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.sansebastianfestival.com/programacion"
+      ],
+      "accessNote": "Screening tickets; check each session's access and language information.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "bigbang-paris",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-19",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Stade de France, Saint-Denis",
+      "category": "music",
+      "subcategory": "K-pop",
+      "description": "BIGBANG's 20th-anniversary world tour reaches the Stade de France. One of two announced European tour stops.",
+      "sourceUrl": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+      "verifiedAt": "2026-09-12",
+      "title": "BIGBANG · XX : COSMOS",
+      "url": "https://www.aegpresents.fr/event/bigbang/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "oktoberfest-2026",
+      "title": "Oktoberfest",
+      "startDate": "2026-09-19",
+      "endDate": "2026-10-04",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Theresienwiese",
+      "category": "festival",
+      "description": "Munich's enormous Bavarian folk festival: beer tents, brass bands, traditional food, parades and fairground rides.",
+      "access": "Free entry",
+      "sourceUrl": "https://www.oktoberfest.de/en",
+      "url": "https://www.oktoberfest.de/en/information/service-for-visitors/faqs-for-wiesn-visitors",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.oktoberfest.de/en"
+      ],
+      "accessNote": "Main grounds and tents have free admission; food, rides and some areas cost extra. Tent capacity is limited.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "milan-fashion-week-ss27",
+      "title": "Milan Fashion Week · SS27",
+      "startDate": "2026-09-22",
+      "endDate": "2026-09-28",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "Designer venues across Milan",
+      "category": "fashion",
+      "description": "The womenswear spring/summer season across Milan. Treat this as an industry calendar; confirm individual event access before planning a visit.",
+      "access": "Industry / invitation",
+      "sourceUrl": "https://www.cameramoda.it/it/",
+      "url": "https://www.cameramoda.it/it/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.cameramoda.it/it/",
+        "https://www.cameramoda.it/it/area-stampa/stampa-accrediti/"
+      ],
+      "accessNote": "Industry accreditation and individual invitations; public show admission is not guaranteed.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "gothenburg-book-fair-2026",
+      "title": "Gothenburg Book Fair",
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-27",
+      "city": "Gothenburg",
+      "country": "Sweden",
+      "venue": "Swedish Exhibition & Congress Centre, Mässans gata 10",
+      "category": "literature",
+      "subcategory": "Book fair & gaming",
+      "description": "A major Nordic gathering for books and ideas, with 2026 themes spanning popular adult education and games. Author encounters range from crime fiction to fantasy and international literature.",
+      "access": "Public tickets",
+      "accessNote": "Admission tickets cover the exhibition. Seminar passes and special-event tickets are sold separately; choose the ticket for the sessions you want.",
+      "sourceUrl": "https://goteborg-bookfair.com/",
+      "sourceUrls": [
+        "https://goteborg-bookfair.com/",
+        "https://goteborg-bookfair.com/home/shop/",
+        "https://goteborg-bookfair.com/home/plan-your-visit/opening-hours/"
+      ],
+      "url": "https://goteborg-bookfair.com/home/shop/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "backstreet-boys-dusseldorf",
+      "startDate": "2026-09-25",
+      "endDate": "2026-10-07",
+      "dates": [
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-06",
+        "2026-10-07"
+      ],
+      "city": "Düsseldorf",
+      "country": "Germany",
+      "venue": "MERKUR SPIEL-ARENA",
+      "category": "music",
+      "subcategory": "Pop",
+      "description": "The band's only European concerts in 2026: ten selected stadium nights for Homecoming: Live in Germany.",
+      "sourceUrl": "https://www.merkur-spiel-arena.de/backstreet-boys",
+      "verifiedAt": "2026-09-12",
+      "title": "Backstreet Boys · Into the Millennium",
+      "url": "https://www.merkur-spiel-arena.de/backstreet-boys",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.merkur-spiel-arena.de/backstreet-boys"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "laver-cup-2026",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-27",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "The O2",
+      "category": "tennis",
+      "description": "Team Europe takes on Team World over five arena sessions.",
+      "url": "https://lavercup.com/tickets",
+      "sourceUrl": "https://lavercup.com/event-guide",
+      "notes": "Tournament matches September 25–27; optional open practice is September 24.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "Laver Cup",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://lavercup.com/event-guide"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "vienna-design-week-2026",
+      "title": "Vienna Design Week",
+      "startDate": "2026-09-25",
+      "endDate": "2026-10-04",
+      "city": "Vienna",
+      "country": "Austria",
+      "venue": "Festival headquarters and venues across Vienna",
+      "category": "design",
+      "description": "The festival's 20th edition explores objects, craft, experimental design and the city through exhibitions, workshops and open studios.",
+      "access": "Mixed access",
+      "sourceUrl": "https://www.viennadesignweek.at/info/festival-2026/",
+      "url": "https://www.viennadesignweek.at/en/programme/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.viennadesignweek.at/info/festival-2026/"
+      ],
+      "accessNote": "Check individual programme entries for opening hours and registration.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "wigtown-book-festival-2026",
+      "title": "Wigtown Book Festival",
+      "startDate": "2026-09-25",
+      "endDate": "2026-10-04",
+      "city": "Wigtown",
+      "country": "United Kingdom",
+      "venue": "Festival Marquee, County Buildings and town venues",
+      "category": "literature",
+      "subcategory": "Literary festival",
+      "description": "Scotland's National Book Town hosts ten days of readings and conversations, with separate programmes for children and young adults alongside its independent bookshops.",
+      "access": "Public tickets",
+      "accessNote": "Book individual events through the festival box office; check venue addresses for sessions outside the town centre.",
+      "sourceUrl": "https://www.wigtownbookfestival.com/",
+      "sourceUrls": [
+        "https://www.wigtownbookfestival.com/",
+        "https://www.wigtownbookfestival.com/visit/festival-venues"
+      ],
+      "url": "https://tickets.wigtownbookfestival.com/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "bigbang-london",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-26",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Tottenham Hotspur Stadium",
+      "category": "music",
+      "subcategory": "K-pop",
+      "description": "The London stadium date of BIGBANG's 20th-anniversary world tour, announced by YG Entertainment.",
+      "sourceUrl": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+      "verifiedAt": "2026-09-12",
+      "title": "BIGBANG · XX : COSMOS",
+      "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "neptune-opposition-2026",
+      "title": "Neptune at opposition · 海王星冲日",
+      "category": "astronomy",
+      "subcategory": "Planet observing",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-27",
+      "geographicScope": "europe-wide",
+      "city": "Across Europe",
+      "country": "Europe-wide",
+      "venue": "Dark-sky locations across Europe",
+      "description": "A telescope challenge: Neptune reaches opposition on 26 September, with the distant planet in Pisces.",
+      "access": "Check official details",
+      "accessNote": "A telescope is required; Neptune is not a naked-eye target. Observatory sessions may require separate booking. Self-guided skywatching",
+      "notes": "26 September evening–27 September morning is a suggested observing window around the opposition date. Visibility depends on location, horizon and weather; nearby nights are also suitable.",
+      "sourceUrl": "https://www.rmg.co.uk/stories/space-astronomy/astronomy/night-sky-highlights-september-2026",
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/astronomy/night-sky-highlights-september-2026",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.rmg.co.uk/stories/space-astronomy/astronomy/night-sky-highlights-september-2026"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    },
+    {
+      "id": "berlin-marathon-2026",
+      "startDate": "2026-09-27",
+      "endDate": "2026-09-27",
+      "city": "Berlin",
+      "country": "Germany",
+      "venue": "Berlin city course",
+      "category": "sport",
+      "description": "A World Marathon Major with citywide crowds and elite road racing.",
+      "url": "https://www.bmw-berlin-marathon.com/en/",
+      "sourceUrl": "https://www.bmw-berlin-marathon.com/",
+      "notes": "Calendar entry is marathon race day. Running entry and spectator access are different; check organiser details.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "BMW Berlin Marathon",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://www.bmw-berlin-marathon.com/"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "paris-fashion-week-ss27",
+      "title": "Paris Fashion Week · SS27",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-06",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Fashion-house venues across Paris",
+      "category": "fashion",
+      "description": "The womenswear spring/summer 2027 collections. Official shows and presentations require invitations from the fashion houses; FHCM does not sell tickets.",
+      "access": "Industry / invitation",
+      "sourceUrl": "https://www.fhcm.paris/en/upcoming-seasons-and-previous-editions",
+      "url": "https://www.fhcm.paris/en/paris-fashion-week",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.fhcm.paris/en/upcoming-seasons-and-previous-editions",
+        "https://www.fhcm.paris/en/news/pfwr-fraudulent-solicitations"
+      ],
+      "accessNote": "Invitation only for official shows and presentations.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "nfl-london-commanders-colts-2026",
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-04",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Tottenham Hotspur Stadium",
+      "category": "sport",
+      "description": "Indianapolis and Washington open the autumn NFL games in London.",
+      "url": "https://www.nfl.com/international/international-games",
+      "sourceUrl": "https://www.patriots.com/news/patriots-to-face-lions-in-week-10-international-game-on-november-15-2026",
+      "notes": "Kickoff announced for 14:30 London local time.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "NFL London: Colts vs Commanders",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://www.patriots.com/news/patriots-to-face-lions-in-week-10-international-game-on-november-15-2026"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "saturn-opposition-2026",
+      "title": "Saturn at opposition · 土星冲日",
+      "category": "astronomy",
+      "subcategory": "Planet observing",
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-05",
+      "geographicScope": "europe-wide",
+      "city": "Across Europe",
+      "country": "Europe-wide",
+      "venue": "Dark-sky locations across Europe",
+      "description": "Saturn reaches opposition on 4 October: an inviting autumn opportunity to observe the ringed planet.",
+      "access": "Check official details",
+      "accessNote": "Saturn can be seen by eye; use a telescope to resolve its rings. Local astronomy clubs may offer separate sessions. Self-guided skywatching",
+      "notes": "Suggested night: 4–5 October. The opportunity extends to nearby nights; local weather and horizon determine visibility.",
+      "sourceUrl": "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026",
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026",
+        "https://www.rmg.co.uk/stories/space-astronomy/astronomy/night-sky-highlights-september-2026"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    },
+    {
+      "id": "bfi-london-film-festival-2026",
+      "title": "BFI London Film Festival",
+      "startDate": "2026-10-07",
+      "endDate": "2026-10-18",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Royal Festival Hall, South Bank and West End cinemas",
+      "category": "film",
+      "description": "Public premieres, new films, screen talks and immersive storytelling across London. General ticket sales begin 17 September.",
+      "access": "Public tickets",
+      "sourceUrl": "https://whatson.bfi.org.uk/lff/online/default.asp?BOparam::WScontent::loadArticle::permalink=about-the-festival",
+      "url": "https://whatson.bfi.org.uk/lff/online/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://whatson.bfi.org.uk/lff/online/default.asp?BOparam::WScontent::loadArticle::permalink=about-the-festival"
+      ],
+      "accessNote": "Public screening tickets; some free events bookable from 1 October.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "draconids-viewing-2026",
+      "title": "Draconid meteor shower · 天龙座流星雨",
+      "category": "astronomy",
+      "subcategory": "Meteor shower",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-09",
+      "geographicScope": "europe-wide",
+      "city": "Across Europe",
+      "country": "Europe-wide",
+      "venue": "Dark-sky locations across Europe",
+      "description": "An evening-friendly meteor watch with little moonlight. This is usually a modest shower; no exceptional outburst is predicted for 2026.",
+      "access": "Check official details",
+      "accessNote": "Watch by eye from a dark, open site. No telescope is needed; access rules and weather depend on your chosen location. Self-guided skywatching",
+      "notes": "Viewing window: evening 8 October into 9 October. Spain's National Astronomical Observatory places maximum around 02:00 UTC on 9 October; evening viewing benefits from the higher radiant. Active 6–10 October.",
+      "sourceUrl": "https://astronomia.ign.es/en/draconidas",
+      "url": "https://astronomia.ign.es/en/draconidas",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://astronomia.ign.es/en/draconidas",
+        "https://www.rmg.co.uk/stories/space-astronomy/draconid-meteor-shower-when-where-see-it-uk"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    },
+    {
+      "id": "folio-obidos-2026",
+      "title": "FÓLIO · Óbidos Literary Festival",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-18",
+      "city": "Óbidos",
+      "country": "Portugal",
+      "venue": "Venues across the village of Óbidos",
+      "category": "literature",
+      "subcategory": "Literature & arts",
+      "description": "The walled Portuguese town becomes a meeting place for authors, readers and artists, with literary conversations, readings, exhibitions and book launches.",
+      "access": "Check official details",
+      "accessNote": "Festival dates are confirmed by the municipality. Check the 2026 programme for individual venues, session charges and reservations when published. Check programme",
+      "sourceUrl": "https://agenda.obidos.pt/evento/folio-festival-literario-internacional-de-obidos/",
+      "url": "https://foliofestival.pt/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://agenda.obidos.pt/evento/folio-festival-literario-internacional-de-obidos/"
+      ],
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "cheltenham-literature-festival-2026",
+      "title": "Cheltenham Literature Festival",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-18",
+      "city": "Cheltenham",
+      "country": "United Kingdom",
+      "venue": "Town Hall, Garden Theatre and venues across Cheltenham",
+      "category": "literature",
+      "subcategory": "Literature, poetry & debate",
+      "description": "A long-running literary festival with fiction, poetry, public conversations and debates, plus a free storytelling programme around town.",
+      "access": "Mixed access",
+      "accessNote": "Book individual author events; the festival also offers free activities. Check the programme for session venues and ticket availability.",
+      "sourceUrl": "https://www.cheltenhamfestivals.org/festivals/literature-festival",
+      "sourceUrls": [
+        "https://www.cheltenhamfestivals.org/festivals/literature-festival",
+        "https://www.cheltenhamfestivals.org/venues/category/literature-festival"
+      ],
+      "url": "https://www.cheltenhamfestivals.org/whats-on",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "frankfurt-book-fair-public-2026",
+      "title": "Frankfurt Book Fair · Public days",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-11",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "venue": "Messe Frankfurt",
+      "category": "literature",
+      "subcategory": "International book fair",
+      "description": "The public days of the international publishing fair bring author talks, readings, signings and book discoveries. Czechia is the 2026 Guest of Honour.",
+      "access": "Public tickets",
+      "accessNote": "Public admission starts Friday 9 October at 11:00; Saturday opens at 09:00 and Sunday at 09:00. Industry-only rights centres require the appropriate credentials and appointments.",
+      "scheduleNote": "Calendar shows the public visitor dates. The full trade fair runs 7–11 October; 7–8 October are for trade visitors.",
+      "sourceUrl": "https://www.buchmesse.de/en",
+      "sourceUrls": [
+        "https://www.buchmesse.de/en",
+        "https://www.buchmesse.de/besuchen/tickets"
+      ],
+      "url": "https://www.buchmesse.de/besuchen/tickets",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "niall-horan-copenhagen",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-10",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "venue": "Royal Arena",
+      "category": "music",
+      "subcategory": "Pop",
+      "description": "The former One Direction singer brings his Dinner Party album and arena tour to Copenhagen.",
+      "sourceUrl": "https://www.royalarena.dk/en/all-events/niall-horan-tickets-ae985162",
+      "verifiedAt": "2026-09-12",
+      "title": "Niall Horan · Dinner Party",
+      "url": "https://www.royalarena.dk/en/all-events/niall-horan-tickets-ae985162",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.royalarena.dk/en/all-events/niall-horan-tickets-ae985162"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "european-table-tennis-2026",
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-18",
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "venue": "Arena Stožice",
+      "category": "table-tennis",
+      "description": "Europe’s individual championship, with singles, doubles and mixed doubles titles.",
+      "url": "https://www.ettu.org/ljubljana-to-host-the-european-individual-championships-2026/",
+      "sourceUrl": "https://www.ettu.org/ljubljana-to-host-the-european-individual-championships-2026/",
+      "notes": "Main draw begins October 13; singles semifinals and finals October 18.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "European Table Tennis Championships",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://www.ettu.org/ljubljana-to-host-the-european-individual-championships-2026/"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "rome-film-fest-2026",
+      "title": "Rome Film Fest",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-25",
+      "city": "Rome",
+      "country": "Italy",
+      "venue": "Auditorium Parco della Musica and city venues",
+      "category": "film",
+      "description": "International cinema and premieres in Rome. The organiser expanded this year's edition to begin on 13 October.",
+      "access": "Public tickets",
+      "sourceUrl": "https://www.romacinemafest.it/it/un-giorno-in-piu-per-la-festa-2026/",
+      "url": "https://www.romacinemafest.it/it/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.romacinemafest.it/it/un-giorno-in-piu-per-la-festa-2026/",
+        "https://www.romacinemafest.it/it/festa-cinema-roma/partecipa/luoghi/"
+      ],
+      "accessNote": "Screening tickets and event-specific access; consult the final programme.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "frieze-london-masters-2026",
+      "title": "Frieze London & Frieze Masters",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "The Regent's Park",
+      "category": "art",
+      "description": "Two complementary fairs pair contemporary discovery with art history. Calendar shows ticketed public dates; 14 October is invitation only.",
+      "access": "Public tickets",
+      "sourceUrl": "https://www.frieze.com/fairs/frieze-london-frieze-masters/visitor-information",
+      "url": "https://www.frieze.com/fairs/frieze-london-frieze-masters/tickets",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.frieze.com/fairs/frieze-london-frieze-masters/visitor-information"
+      ],
+      "accessNote": "Public tickets from 1pm on 15 October; date/time-specific tickets purchased online.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "signal-festival-2026",
+      "title": "Signal Festival",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "city": "Prague",
+      "country": "Czechia",
+      "venue": "Public spaces and gallery locations across Prague",
+      "category": "art",
+      "description": "Prague becomes a night-time exhibition of light, projection and immersive installations under the theme Dream On! Dreams and Visions.",
+      "access": "Mixed access",
+      "sourceUrl": "https://www.signalfestival.com/en/news/signal-festival-2026-programme-revealed/",
+      "url": "https://www.signalfestival.com/en/program-and-map/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.signalfestival.com/en/news/signal-festival-2026-programme-revealed/"
+      ],
+      "accessNote": "Check the programme map for free locations and ticketed gallery installations.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "european-open-brussels-2026",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-25",
+      "city": "Brussels",
+      "country": "Belgium",
+      "venue": "Brussels Expo",
+      "category": "tennis",
+      "description": "Belgium’s ATP 250 brings indoor tennis to Brussels Expo.",
+      "url": "https://europeanopen.be/tickets/",
+      "sourceUrl": "https://europeanopen.be/tickets/",
+      "sourceUrls": [
+        "https://europeanopen.be/tickets/",
+        "https://www.atptour.com/en/tournaments/brussels/7485/overview"
+      ],
+      "notes": "Dates include qualifying from October 17. ATP main draw October 19–25. Latest official ticket page adds Saturday compared with the earlier announcement.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "BNP Paribas Fortis European Open",
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "dutch-design-week-2026",
+      "title": "Dutch Design Week",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-25",
+      "city": "Eindhoven",
+      "country": "Netherlands",
+      "venue": "Design venues across Eindhoven",
+      "category": "design",
+      "description": "Nine days of experimental design, future-facing ideas and exhibitions across Eindhoven. The 2026 theme is R.A.W. — Rebel Authentic Worth.",
+      "access": "Public tickets",
+      "sourceUrl": "https://ddw.nl/en?location=12",
+      "url": "https://ddw.nl/en",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://ddw.nl/en?location=12"
+      ],
+      "accessNote": "DDW wristband required at participating paid locations; consult the programme.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "lyon-atp-2026",
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-25",
+      "city": "Lyon",
+      "country": "France",
+      "venue": "LDLC Arena, Décines-Charpieu",
+      "category": "tennis",
+      "description": "A new ATP 250 at Lyon’s LDLC Arena, with Wawrinka and Monfils announced.",
+      "url": "https://www.grandprix-auvergnerhonealpes.com/",
+      "sourceUrl": "https://www.grandprix-auvergnerhonealpes.com/",
+      "notes": "Includes qualifying October 18; main draw begins October 19. Venue is in the Lyon suburb of Décines-Charpieu. Player participation can change.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "Grand Prix Auvergne-Rhône-Alpes",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://www.grandprix-auvergnerhonealpes.com/"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "orionids-viewing-2026",
+      "title": "Orionid meteor shower · 猎户座流星雨",
+      "category": "astronomy",
+      "subcategory": "Meteor shower",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-22",
+      "geographicScope": "europe-wide",
+      "city": "Across Europe",
+      "country": "Europe-wide",
+      "venue": "Dark-sky locations across Europe",
+      "description": "Watch for fast meteors from Halley's Comet around the broad 21 October maximum.",
+      "access": "Check official details",
+      "accessNote": "Choose a clear, dark site with an open sky. Moonlight may hide fainter meteors; observed numbers are not guaranteed. Self-guided skywatching",
+      "notes": "Two suggested nights, 20–21 and 21–22 October, around a broad maximum. The shower remains active 2 October–7 November.",
+      "sourceUrl": "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026",
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    },
+    {
+      "id": "amsterdam-dance-event",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-25",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "venue": "Clubs and venues across Amsterdam",
+      "category": "music",
+      "subcategory": "Electronic",
+      "description": "ADE celebrates 30 years with five days of electronic music, club nights, art and industry events. Individual events may need separate tickets.",
+      "sourceUrl": "https://www.amsterdam-dance-event.nl/en/",
+      "verifiedAt": "2026-09-12",
+      "title": "Amsterdam Dance Event",
+      "url": "https://www.amsterdam-dance-event.nl/en/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.amsterdam-dance-event.nl/en/"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "filit-iasi-2026",
+      "title": "FILIT · Iași Literature & Translation Festival",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-25",
+      "city": "Iași",
+      "country": "Romania",
+      "venue": "Festival venues across Iași; session venues to be announced",
+      "category": "literature",
+      "subcategory": "Translation & poetry",
+      "description": "Romania's international literature and translation festival brings together writers, translators and readers for literary encounters, poetry, readings and professional discussions.",
+      "access": "Check official details",
+      "accessNote": "The festival has confirmed 21–25 October. Check the 2026 programme for public-session reservations and any restricted professional workshops; detailed access is still to be announced. Check programme",
+      "sourceUrl": "https://www.filit-iasi.ro/",
+      "url": "https://www.filit-iasi.ro/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.filit-iasi.ro/"
+      ],
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "helsinki-book-fair-2026",
+      "title": "Helsinki Book Fair",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-25",
+      "city": "Helsinki",
+      "country": "Finland",
+      "venue": "Messukeskus · Helsinki Expo and Convention Centre",
+      "category": "literature",
+      "subcategory": "Books & language",
+      "description": "Finland's large autumn book fair gathers authors, readers and booksellers for conversations and new releases. The 2026 theme explores language and its possibilities in literature.",
+      "access": "Public tickets",
+      "accessNote": "Tickets are available through the official fair site. Check session languages and the programme, due to be published on 22 September.",
+      "sourceUrl": "https://kirjamessut.messukeskus.com/en/",
+      "sourceUrls": [
+        "https://kirjamessut.messukeskus.com/en/",
+        "https://kirjamessut.messukeskus.com/",
+        "https://kirjamessut.messukeskus.com/en/info/"
+      ],
+      "url": "https://kirjamessut.messukeskus.com/en/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "krakow-book-fair-2026",
+      "title": "International Book Fair in Kraków",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-25",
+      "city": "Kraków",
+      "country": "Poland",
+      "venue": "EXPO Kraków, 9 Galicyjska Street",
+      "category": "literature",
+      "subcategory": "International book fair",
+      "description": "A major Polish book fair for readers and publishing professionals, with author meetings and literary discussion in a UNESCO City of Literature.",
+      "access": "Public tickets",
+      "accessNote": "The fair is open to the general public. Public ticket sales are listed as coming soon; trade-visitor registration is a separate route.",
+      "sourceUrl": "https://ksiazka.krakow.pl/en",
+      "sourceUrls": [
+        "https://ksiazka.krakow.pl/en",
+        "https://targi.krakow.pl/targi-ksiazki-w-krakowie"
+      ],
+      "url": "https://ksiazka.krakow.pl/en",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "viennale-2026",
+      "title": "Viennale",
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-03",
+      "city": "Vienna",
+      "country": "Austria",
+      "venue": "Festival cinemas across Vienna",
+      "category": "film",
+      "description": "Vienna's international film festival brings a concentrated season of cinema to the city. Full programme: 13 October; ticket presale: 17 October.",
+      "access": "Public tickets",
+      "sourceUrl": "https://www.viennale.at/en/viennale-2026-pre-info",
+      "url": "https://www.viennale.at/en/viennale-2026-pre-info",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.viennale.at/en/viennale-2026-pre-info"
+      ],
+      "accessNote": "Public screening tickets; presale starts 17 October at 10am local time.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "art-basel-paris-2026",
+      "title": "Art Basel Paris",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-25",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Grand Palais",
+      "category": "art",
+      "description": "A major international art fair at the Grand Palais, with 211 exhibitors and a public programme connecting galleries and Parisian institutions.",
+      "access": "Public tickets",
+      "sourceUrl": "https://www.artbasel.com/stories/art-basel-paris-2026-gallery-list-announcement",
+      "url": "https://www.artbasel.com/Paris?lang=en",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.artbasel.com/stories/art-basel-paris-2026-gallery-list-announcement"
+      ],
+      "accessNote": "Main public fair dates shown; earlier preview access has separate conditions.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "belgrade-book-fair-2026",
+      "title": "Belgrade International Book Fair",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-31",
+      "city": "Belgrade",
+      "country": "Serbia",
+      "venue": "Belgrade Fair, Halls 1, 1A, 2A and 4",
+      "category": "literature",
+      "subcategory": "Books & cultural exchange",
+      "description": "A major regional meeting of publishers, writers and readers, with book presentations, panels and cultural exchange. Tunisia is the 2026 Guest of Honour.",
+      "access": "Public tickets",
+      "accessNote": "Open daily 10:00–20:00. Public admission and online tickets are listed on the organiser's calendar page; confirm current programme and ticket terms before visiting.",
+      "sourceUrl": "https://sajam.rs/en/third-board-meeting-of-the-69th-belgrade-international-book-fair-convenes-at-belgrade-fair/",
+      "sourceUrls": [
+        "https://sajam.rs/en/third-board-meeting-of-the-69th-belgrade-international-book-fair-convenes-at-belgrade-fair/",
+        "https://sajam.rs/sr/%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80-2026/%D1%81%D0%B0%D1%98%D0%B0%D0%BC-%D0%BA%D1%9A%D0%B8%D0%B3%D0%B0/"
+      ],
+      "url": "https://sajam.rs/sr/%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80-2026/%D1%81%D0%B0%D1%98%D0%B0%D0%BC-%D0%BA%D1%9A%D0%B8%D0%B3%D0%B0/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "amf-amsterdam",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "venue": "Johan Cruijff ArenA",
+      "category": "music",
+      "subcategory": "Electronic",
+      "description": "An ADE stadium highlight with David Guetta's Monolith show, Armin van Buuren, Amelie Lens and Afrojack.",
+      "sourceUrl": "https://amf-festival.com/",
+      "verifiedAt": "2026-09-12",
+      "title": "AMF · Amsterdam Music Festival",
+      "url": "https://amf-festival.com/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://amf-festival.com/"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "erste-bank-open-2026",
+      "startDate": "2026-10-24",
+      "endDate": "2026-11-01",
+      "city": "Vienna",
+      "country": "Austria",
+      "venue": "Wiener Stadthalle & Marx Halle",
+      "category": "tennis",
+      "description": "Austria’s flagship ATP 500, with two Vienna match locations.",
+      "url": "https://www.erstebank-open.com/en/event/event-infos",
+      "sourceUrl": "https://www.erstebank-open.com/en/event/event-infos",
+      "sourceUrls": [
+        "https://www.erstebank-open.com/en/event/event-infos",
+        "https://www.erstebank-open.com/en/faqs"
+      ],
+      "notes": "Includes qualifying October 24–25; main draw October 26–November 1. Marx Halle is the second match venue.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "Erste Bank Open",
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "swiss-indoors-basel-2026",
+      "startDate": "2026-10-24",
+      "endDate": "2026-11-01",
+      "city": "Basel",
+      "country": "Switzerland",
+      "venue": "St. Jakobshalle",
+      "category": "tennis",
+      "description": "ATP 500 indoor tennis at Basel’s St. Jakobshalle.",
+      "url": "https://www.swissindoorsbasel.ch/en/tournament/",
+      "sourceUrl": "https://www.swissindoorsbasel.ch/en/tournament/",
+      "sourceUrls": [
+        "https://www.swissindoorsbasel.ch/en/tournament/",
+        "https://www.swissindoorsbasel.ch/de/turnier/spielplan/"
+      ],
+      "notes": "Includes qualifying October 24–25; main draw October 26–November 1.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "Swiss Indoors Basel",
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "world-hans-zimmer-budapest",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "city": "Budapest",
+      "country": "Hungary",
+      "venue": "MVM Dome",
+      "category": "music",
+      "subcategory": "Film music",
+      "description": "A New Dimension brings Zimmer's film scores to the arena with orchestra and visuals. Curated by Zimmer; he does not perform onstage.",
+      "sourceUrl": "https://worldofhanszimmer.com/",
+      "verifiedAt": "2026-09-12",
+      "title": "The World of Hans Zimmer",
+      "url": "https://worldofhanszimmer.com/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://worldofhanszimmer.com/"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "nfl-paris-2026",
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-25",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Stade de France",
+      "category": "sport",
+      "description": "Pittsburgh meets New Orleans in France’s first NFL regular-season game.",
+      "url": "https://www.nfl.com/international/international-games",
+      "sourceUrl": "https://www.patriots.com/news/patriots-to-face-lions-in-week-10-international-game-on-november-15-2026",
+      "notes": "Kickoff announced for 14:30 Paris local time. Stadium is in Saint-Denis.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "NFL Paris: Steelers vs Saints",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://www.patriots.com/news/patriots-to-face-lions-in-week-10-international-game-on-november-15-2026"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "niall-horan-barcelona",
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-25",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "Palau Sant Jordi",
+      "category": "music",
+      "subcategory": "Pop",
+      "description": "Dinner Party Live On Tour arrives at Barcelona's Olympic hill arena for a major pop night.",
+      "sourceUrl": "https://palausantjordi.barcelona/es/niall-horan",
+      "verifiedAt": "2026-09-12",
+      "title": "Niall Horan · Dinner Party",
+      "url": "https://palausantjordi.barcelona/es/niall-horan",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://palausantjordi.barcelona/es/niall-horan"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "world-hans-zimmer-prague",
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-25",
+      "city": "Prague",
+      "country": "Czechia",
+      "venue": "O2 Arena",
+      "category": "music",
+      "subcategory": "Film music",
+      "description": "A New Dimension's Prague concert presents orchestral film scores and projections. Hans Zimmer curates the production but does not appear onstage.",
+      "ticketNote": "Listed as sold out on the official tour site when checked.",
+      "sourceUrl": "https://worldofhanszimmer.com/",
+      "verifiedAt": "2026-09-12",
+      "title": "The World of Hans Zimmer",
+      "url": "https://worldofhanszimmer.com/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://worldofhanszimmer.com/"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "wtt-montpellier-2026",
+      "startDate": "2026-10-27",
+      "endDate": "2026-11-01",
+      "city": "Montpellier",
+      "country": "France",
+      "venue": "Sud de France Arena",
+      "category": "table-tennis",
+      "description": "The world’s leading table tennis players return for Montpellier’s third Champions event.",
+      "url": "https://tickets.wttmontpellier.com/en",
+      "sourceUrl": "https://tickets.wttmontpellier.com/en/sunday_1_november_2026",
+      "sourceUrls": [
+        "https://tickets.wttmontpellier.com/en/sunday_1_november_2026",
+        "https://www.ittf.com/2026-events-calendar/"
+      ],
+      "notes": "Official ticket page and ITTF calendar agree on October 27–November 1.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "WTT Champions Montpellier",
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "lucca-comics-games-2026",
+      "title": "Lucca Comics & Games",
+      "startDate": "2026-10-28",
+      "endDate": "2026-11-01",
+      "city": "Lucca",
+      "country": "Italy",
+      "venue": "Historic centre of Lucca",
+      "category": "festival",
+      "description": "The 60th anniversary turns Lucca into a gathering for comics, games, illustration, cosplay and screen culture under the theme Legacy.",
+      "access": "Public tickets",
+      "sourceUrl": "https://www.luccacomicsandgames.com/lucca-60-e-legacy/",
+      "url": "https://lucca2026.luccacomicsandgames.com/it/home",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.luccacomicsandgames.com/lucca-60-e-legacy/"
+      ],
+      "accessNote": "Day tickets and multi-day passes; selected talks may require separate reservations.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "bogforum-copenhagen-2026",
+      "title": "Bogforum · Copenhagen Book Festival",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "venue": "Bella Center",
+      "category": "literature",
+      "subcategory": "Books, talks & families",
+      "description": "Denmark's large literary festival combines author conversations, interviews, book signings and a children's book festival. A new climate stage explores nature and the green transition.",
+      "access": "Public tickets",
+      "accessNote": "Public ticket sales are open through the organiser. Check programme times and languages; the children's festival has its own opening hours.",
+      "sourceUrl": "https://bogforum.dk/en/bogforum-festival/practical-information",
+      "sourceUrls": [
+        "https://bogforum.dk/en/bogforum-festival/practical-information",
+        "https://bogforum.dk/en"
+      ],
+      "url": "https://bogforum.dk/en",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "rolex-paris-masters-2026",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-08",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Plenitude Arena, La Défense",
+      "category": "tennis",
+      "description": "The season’s final ATP Masters 1000, with places in Turin still at stake.",
+      "url": "https://tickets.rolexparismasters.com/en",
+      "sourceUrl": "https://tickets.rolexparismasters.com/en/meeting/241/rolex_paris_masters_paris_la_defense_arena_samedi_journee_2026",
+      "sourceUrls": [
+        "https://tickets.rolexparismasters.com/en/meeting/241/rolex_paris_masters_paris_la_defense_arena_samedi_journee_2026",
+        "https://www.rolexparismasters.com/en/practical-information",
+        "https://travel.rolexparismasters.com/en/about"
+      ],
+      "notes": "Includes qualifying weekend October 31–November 1; main draw November 2–8. Venue is in Nanterre/La Défense; now branded Plenitude Arena, formerly Paris La Défense Arena.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "Rolex Paris Masters",
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "wtt-frankfurt-2026",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-08",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "venue": "Süwag Energie ARENA",
+      "category": "table-tennis",
+      "description": "Elite men’s and women’s table tennis in Frankfurt.",
+      "url": "https://www.worldtabletennis.com/frankfurt",
+      "sourceUrl": "https://www.ittf.com/2026-events-calendar/",
+      "sourceUrls": [
+        "https://www.ittf.com/2026-events-calendar/",
+        "https://www.mainova-sport.de/events/wtt-champions/detail/1102"
+      ],
+      "notes": "Dates confirmed in the ITTF 2026 calendar. Venue confirmed by Frankfurt sports listing, credited to Sportamt Frankfurt. WTT landing page may retain prior-edition content; check 2026 ticket session details.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "WTT Champions Frankfurt",
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "dublin-book-festival-2026",
+      "title": "Dublin Book Festival · 20th Anniversary",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-08",
+      "city": "Dublin",
+      "country": "Ireland",
+      "venue": "Venues across Dublin city",
+      "category": "literature",
+      "subcategory": "Literature, poetry & walking tours",
+      "description": "Celebrating twenty years, Dublin's festival showcases Irish writing and publishing through author conversations, poetry, walking tours, workshops and family events.",
+      "access": "Mixed access",
+      "accessNote": "Choose individual events in the official programme; the festival includes a weekend of free family activities alongside bookable sessions.",
+      "sourceUrl": "https://dublinbookfestival.com/save-the-date-dublin-book-festival-2026-taking-place-4-8-november/",
+      "sourceUrls": [
+        "https://dublinbookfestival.com/save-the-date-dublin-book-festival-2026-taking-place-4-8-november/",
+        "https://dublinbookfestival.com/"
+      ],
+      "url": "https://dublinbookfestival.com/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "iceland-airwaves",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-07",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "venue": "Multiple venues across Reykjavík",
+      "category": "music",
+      "subcategory": "Festival",
+      "description": "The main three-day programme pairs Icelandic discoveries with international artists across Reykjavík. Additional special events run outside these main festival dates.",
+      "sourceUrl": "https://icelandairwaves.is/lineup/",
+      "verifiedAt": "2026-09-12",
+      "title": "Iceland Airwaves",
+      "url": "https://icelandairwaves.is/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://icelandairwaves.is/lineup/"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "le-guess-who",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-08",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "venue": "TivoliVredenburg and venues across Utrecht",
+      "category": "music",
+      "subcategory": "Festival",
+      "description": "A 20th-anniversary edition for adventurous listeners, bringing global and experimental music to churches, clubs and concert halls.",
+      "sourceUrl": "https://leguesswho.com/about/faq",
+      "verifiedAt": "2026-09-12",
+      "title": "Le Guess Who?",
+      "url": "https://leguesswho.com/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://leguesswho.com/about/faq"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "poetry-in-aldeburgh-2026",
+      "title": "Poetry in Aldeburgh · Infinite Worlds",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-08",
+      "city": "Aldeburgh",
+      "country": "United Kingdom",
+      "venue": "Jubilee Hall and four other Aldeburgh venues",
+      "category": "literature",
+      "subcategory": "Poetry & spoken word",
+      "description": "A coastal poetry festival of readings, workshops and performances. The Infinite Worlds programme includes poetry in translation and headline poets Malika Booker, Joelle Taylor and Yomi Sode.",
+      "access": "Public tickets",
+      "accessNote": "Book individual readings and workshops through the official ticket link. Check each session's venue and access information.",
+      "sourceUrl": "https://www.poetryinaldeburgh.org/accessibility-1",
+      "sourceUrls": [
+        "https://www.poetryinaldeburgh.org/accessibility-1",
+        "https://www.poetryinaldeburgh.org/"
+      ],
+      "url": "https://www.poetryinaldeburgh.org/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "stockholm-open-2026",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-14",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "venue": "Royal Tennis Hall",
+      "category": "tennis",
+      "description": "An intimate ATP 250 at the historic Royal Tennis Hall.",
+      "url": "https://www.stockholmopen.se/en",
+      "sourceUrl": "https://www.stockholmopen.se/en",
+      "sourceUrls": [
+        "https://www.stockholmopen.se/en",
+        "https://www.atptour.com/en/tournaments/"
+      ],
+      "notes": "Official event dates include November 7; ATP main draw November 8–14. Saturday final.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "Bybit Stockholm Open",
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "stevie-wonder-manchester",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-08",
+      "city": "Manchester",
+      "country": "United Kingdom",
+      "venue": "Co-op Live",
+      "category": "music",
+      "subcategory": "Soul",
+      "description": "Stevie Wonder celebrates the 50th anniversary of Songs in the Key of Life with a Manchester arena performance.",
+      "sourceUrl": "https://www.livenation.co.uk/event/stevie-wonder-songs-in-the-key-of-life-performances-50th-anniversary-tour-manchester-tickets-edp1695593",
+      "verifiedAt": "2026-09-12",
+      "title": "Stevie Wonder · Songs in the Key of Life",
+      "url": "https://www.livenation.co.uk/event/stevie-wonder-songs-in-the-key-of-life-performances-50th-anniversary-tour-manchester-tickets-edp1695593",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.livenation.co.uk/event/stevie-wonder-songs-in-the-key-of-life-performances-50th-anniversary-tour-manchester-tickets-edp1695593"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "niall-horan-dublin",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-13",
+      "dates": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "city": "Dublin",
+      "country": "Ireland",
+      "venue": "3Arena",
+      "category": "music",
+      "subcategory": "Pop",
+      "description": "Four selected Dublin nights on the Irish singer's Dinner Party tour, with a home-country crowd.",
+      "sourceUrl": "https://www.ticketmaster.ie/artist/2297125?venueId=197033",
+      "verifiedAt": "2026-09-12",
+      "title": "Niall Horan · Dinner Party",
+      "url": "https://www.mcd.ie/artists/niall-horan",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.ticketmaster.ie/artist/2297125?venueId=197033"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "web-summit-2026",
+      "title": "Web Summit",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-12",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "venue": "MEO Arena",
+      "category": "technology",
+      "description": "A large international technology gathering for founders, builders, investors and media, with talks, exhibitions and networking across four days.",
+      "access": "Public tickets",
+      "sourceUrl": "https://websummit.com/web-summit-2026/",
+      "url": "https://websummit.com/web-summit-2026/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://websummit.com/web-summit-2026/"
+      ],
+      "accessNote": "Conference tickets; check pass inclusions and the official schedule.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "interliber-zagreb-2026",
+      "title": "Interliber · Zagreb Book Fair",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-15",
+      "city": "Zagreb",
+      "country": "Croatia",
+      "venue": "Zagreb Fair, Avenija Dubrovnik 15",
+      "category": "literature",
+      "subcategory": "Books & author encounters",
+      "description": "Croatia's major book gathering brings publishers, readers and writers together for new releases, author signings and discussions, with storytelling activities for younger readers.",
+      "access": "Free entry",
+      "accessNote": "The organiser confirms free admission for all visitors; check the programme for individual author sessions and workshops.",
+      "sourceUrl": "https://www.zv.hr/sajmovi-7/interliber-2519/posjetitelji-2707/2707",
+      "sourceUrls": [
+        "https://www.zv.hr/sajmovi-7/interliber-2519/posjetitelji-2707/2707",
+        "https://www.zv.hr/sajmovi-7/interliber-2519/o-sajmu-10046/10046"
+      ],
+      "url": "https://www.zv.hr/sajmovi-7/interliber-2519/posjetitelji-2707/2707",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "idfa-2026",
+      "title": "IDFA Documentary Film Festival",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-22",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "venue": "Festival venues across Amsterdam",
+      "category": "film",
+      "description": "Amsterdam's international documentary festival brings together films, new media, immersive work, conversations and filmmakers from around the world.",
+      "access": "Check official details",
+      "sourceUrl": "https://festival.idfa.nl/idfa-2026/",
+      "url": "https://festival.idfa.nl/idfa-2026/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://festival.idfa.nl/idfa-2026/"
+      ],
+      "accessNote": "Consult the programme for public screenings and ticket releases.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "northern-taurids-viewing-2026",
+      "title": "Northern Taurids · 金牛座北流星雨",
+      "category": "astronomy",
+      "subcategory": "Meteor shower",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-13",
+      "geographicScope": "europe-wide",
+      "city": "Across Europe",
+      "country": "Europe-wide",
+      "venue": "Dark-sky locations across Europe",
+      "description": "A quiet stargazing night with occasional slow, bright meteors around the Northern Taurids' 12 November maximum.",
+      "access": "Check official details",
+      "accessNote": "Observe by eye after the crescent Moon sets. This is a low-rate shower, suited to patient observers under dark skies. Self-guided skywatching",
+      "notes": "Suggested viewing night: 12–13 November. The maximum is broad rather than a timed performance; the shower is active 20 October–10 December. Moonset varies by location.",
+      "sourceUrl": "https://www.rmg.co.uk/stories/space-astronomy/taurid-meteor-shower-when-where-see-it-uk",
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/taurid-meteor-shower-when-where-see-it-uk",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.rmg.co.uk/stories/space-astronomy/taurid-meteor-shower-when-where-see-it-uk"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    },
+    {
+      "id": "efg-london-jazz",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-22",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Concert halls and clubs across London",
+      "category": "music",
+      "subcategory": "Jazz",
+      "description": "Ten days of jazz and special collaborations, with Melody Gardot, Samara Joy, Goldie and a Coltrane centenary programme.",
+      "sourceUrl": "https://efglondonjazzfestival.org.uk/",
+      "verifiedAt": "2026-09-12",
+      "title": "EFG London Jazz Festival",
+      "url": "https://efglondonjazzfestival.org.uk/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://efglondonjazzfestival.org.uk/"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "rencontres-ciel-espace-2026",
+      "title": "Rencontres du Ciel et de l'Espace",
+      "category": "astronomy",
+      "subcategory": "Astronomy festival & talks",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-15",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Cité des sciences et de l'industrie, La Villette",
+      "description": "A major gathering for astronomy enthusiasts: public science talks, technical forums, workshops, exhibitions and astronomy equipment.",
+      "access": "Check official details",
+      "accessNote": "Dates are confirmed by the organisers. Consult the programme and ticket information for session access and language; most programming is in French. Check organiser for admission",
+      "notes": "The 15th edition runs 13–15 November 2026. This is an in-person festival, with daytime activities independent of sky conditions.",
+      "sourceUrl": "https://www.afastronomie.fr/rencontres-ciel-espace",
+      "url": "https://www.afastronomie.fr/rencontres-ciel-espace",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.afastronomie.fr/rencontres-ciel-espace",
+        "https://www.afastronomie.fr/media/default/0001/27/contrat2026-6920.pdf"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    },
+    {
+      "id": "vienna-christmas-market-2026",
+      "title": "Vienna Christmas Market",
+      "startDate": "2026-11-13",
+      "endDate": "2026-12-26",
+      "city": "Vienna",
+      "country": "Austria",
+      "venue": "Rathausplatz and Rathauspark",
+      "category": "festival",
+      "description": "Vienna's Rathausplatz fills with festive stalls, seasonal food, lights and family attractions for the Christmas market season.",
+      "access": "Check official details",
+      "sourceUrl": "https://www.christkindlmarkt.at/wp-content/uploads/2026/01/01_Wiener-Christkindlmarkt-2026_Information-Standbewerbung.pdf",
+      "url": "https://www.christkindlmarkt.at/en/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.christkindlmarkt.at/wp-content/uploads/2026/01/01_Wiener-Christkindlmarkt-2026_Information-Standbewerbung.pdf"
+      ],
+      "accessNote": "Market runs daily; separate conditions apply to skating and attractions.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "muse-london",
+      "startDate": "2026-11-15",
+      "endDate": "2026-11-16",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "The O2",
+      "category": "music",
+      "subcategory": "Rock",
+      "description": "Two London arena nights from Muse's The Wow! Signal tour, bringing the band's expansive rock sound to The O2.",
+      "sourceUrl": "https://www.theo2.co.uk/events/detail/muse-2026",
+      "verifiedAt": "2026-09-12",
+      "title": "Muse · The Wow! Signal",
+      "url": "https://www.theo2.co.uk/events/detail/muse-2026",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.theo2.co.uk/events/detail/muse-2026"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "nfl-munich-2026",
+      "startDate": "2026-11-15",
+      "endDate": "2026-11-15",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "FC Bayern Munich Arena",
+      "category": "sport",
+      "description": "New England faces Detroit in the final European NFL game of 2026.",
+      "url": "https://www.nfl.com/international/international-games",
+      "sourceUrl": "https://www.patriots.com/news/patriots-to-face-lions-in-week-10-international-game-on-november-15-2026",
+      "notes": "Kickoff announced for 15:30 Munich local time. Arena also known as Allianz Arena.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "NFL Munich: Patriots vs Lions",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://www.patriots.com/news/patriots-to-face-lions-in-week-10-international-game-on-november-15-2026"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "nitto-atp-finals-2026",
+      "startDate": "2026-11-15",
+      "endDate": "2026-11-22",
+      "city": "Turin",
+      "country": "Italy",
+      "venue": "Inalpi Arena",
+      "category": "tennis",
+      "description": "The ATP season finale brings its leading singles players and doubles teams to Turin.",
+      "url": "https://www.nittoatpfinals.com/en",
+      "sourceUrl": "https://www.nittoatpfinals.com/?lang=en",
+      "notes": "Round-robin and knockout tournament; check individual session tickets.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "Nitto ATP Finals",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://www.nittoatpfinals.com/?lang=en"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "leonids-viewing-2026",
+      "title": "Leonid meteor shower · 狮子座流星雨",
+      "category": "astronomy",
+      "subcategory": "Meteor shower",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-18",
+      "geographicScope": "europe-wide",
+      "city": "Across Europe",
+      "country": "Europe-wide",
+      "venue": "Dark-sky locations across Europe",
+      "description": "A late-night watch for fast meteors from Comet Tempel-Tuttle, with a darker sky after moonset.",
+      "access": "Check official details",
+      "accessNote": "No telescope needed. Wrap up warmly and check cloud cover, local moonset and access to your chosen dark-sky site. Self-guided skywatching",
+      "notes": "Royal Observatory Greenwich recommends the evening of 17 November into the early hours of 18 November; the Moon sets around midnight in the UK. Times vary elsewhere. This entry does not promise a meteor storm.",
+      "sourceUrl": "https://www.rmg.co.uk/stories/space-astronomy/leonid-meteor-shower-when-and-where-see-it-uk",
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/leonid-meteor-shower-when-and-where-see-it-uk",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.rmg.co.uk/stories/space-astronomy/leonid-meteor-shower-when-and-where-see-it-uk"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    },
+    {
+      "id": "slush-2026",
+      "title": "Slush",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-19",
+      "city": "Helsinki",
+      "country": "Finland",
+      "venue": "Messukeskus, Helsinki Expo and Convention Centre",
+      "category": "technology",
+      "description": "A founder-focused startup and venture gathering with company-building talks, meetings and a dense programme of side events.",
+      "access": "Public tickets",
+      "sourceUrl": "https://slush.org/faq",
+      "url": "https://slush.org/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://slush.org/faq"
+      ],
+      "accessNote": "Category-specific conference passes; some side events require separate registration.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "motogp-portugal-2026",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-22",
+      "city": "Portimão",
+      "country": "Portugal",
+      "venue": "Autódromo Internacional do Algarve",
+      "category": "sport",
+      "description": "Late-season MotoGP racing on the Algarve circuit.",
+      "url": "https://motogppremier.motogp.com/2026-motogp-portugal",
+      "sourceUrl": "https://motogppremier.motogp.com/2026-motogp-portugal",
+      "notes": "Rescheduled dates: November 20–22, replacing the old November 13–15 weekend. Grand prix race November 22.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "MotoGP Portuguese Grand Prix",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://motogppremier.motogp.com/2026-motogp-portugal"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "slovenian-book-fair-2026",
+      "title": "Slovenian Book Fair",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "venue": "Gospodarsko razstavišče, Dunajska cesta 18",
+      "category": "literature",
+      "subcategory": "Books & publishing",
+      "description": "Slovenia's annual gathering of publishers, booksellers and readers returns for seven days. Germany is the country in focus, with Sežana featured as the guest town.",
+      "access": "Free entry",
+      "accessNote": "Admission to the fair is free. Consult the programme for individual stages and sessions, and the visitor page for transport offers.",
+      "sourceUrl": "https://knjizni-sejem.si/",
+      "sourceUrls": [
+        "https://knjizni-sejem.si/",
+        "https://knjizni-sejem.si/obiskovalci/"
+      ],
+      "url": "https://knjizni-sejem.si/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "davis-cup-final8-2026",
+      "startDate": "2026-11-24",
+      "endDate": "2026-11-29",
+      "city": "Bologna",
+      "country": "Italy",
+      "venue": "SuperTennis Arena, BolognaFiere",
+      "category": "tennis",
+      "description": "Eight nations play a six-day knockout tournament for the Davis Cup.",
+      "url": "https://www.daviscup.com/en/final-8-tickets",
+      "sourceUrl": "https://www.daviscup.com/en/news/davis-cup-2026-dates-for-the-diary",
+      "sourceUrls": [
+        "https://www.daviscup.com/en/news/davis-cup-2026-dates-for-the-diary",
+        "https://www.daviscup.com/en/davis-cup-final-8-all-you-need-to-know",
+        "https://www.daviscup.com/en/final-8-tickets"
+      ],
+      "notes": "Actual first match November 24, not the ATP calendar week marker of November 23. Match times remain TBC.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "Davis Cup Final 8",
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "buch-wien-2026",
+      "title": "Buch Wien · Book Fair & Festival",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-29",
+      "city": "Vienna",
+      "country": "Austria",
+      "venue": "Messe Wien, Halls C and D, plus city venues",
+      "category": "literature",
+      "subcategory": "Books, ideas & young adult fiction",
+      "description": "Vienna's book fair and literary festival combines literature, nonfiction, live podcasts and programmes for children and young adults, with evening events across the city.",
+      "access": "Public tickets",
+      "accessNote": "Ticket sales begin 15 September. Wednesday opens at 16:30; day tickets and festival passes are offered. Check evening events for venue and entry details.",
+      "sourceUrl": "https://www.buchwien.at/besucherinnen-infos/",
+      "sourceUrls": [
+        "https://www.buchwien.at/besucherinnen-infos/",
+        "https://www.buchwien.at/"
+      ],
+      "url": "https://www.buchwien.at/besucherinnen-infos/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "montreuil-childrens-book-fair-2026",
+      "title": "Montreuil Children's Book & Press Fair",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-30",
+      "city": "Montreuil",
+      "country": "France",
+      "venue": "Paris Montreuil Expo, 128 rue de Paris",
+      "category": "literature",
+      "subcategory": "Children's books, comics & illustration",
+      "description": "A major celebration of children's and young adult publishing, with illustrators, comics, readings, workshops and exhibitions exploring the boundaries between fiction and reality.",
+      "access": "Check official details",
+      "accessNote": "Free entry, but every adult and child needs an online ticket; booking opens 5 October. Monday is the professional day and remains open to all visitors; some professional sessions require accreditation. Free · booking required",
+      "sourceUrl": "https://slpj.fr/salon/",
+      "sourceUrls": [
+        "https://slpj.fr/salon/",
+        "https://slpj.fr/salon/preparer-sa-venue/"
+      ],
+      "url": "https://slpj.fr/salon/preparer-sa-venue/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "motogp-valencia-2026",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-29",
+      "city": "Valencia",
+      "country": "Spain",
+      "venue": "Circuit Ricardo Tormo, Cheste",
+      "category": "sport",
+      "description": "MotoGP’s season finale in the stadium-like Circuit Ricardo Tormo.",
+      "url": "https://motogppremier.motogp.com/2026-motogp-valencia",
+      "sourceUrl": "https://motogppremier.motogp.com/2026-motogp-valencia",
+      "notes": "Rescheduled dates: November 27–29, replacing the old November 20–22 weekend. Grand prix race November 29. Circuit is in Cheste near Valencia.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "MotoGP Valencia Grand Prix",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://motogppremier.motogp.com/2026-motogp-valencia"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "muse-paris",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-27",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Plenitude Arena, Nanterre",
+      "category": "music",
+      "subcategory": "Rock",
+      "description": "Muse take The Wow! Signal Europa Tour to the vast indoor arena at La Défense.",
+      "sourceUrl": "https://www.plenitudearena.com/en/event/muse-en/",
+      "verifiedAt": "2026-09-12",
+      "title": "Muse · The Wow! Signal",
+      "url": "https://www.plenitudearena.com/en/event/muse-en/",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.plenitudearena.com/en/event/muse-en/"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "nuremberg-christkindlesmarkt-2026",
+      "title": "Nuremberg Christkindlesmarkt",
+      "startDate": "2026-11-27",
+      "endDate": "2026-12-24",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "Hauptmarkt",
+      "category": "festival",
+      "description": "One of Europe's best-known traditional Christmas markets, with handmade decorations, gingerbread and festive wooden stalls in the old town.",
+      "access": "Check official details",
+      "sourceUrl": "https://www.christkindlesmarkt.de/en/",
+      "url": "https://www.christkindlesmarkt.de/en/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.christkindlesmarkt.de/en/",
+        "https://www.christkindlesmarkt.de/der-markt/geschichte-des-marktes"
+      ],
+      "accessNote": "Opening ceremony 27 November at 5:30pm; reduced hours on Christmas Eve.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "phoebe-bridgers-london",
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-02",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "The O2",
+      "category": "music",
+      "subcategory": "Indie",
+      "description": "Two London nights on The Lost Tour with special guests Isaac Wood and Anaïs.",
+      "sourceUrl": "https://www.theo2.co.uk/events/detail/phoebe-bridgers",
+      "verifiedAt": "2026-09-12",
+      "title": "Phoebe Bridgers · The Lost Tour",
+      "url": "https://www.theo2.co.uk/events/detail/phoebe-bridgers",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.theo2.co.uk/events/detail/phoebe-bridgers"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "piu-libri-piu-liberi-2026",
+      "title": "Più libri più liberi · Independent Book Fair",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-08",
+      "city": "Rome",
+      "country": "Italy",
+      "venue": "La Nuvola, EUR district",
+      "category": "literature",
+      "subcategory": "Independent publishing",
+      "description": "Rome's fair devoted to small and medium-sized independent publishers brings book discoveries, author encounters, readings, debates and performances to La Nuvola.",
+      "access": "Public tickets",
+      "accessNote": "Open 10:00–20:00. Fair admission requires a ticket; event rooms fill on a first-come basis. Reserved sessions are for schools.",
+      "sourceUrl": "https://plpl.it/",
+      "url": "https://plpl.it/",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://plpl.it/"
+      ],
+      "researchFiles": [
+        "research-literature.json"
+      ]
+    },
+    {
+      "id": "lyon-fete-des-lumieres-2026",
+      "title": "Fête des Lumières",
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-08",
+      "city": "Lyon",
+      "country": "France",
+      "venue": "Public spaces across Lyon",
+      "category": "art",
+      "description": "Four evenings of light installations and projection transform Lyon's streets and landmarks into a large outdoor art experience.",
+      "access": "Free entry",
+      "sourceUrl": "https://www.fetedeslumieres.lyon.fr/fr",
+      "url": "https://www.fetedeslumieres.lyon.fr/fr",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.fetedeslumieres.lyon.fr/fr"
+      ],
+      "accessNote": "Free public-space festival; consult the 2026 programme for routes and evening hours.",
+      "researchFiles": [
+        "research-culture.json"
+      ]
+    },
+    {
+      "id": "valencia-marathon-2026",
+      "startDate": "2026-12-06",
+      "endDate": "2026-12-06",
+      "city": "Valencia",
+      "country": "Spain",
+      "venue": "City of Arts and Sciences",
+      "category": "sport",
+      "description": "A fast international marathon with a finish beside the City of Arts and Sciences.",
+      "url": "https://www.valenciaciudaddelrunning.com/en/marathon/presentation/",
+      "sourceUrl": "https://www.valenciaciudaddelrunning.com/en/marathon/presentation/",
+      "notes": "Calendar entry is race day. Running entry and spectator access are different; check organiser details.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "Valencia Marathon",
+      "access": "Check official tickets",
+      "sourceUrls": [
+        "https://www.valenciaciudaddelrunning.com/en/marathon/presentation/"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "muse-zurich",
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-07",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "venue": "Hallenstadion Zürich",
+      "category": "music",
+      "subcategory": "Rock",
+      "description": "A December Swiss stop for Muse's The Wow! Signal Europa Tour at the Hallenstadion.",
+      "sourceUrl": "https://hallenstadion.ch/events/muse/?availability_id=44344",
+      "verifiedAt": "2026-09-12",
+      "title": "Muse · The Wow! Signal",
+      "url": "https://hallenstadion.ch/events/muse/?availability_id=44344",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://hallenstadion.ch/events/muse/?availability_id=44344"
+      ],
+      "access": "Check official tickets",
+      "researchFiles": [
+        "research-music.json"
+      ]
+    },
+    {
+      "id": "world-darts-2026-27",
+      "startDate": "2026-12-11",
+      "endDate": "2027-01-03",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Alexandra Palace, Great Hall",
+      "category": "sport",
+      "description": "Darts’ festive showpiece moves into Alexandra Palace’s Great Hall.",
+      "url": "https://www.alexandrapalace.com/whats-on/world-darts-championship-2026-2027/",
+      "sourceUrl": "https://www.alexandrapalace.com/whats-on/world-darts-championship-2026-2027/",
+      "notes": "Continues into January 2027. General ticket ballot closes September 14, 2026 at 23:59 BST. The venue confirms the tournament date window; a directly readable official daily session list was unavailable at the time of verification.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "World Darts Championship",
+      "access": "Check official tickets",
+      "scheduleType": "window",
+      "scheduleNote": "Tournament date window; individual daily sessions and holiday breaks are not yet verified. Check the official session schedule before choosing a visit date.",
+      "sourceUrls": [
+        "https://www.alexandrapalace.com/whats-on/world-darts-championship-2026-2027/"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "geminids-viewing-2026",
+      "title": "Geminid meteor shower · 双子座流星雨",
+      "category": "astronomy",
+      "subcategory": "Meteor shower",
+      "startDate": "2026-12-13",
+      "endDate": "2026-12-15",
+      "geographicScope": "europe-wide",
+      "city": "Across Europe",
+      "country": "Europe-wide",
+      "venue": "Dark-sky locations across Europe",
+      "description": "One of the strongest annual meteor showers, with favourable moonlight conditions in 2026 and good activity on both nights around maximum.",
+      "access": "Check official details",
+      "accessNote": "Use your unaided eyes from a clear, dark location after the crescent Moon sets. Bring warm layers; the forecast rate is not an individual viewing guarantee. Self-guided skywatching",
+      "notes": "Viewing nights: 13–14 and 14–15 December. Spain's National Astronomical Observatory predicts a broad maximum around 14:00 UTC on 14 December (15:00 CET), so the peak instant itself falls in European daylight.",
+      "sourceUrl": "https://astronomia.ign.es/geminidas",
+      "url": "https://astronomia.ign.es/geminidas",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://astronomia.ign.es/geminidas",
+        "https://www.rmg.co.uk/stories/space-astronomy/geminid-meteor-shower-uk-dates-how-to-see"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    },
+    {
+      "id": "ehf-womens-euro-finals-2026",
+      "startDate": "2026-12-18",
+      "endDate": "2026-12-20",
+      "city": "Katowice",
+      "country": "Poland",
+      "venue": "Spodek Arena",
+      "category": "sport",
+      "description": "The women’s European handball title is decided in Katowice.",
+      "url": "https://tickets.eurohandball.com/women2026",
+      "sourceUrl": "https://ehfeuro.eurohandball.com/news/en/womens-ehf-euro-2026-when-and-where-are-the-games/",
+      "sourceUrls": [
+        "https://ehfeuro.eurohandball.com/news/en/womens-ehf-euro-2026-when-and-where-are-the-games/",
+        "https://tickets.eurohandball.com/women2026/faq"
+      ],
+      "notes": "Semifinals and 5th-place match December 18; medal matches December 20. No final-weekend match scheduled December 19. The full tournament runs December 3–20 across five countries.",
+      "status": "confirmed",
+      "verifiedAt": "2026-09-12",
+      "title": "Women’s EHF EURO · Final Weekend",
+      "access": "Check official tickets",
+      "dates": [
+        "2026-12-18",
+        "2026-12-20"
+      ],
+      "researchFiles": [
+        "research-sports.json"
+      ]
+    },
+    {
+      "id": "ursids-viewing-2026",
+      "title": "Ursid meteor shower · 小熊座流星雨",
+      "category": "astronomy",
+      "subcategory": "Meteor shower",
+      "startDate": "2026-12-21",
+      "endDate": "2026-12-23",
+      "geographicScope": "europe-wide",
+      "city": "Across Europe",
+      "country": "Europe-wide",
+      "venue": "Dark-sky locations across Europe",
+      "description": "A small solstice-season shower from Comet 8P/Tuttle. Bright moonlight makes 2026 a challenging year for this quieter event.",
+      "access": "Check official details",
+      "accessNote": "For patient observers: the bright Moon will wash out many meteors. Use a dark site and check weather; no telescope is needed. Self-guided skywatching",
+      "notes": "Two possible nights, 21–22 and 22–23 December, surround the published 22 December maximum. Active 17–26 December; the calendar dates represent a viewing window, not a precise peak instant.",
+      "sourceUrl": "https://www.rmg.co.uk/stories/space-astronomy/ursid-meteor-shower-when-where-see-it-uk",
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/ursid-meteor-shower-when-where-see-it-uk",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.rmg.co.uk/stories/space-astronomy/ursid-meteor-shower-when-where-see-it-uk"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    },
+    {
+      "id": "december-supermoon-2026",
+      "title": "December supermoon · 超级月亮",
+      "category": "astronomy",
+      "subcategory": "Moon observing",
+      "startDate": "2026-12-24",
+      "endDate": "2026-12-24",
+      "geographicScope": "europe-wide",
+      "city": "Across Europe",
+      "country": "Europe-wide",
+      "venue": "Dark-sky locations across Europe",
+      "description": "A full Moon near perigee on 24 December offers a simple seasonal skywatching and photography opportunity.",
+      "access": "Check official details",
+      "accessNote": "Visible by eye when the Moon is above your local horizon and the sky is clear; a dark-sky trip is optional. Self-guided skywatching",
+      "notes": "Royal Observatory Greenwich identifies this date as a supermoon. Check local moonrise; this is a lunar phase date, not an eclipse or a guaranteed dramatic size change.",
+      "sourceUrl": "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026",
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026",
+      "verifiedAt": "2026-09-12",
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026"
+      ],
+      "researchFiles": [
+        "research-astronomy.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Elsewhere — Europe, worth showing up for.</title>
+  <meta name="description" content="Explore Europe's concerts, sports, art, design, fashion, film, book festivals and astronomical viewing windows for the rest of 2026, in calendar, list or map view.">
+  <meta name="theme-color" content="#263e33"><link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./vendor/leaflet.css"><link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#calendar-section">Skip to events</a>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="./" aria-label="Elsewhere home"><span class="brand-symbol">✳</span> elsewhere<span class="brand-period">.</span></a>
+    <div class="brand-caption">GOOD REASONS TO GO.</div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-item active" data-nav="explore"><span data-icon="compass"></span> Explore events <span class="nav-arrow">↗</span></button>
+      <button class="nav-item" data-nav="saved"><span data-icon="bookmark"></span> My shortlist <span class="count" id="saved-count">0</span></button>
+    </nav>
+    <div class="sidebar-label">MAKE IT YOUR KIND OF TRIP</div>
+    <div id="category-nav" class="category-nav"></div>
+    <div class="sidebar-bottom">
+      <div class="field-note"><span class="note-spark">✳</span><p>A date on the calendar.<br>A story for later.</p><span>LESS SCROLLING, MORE GOING.</span></div>
+      <button class="source-note" id="about-button"><span class="live-dot"></span> Curated, with sources <span data-icon="info"></span></button>
+      <div class="edition">THE EUROPE EDITION <span>© 2026</span></div>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <div class="topbar-left"><button class="icon-button mobile-menu" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false" id="menu-button"><span data-icon="menu"></span></button><span class="breadcrumb">The world can wait. Europe can't.</span></div>
+      <div class="topbar-right"><span class="season"><span class="live-dot"></span> September — December 2026</span><button class="small-button" id="top-shortlist"><span data-icon="bookmark"></span> My shortlist</button></div>
+    </header>
+    <main>
+      <section class="intro">
+        <div><div class="eyebrow">EUROPE, WORTH SHOWING UP FOR <span>↗</span></div><h1>Be there. <em>Not just anywhere.</em></h1><p>The big nights, the beautiful things, the “I was there” moments.</p></div>
+        <div class="collection-stat"><strong id="event-count">—</strong><span>handpicked events<br>across <b id="country-count">—</b> countries</span></div>
+      </section>
+      <section class="featured-section" aria-label="Editor's picks">
+        <div class="section-heading"><h2><span data-icon="sparkles"></span> Worth the trip</h2><span>A few dates to circle</span></div>
+        <div class="featured-grid" id="featured-grid"><div class="loading-card">Finding your next great plan…</div></div>
+      </section>
+      <section id="calendar-section" class="calendar-section" aria-label="Event explorer">
+        <div class="explorer-heading"><div><h2 id="explorer-title">Your next great plan</h2><span id="result-count" class="muted">Loading events…</span></div><button id="export-button" class="small-button"><span data-icon="download"></span> Export calendar</button></div>
+        <div class="filters">
+          <label class="search-box"><span data-icon="search"></span><input id="search" type="search" placeholder="Artist, event, or a little inspiration…" aria-label="Search events"><kbd>/</kbd></label>
+          <label class="select-wrap"><span data-icon="globe"></span><select id="country" aria-label="Filter by country"><option value="">All countries</option></select><span data-icon="chevron-down"></span></label>
+          <label class="select-wrap"><span data-icon="pin"></span><select id="city" aria-label="Filter by city"><option value="">All cities</option></select><span data-icon="chevron-down"></span></label>
+          <button class="icon-button reset-button" id="reset-button" aria-label="Reset all filters" title="Reset filters"><span data-icon="reset"></span></button>
+        </div>
+        <div class="filter-chips"><div id="active-categories"></div><label class="public-toggle"><input type="checkbox" id="public-only"><span>Public access only</span></label></div>
+        <div class="calendar-panel">
+          <div class="calendar-toolbar">
+            <div class="month-control"><h3 id="month-title">September <span>2026</span></h3><div class="month-arrows"><button class="icon-button" id="previous-month" aria-label="Previous month"><span data-icon="chevron-left"></span></button><button class="icon-button" id="next-month" aria-label="Next month"><span data-icon="chevron-right"></span></button></div><button class="today-button" id="today-button">Today</button></div>
+            <div class="view-control"><div class="month-tabs" id="month-tabs"></div><div class="view-switch" aria-label="Event view"><button class="active" id="calendar-view" aria-label="Calendar view" aria-pressed="true"><span data-icon="calendar"></span><span>Calendar</span></button><button id="list-view" aria-label="List view" aria-pressed="false"><span data-icon="list"></span><span>List</span></button><button id="map-view" aria-label="Map view" aria-pressed="false"><span data-icon="map"></span><span>Map</span></button></div></div>
+          </div>
+          <div id="results" aria-live="polite"></div>
+          <div class="calendar-footer"><span><span class="today-dot"></span> Today, 12 Sep <span class="footer-divider">·</span> Click any event for the good stuff</span><span>All dates are local to the event <span data-icon="globe"></span></span></div>
+        </div>
+      </section>
+      <section class="watch-section"><div><span class="eyebrow">THE SMALL PRINT, MADE HUMAN</span><h3>Great plans start with a real date.</h3><p>A curated starting point for the rest of 2026. Every listing links to its organiser. Check ticket availability and individual session times before you book a trip.</p></div><button class="text-button" id="sources-button">About this collection <span>↗</span></button></section>
+      <footer class="page-footer"><span>Made for getting out there.</span><span>Independently curated · Checked 12 September 2026</span><span>elsewhere.</span></footer>
+    </main>
+  </div>
+  <dialog id="detail-dialog" aria-label="Event details"></dialog>
+  <div id="toast" role="status" class="toast"></div>
+  <noscript><p class="noscript">Please enable JavaScript to use the interactive calendar. The sourced event collection is available in <a href="./events.json">events.json</a>.</p></noscript>
+  <script defer src="./vendor/leaflet.js"></script><script type="module" src="./app.js"></script>
+</body>
+</html>
