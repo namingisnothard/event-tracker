@@ -36,7 +36,11 @@ export function filterEvents(events, filters, saved = []) {
   return events.filter(e => {
     const text = [e.title, e.city, e.country, e.venue, e.description, ...(e.tags || []), CATEGORIES[e.category]?.label, ...(CATEGORIES[e.category]?.keywords||[])].join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
     const regional=e.geographicScope==='europe-wide';
+    const inRegion = !filters.region || regional ||
+      (filters.region === 'eu-schengen' && (e.eu || e.schengen)) ||
+      (filters.region === 'eu' && e.eu) || (filters.region === 'schengen' && e.schengen);
     return e.endDate >= AS_OF && e.startDate <= RANGE_END &&
+      inRegion &&
       (!q || text.includes(q)) && (!filters.country || e.country === filters.country || regional) &&
       (!filters.city || e.city === filters.city || regional) && (!filters.category || e.category === filters.category) &&
       (!filters.publicOnly || e.access !== 'Industry / invitation') && (!filters.savedOnly || saved.includes(e.id));
@@ -51,6 +55,7 @@ export function monthDays(month) {
 }
 export function dateLabel(e, long = false) {
   const options = { day: 'numeric', month: long ? 'long' : 'short', timeZone: 'UTC' };
+  if (e.startDate.slice(0,4) !== e.endDate.slice(0,4)) options.year = 'numeric';
   const start = date(e.startDate).toLocaleDateString('en-GB', options);
   if (e.startDate === e.endDate) return start;
   const end = date(e.endDate).toLocaleDateString('en-GB', options);

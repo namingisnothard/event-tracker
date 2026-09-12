@@ -4,8 +4,10 @@ import { fileURLToPath } from 'node:url';
 const ROOT = new URL('../', import.meta.url);
 const AS_OF = '2026-09-12';
 const RANGE_END = '2026-12-31';
+const coverage = JSON.parse(await readFile(new URL('research-coverage.json', ROOT), 'utf8'));
+const countryLookup = new Map(coverage.countries.map(country => [country.country, country]));
 const OPTIONAL_INPUTS = new Set(['research-literature.json', 'research-astronomy.json']);
-const INPUTS = ['research-music.json', 'research-sports.json', 'research-culture.json', ...OPTIONAL_INPUTS];
+const INPUTS = ['research-music.json', 'research-sports.json', 'research-culture.json', 'research-country-sweep.json', ...OPTIONAL_INPUTS];
 const CATEGORIES = new Set(['music', 'tennis', 'table-tennis', 'art', 'design', 'fashion', 'film', 'festival', 'technology', 'sport', 'literature', 'astronomy']);
 const CATEGORY_ALIASES = { 'table tennis': 'table-tennis', tabletennis: 'table-tennis', sports: 'sport', tech: 'technology', movies: 'film', films: 'film', festivals: 'festival' };
 const COUNTRY_ALIASES = { UK: 'United Kingdom', 'U.K.': 'United Kingdom', Britain: 'United Kingdom', England: 'United Kingdom', Scotland: 'United Kingdom', Turkey: 'Türkiye', 'Czech Republic': 'Czechia', Holland: 'Netherlands' };
@@ -48,6 +50,13 @@ function normalize(raw, file, index) {
   event.url = clean(event.url || event.officialUrl || event.sourceUrl);
   event.country = COUNTRY_ALIASES[clean(event.country)] || clean(event.country);
   event.city = clean(event.city);
+  if (event.geographicScope !== 'europe-wide') {
+    const scope = countryLookup.get(event.country);
+    if (!scope) throw new Error(`Missing country coverage metadata: ${event.country}`);
+    event.eu = scope.eu;
+    event.schengen = scope.schengen;
+    event.tags = unique([...list(event.tags), scope.nameZh]);
+  }
   event.category = CATEGORY_ALIASES[clean(event.category).toLowerCase()] || clean(event.category).toLowerCase();
   if (!event.id || !event.title || !event.country || !event.city) throw new Error(`Missing event identity in ${context}`);
   // Distributed sky events have no single city or country. Keep the explicit
@@ -147,6 +156,6 @@ for (const event of files.filter(Boolean).flat()) {
 }
 const events = [...byId.values()].sort((a, b) => a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title) || a.city.localeCompare(b.city));
 const output = new URL('events.json', ROOT);
-await writeFile(output, JSON.stringify({ asOf: AS_OF, rangeEnd: RANGE_END, events }, null, 2) + '\n');
+await writeFile(output, JSON.stringify({ asOf: AS_OF, rangeEnd: RANGE_END, coverage, events }, null, 2) + '\n');
 console.log(`Compiled ${events.length} events from ${files.filter(Boolean).length} research files (${duplicateCount} duplicates merged).`);
 console.log(fileURLToPath(output));

@@ -40,9 +40,9 @@ const safeUrl = s => { try { const u = new URL(s); return u.protocol === 'https:
 const params = new URLSearchParams(location.search);
 let saved = [];
 try { const s = JSON.parse(localStorage.getItem('elsewhere-shortlist-v1') || '[]'); if (Array.isArray(s)) saved = s.filter(x => typeof x === 'string'); } catch { /* A disabled store still allows a session shortlist. */ }
-const state = { month: Math.min(11, Math.max(8, Number(params.get('month') || 9) - 1)), view: ['list','map'].includes(params.get('view')) ? params.get('view') : 'calendar', mapAll:params.get('range')==='all', search: params.get('q') || '', country: params.get('country') || '', city: params.get('city') || '', category: CATEGORIES[params.get('category')] ? params.get('category') : '', publicOnly: params.get('public') === '1', savedOnly: params.get('saved') === '1' };
+const state = { month: Math.min(11, Math.max(8, Number(params.get('month') || 9) - 1)), view: ['list','map'].includes(params.get('view')) ? params.get('view') : 'calendar', mapAll:params.get('range')==='all', region:['eu-schengen','eu','schengen'].includes(params.get('region'))?params.get('region'):'', search: params.get('q') || '', country: params.get('country') || '', city: params.get('city') || '', category: CATEGORIES[params.get('category')] ? params.get('category') : '', publicOnly: params.get('public') === '1', savedOnly: params.get('saved') === '1' };
 if (!Number.isFinite(state.month)) state.month = 8;
-let events = [], filtered = [], toastTimer;
+let events = [], filtered = [], coverage = null, toastTimer;
 let mapView = null;
 const dialog = $('#detail-dialog');
 const categoryHTML = e => `<span class="event-category" style="--cat-color:${CATEGORIES[e.category].color}"><span class="category-dot"></span>${escape(CATEGORIES[e.category].label)}</span>`;
@@ -54,8 +54,8 @@ function updateURL() {
   const p = new URLSearchParams();
   if (state.month !== 8) p.set('month', state.month + 1);
   if (state.view !== 'calendar') p.set('view', state.view);
-  if (state.view === 'map' && state.mapAll) p.set('range','all');
-  for (const [key,value] of Object.entries({q:state.search,country:state.country,city:state.city,category:state.category,public:state.publicOnly?'1':'',saved:state.savedOnly?'1':''})) if (value) p.set(key,value);
+  if (state.view !== 'calendar' && state.mapAll) p.set('range','all');
+  for (const [key,value] of Object.entries({q:state.search,region:state.region,country:state.country,city:state.city,category:state.category,public:state.publicOnly?'1':'',saved:state.savedOnly?'1':''})) if (value) p.set(key,value);
   history.replaceState(null, '', location.pathname + (p.size ? `?${p}` : ''));
 }
 function setFilters(patch, jump = true) {
@@ -67,7 +67,7 @@ function setFilters(patch, jump = true) {
   }
   render();
 }
-function resetFilters() { setFilters({search:'',country:'',city:'',category:'',publicOnly:false,savedOnly:false}); }
+function resetFilters() { setFilters({search:'',region:'',country:'',city:'',category:'',publicOnly:false,savedOnly:false,mapAll:false}); }
 function renderNav() {
   $('#category-nav').innerHTML = Object.entries(CATEGORIES).map(([key, cat]) => `<button class="category-button ${state.category === key ? 'active' : ''}" data-category="${key}" aria-pressed="${state.category === key}">${icon(cat.icon)}<span>${cat.label}</span><span class="category-count">${events.filter(e=>e.category===key).length}</span></button>`).join('');
   $('#saved-count').textContent = saved.length;
@@ -75,10 +75,10 @@ function renderNav() {
   $('#active-categories').innerHTML = `<button class="filter-chip ${!state.category?'active':''}" data-category="" aria-pressed="${!state.category}">All events</button>` + Object.entries(CATEGORIES).filter(([key])=>key !== 'technology' && key !== 'sport').map(([key,cat])=>`<button class="filter-chip ${state.category===key?'active':''}" data-category="${key}" aria-pressed="${state.category===key}" style="--cat-color:${cat.color}"><span class="category-dot"></span>${cat.label === 'Table tennis' ? 'WTT & more' : cat.label}</button>`).join('') + (['technology','sport'].includes(state.category) ? `<button class="filter-chip active" data-category="${state.category}">${CATEGORIES[state.category].label}</button>`:'');
 }
 function renderSelects() {
-  const locatedEvents=events.filter(e=>e.geographicScope!=='europe-wide');
+  const locatedEvents=filterEvents(events,{region:state.region}).filter(e=>e.geographicScope!=='europe-wide');
   const countries = [...new Set(locatedEvents.map(e => e.country))].sort();
-  const cities = [...new Set(locatedEvents.filter(e => !state.country || e.country === state.country).map(e=>e.city))].sort();
   if (state.country && !countries.includes(state.country)) state.country = '';
+  const cities = [...new Set(locatedEvents.filter(e => !state.country || e.country === state.country).map(e=>e.city))].sort();
   if (state.city && !cities.includes(state.city)) state.city = '';
   $('#country').innerHTML = '<option value="">All countries</option>' + countries.map(c=>`<option value="${escape(c)}">${escape(c)}</option>`).join('');
   $('#city').innerHTML = '<option value="">All cities</option>' + cities.map(c=>`<option value="${escape(c)}">${escape(c)}</option>`).join('');
@@ -108,20 +108,36 @@ function emptyState(monthOnly = false) {
 function renderList(monthEvents) {
   if (!monthEvents.length) return emptyState(filtered.length>0);
   return `<div class="event-list">${monthEvents.map(e=>{
-    const first = e.dates?.filter(d=>Number(d.slice(5,7))===state.month+1 && d>=AS_OF)[0] || (e.startDate < AS_OF ? AS_OF : e.startDate);
+    const first = e.dates?.filter(d=>(state.mapAll || Number(d.slice(5,7))===state.month+1) && d>=AS_OF)[0] || (e.startDate < AS_OF ? AS_OF : e.startDate);
     return `<article class="event-row"><div class="event-date"><strong>${date(first).getUTCDate()}</strong><span>${date(first).toLocaleDateString('en-GB',{month:'short',timeZone:'UTC'})}</span></div><button class="event-row-main" data-event="${e.id}">${categoryHTML(e)}<h4>${escape(e.title)}</h4><p>${escape(dateLabel(e))} · ${escape(e.city)}${e.dates?' · selected dates':''}${e.access==='Industry / invitation'?' · Invitation only':''}</p></button><div class="row-location">${escape(e.city)}<span>${escape(e.country)}</span></div><button class="icon-button row-save ${saved.includes(e.id)?'is-saved':''}" data-save="${e.id}" aria-label="${saved.includes(e.id)?'Remove':'Save'} ${escape(e.title)}" aria-pressed="${saved.includes(e.id)}">${icon('bookmark')}</button></article>`;
   }).join('')}</div>`;
+}
+function renderCoverage() {
+  if (!coverage) return;
+  const q=$('#coverage-search').value.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  const located=events.filter(e=>e.geographicScope!=='europe-wide');
+  const countries=coverage.countries.filter(c=>[c.country,c.nameZh,...c.screenedCities,...located.filter(e=>e.country===c.country).map(e=>e.city)].join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q));
+  $('#coverage-summary').textContent=`${new Set(located.map(e=>e.city+'|'+e.country)).size} cities with events`;
+  $('#coverage-grid').innerHTML=countries.map(c=>{
+    const selected=located.filter(e=>e.country===c.country);
+    const cities=[...new Set(selected.map(e=>e.city))].sort();
+    const pending=coverage.pending.filter(p=>p.country===c.country);
+    const badge=c.eu&&c.schengen?'EU · Schengen':c.eu?'EU · outside Schengen':c.schengen?'Schengen · outside EU':'Other Europe';
+    return `<details class="country-card" ${q?'open':''}><summary><span><strong>${escape(c.nameZh)} <span>${escape(c.country)}</span></strong><small>${badge}</small></span><b>${selected.length}<small> events</small></b></summary><div class="country-body"><p class="screened-cities" lang="zh">初筛／已有来源覆盖：${escape(c.screenedCities.join('、'))}</p>${cities.map(city=>`<section class="country-city"><h3>${escape(city)}</h3>${selected.filter(e=>e.city===city).map(e=>`<button class="country-event" data-event="${escape(e.id)}"><span>${escape(e.title)}</span><small>${escape(dateLabel(e))}</small></button>`).join('')}</section>`).join('')}${!selected.length?'<p lang="zh">本轮未确认可入日历的活动；不代表该国没有活动。</p>':''}${pending.length?`<div class="country-pending"><h3 lang="zh">待确认 · 不在日历中</h3>${pending.map(p=>`<p><a href="${safeUrl(p.url)}" target="_blank" rel="noopener noreferrer">${escape(p.city)} · ${escape(p.title)} ↗</a><br><span lang="zh">${escape(p.reason)}</span>${p.additionalUrl?` <a href="${safeUrl(p.additionalUrl)}" target="_blank" rel="noopener noreferrer">另一官方页面 ↗</a>`:''}</p>`).join('')}</div>`:''}</div></details>`;
+  }).join('')||'<p lang="zh">没有匹配的国家或城市。</p>';
 }
 function render() {
   renderSelects(); filtered = filterEvents(events,state,saved);
   renderNav(); renderFeatured();
   const monthEvents = filtered.filter(e=>overlapsMonth(e,state.month));
-  const showAllMapDates=state.view==='map' && state.mapAll;
+  const showAllMapDates=state.view!=='calendar' && state.mapAll;
+  $('#region').value=state.region;
+  $('#all-dates').checked=showAllMapDates;
   const mapEvents=showAllMapDates?filtered:monthEvents;
   $('#event-count').textContent = events.length;
   $('#country-count').textContent = new Set(events.filter(e=>e.geographicScope!=='europe-wide').map(e=>e.country)).size;
   $('#explorer-title').textContent = state.savedOnly ? 'Your personal shortlist' : 'Your next great plan';
-  $('#result-count').textContent = state.view==='map'?`${mapEvents.length} events · ${groupEventsByCity(mapEvents).filter(g=>!g.isRegional).length} cities · ${showAllMapDates?'rest of 2026':'this month'}`:`${monthEvents.length} this month · ${filtered.length} ${state.savedOnly?'saved':'matching'} in 2026`;
+  $('#result-count').textContent = state.view==='map'?`${mapEvents.length} events · ${groupEventsByCity(mapEvents).filter(g=>!g.isRegional).length} cities · ${showAllMapDates?'rest of 2026':'this month'}`:`${showAllMapDates?filtered.length:monthEvents.length} ${showAllMapDates?'across Sep–Dec':'this month'} · ${filtered.length} ${state.savedOnly?'saved':'matching'} in 2026`;
   $('#month-title').innerHTML = `${showAllMapDates?'Sep – Dec':MONTHS[state.month-8]} <span>2026</span>`;
   $('#month-tabs').innerHTML = MONTHS.map((m,i)=>`<button class="month-tab ${state.month===i+8&&!showAllMapDates?'active':''}" data-month="${i+8}" aria-label="${m} 2026" aria-pressed="${state.month===i+8&&!showAllMapDates}">${m.slice(0,3)}</button>`).join('');
   $('#previous-month').disabled = showAllMapDates || state.month===8; $('#next-month').disabled = showAllMapDates || state.month===11;
@@ -133,7 +149,7 @@ function render() {
     mapView.update(mapEvents,{saved,label:showAllMapDates?'Sep–Dec 2026':`${MONTHS[state.month-8]} 2026`,allMonths:state.mapAll,monthLabel:MONTHS[state.month-8]});
   }else{
     mapView?.destroy();mapView=null;
-    $('#results').innerHTML = state.view==='calendar'?renderCalendar(monthEvents):renderList(monthEvents);
+    $('#results').innerHTML = state.view==='calendar'?renderCalendar(monthEvents):renderList(mapEvents);
   }
   updateURL();
 }
@@ -187,6 +203,9 @@ dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoun
 $('#search').addEventListener('input',e=>setFilters({search:e.target.value}));
 $('#country').addEventListener('change',e=>setFilters({country:e.target.value,city:''}));
 $('#city').addEventListener('change',e=>setFilters({city:e.target.value}));
+$('#region').addEventListener('change',e=>setFilters({region:e.target.value,country:'',city:''}));
+$('#all-dates').addEventListener('change',e=>setFilters({mapAll:e.target.checked,view:state.view==='calendar'&&e.target.checked?'list':state.view},false));
+$('#coverage-search').addEventListener('input',renderCoverage);
 $('#public-only').addEventListener('change',e=>setFilters({publicOnly:e.target.checked}));
 $('#reset-button').addEventListener('click',resetFilters);
 $('#previous-month').addEventListener('click',()=>setFilters({month:Math.max(8,state.month-1)},false));
@@ -203,7 +222,8 @@ new MutationObserver(()=>$('#menu-button').setAttribute('aria-expanded',String($
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName)&&!dialog.open){e.preventDefault();$('#search').focus();}if(e.key==='Escape')$('#sidebar').classList.remove('open');});
 try {
   const response=await fetch('./events.json');if(!response.ok)throw Error('Could not load events');
-  const data=await response.json();events=data.events;
+  const data=await response.json();events=data.events;coverage=data.coverage;
+  renderCoverage();
   saved=saved.filter(id=>events.some(e=>e.id===id));
   render();
 }catch(error){$('#results').innerHTML='<div class="empty-state"><h3>The calendar needs a moment.</h3><p>Event data could not be loaded. Reload the page to try again.</p></div>';$('#featured-grid').innerHTML='';$('#result-count').textContent='Could not load events';console.error(error);}

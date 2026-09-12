@@ -1,0 +1,477 @@
+{
+  "asOf": "2026-09-12",
+  "scopeSource": "https://www.consilium.europa.eu/en/policies/schengen-area/",
+  "methodology": "逐国初筛，优先欧盟及申根并集 31 国，补充部分其他欧洲目的地。初筛城市包括本轮查询和原有来源覆盖；并不表示城市全部活动已穷尽。仅有明确 2026 日期及主办方、场馆或官方旅游来源的活动进入日历。",
+  "countries": [
+    {
+      "country": "Austria",
+      "nameZh": "奥地利",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Vienna",
+        "Linz",
+        "Salzburg",
+        "Graz",
+        "Innsbruck"
+      ]
+    },
+    {
+      "country": "Belgium",
+      "nameZh": "比利时",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Brussels",
+        "Antwerp",
+        "Ghent",
+        "Bruges"
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "nameZh": "保加利亚",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Sofia",
+        "Plovdiv",
+        "Varna"
+      ]
+    },
+    {
+      "country": "Croatia",
+      "nameZh": "克罗地亚",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Zagreb",
+        "Split",
+        "Dubrovnik"
+      ]
+    },
+    {
+      "country": "Cyprus",
+      "nameZh": "塞浦路斯",
+      "eu": true,
+      "schengen": false,
+      "screenedCities": [
+        "Nicosia",
+        "Limassol",
+        "Larnaca",
+        "Paphos"
+      ]
+    },
+    {
+      "country": "Czechia",
+      "nameZh": "捷克",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Prague",
+        "Brno"
+      ]
+    },
+    {
+      "country": "Denmark",
+      "nameZh": "丹麦",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Copenhagen",
+        "Aarhus",
+        "Odense"
+      ]
+    },
+    {
+      "country": "Estonia",
+      "nameZh": "爱沙尼亚",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Tallinn",
+        "Tartu"
+      ]
+    },
+    {
+      "country": "Finland",
+      "nameZh": "芬兰",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Helsinki",
+        "Turku",
+        "Tampere",
+        "Oulu"
+      ]
+    },
+    {
+      "country": "France",
+      "nameZh": "法国",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Paris",
+        "Lyon",
+        "Strasbourg",
+        "Bordeaux",
+        "Marseille",
+        "Toulouse",
+        "Nice"
+      ]
+    },
+    {
+      "country": "Germany",
+      "nameZh": "德国",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Berlin",
+        "Hamburg",
+        "Munich",
+        "Frankfurt",
+        "Stuttgart",
+        "Dresden",
+        "Leipzig",
+        "Nuremberg",
+        "Saarbrücken",
+        "Cologne",
+        "Düsseldorf",
+        "Essen",
+        "Bremen",
+        "Lübeck",
+        "Oldenburg",
+        "Bonn",
+        "Heidelberg",
+        "Karlsruhe",
+        "Dortmund",
+        "Tübingen",
+        "Hannover",
+        "Mannheim",
+        "Ludwigshafen"
+      ]
+    },
+    {
+      "country": "Greece",
+      "nameZh": "希腊",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Athens",
+        "Thessaloniki"
+      ]
+    },
+    {
+      "country": "Hungary",
+      "nameZh": "匈牙利",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Budapest",
+        "Debrecen",
+        "Pécs"
+      ]
+    },
+    {
+      "country": "Iceland",
+      "nameZh": "冰岛",
+      "eu": false,
+      "schengen": true,
+      "screenedCities": [
+        "Reykjavík"
+      ]
+    },
+    {
+      "country": "Ireland",
+      "nameZh": "爱尔兰",
+      "eu": true,
+      "schengen": false,
+      "screenedCities": [
+        "Dublin",
+        "Cork"
+      ]
+    },
+    {
+      "country": "Italy",
+      "nameZh": "意大利",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Rome",
+        "Milan",
+        "Venice",
+        "Turin",
+        "Bologna",
+        "Florence",
+        "Naples",
+        "Trieste",
+        "Perugia"
+      ]
+    },
+    {
+      "country": "Latvia",
+      "nameZh": "拉脱维亚",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Riga",
+        "Liepāja"
+      ]
+    },
+    {
+      "country": "Liechtenstein",
+      "nameZh": "列支敦士登",
+      "eu": false,
+      "schengen": true,
+      "screenedCities": [
+        "Vaduz",
+        "Triesenberg",
+        "Triesen"
+      ]
+    },
+    {
+      "country": "Lithuania",
+      "nameZh": "立陶宛",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Vilnius",
+        "Kaunas"
+      ]
+    },
+    {
+      "country": "Luxembourg",
+      "nameZh": "卢森堡",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Luxembourg City"
+      ]
+    },
+    {
+      "country": "Malta",
+      "nameZh": "马耳他",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Valletta",
+        "Birgu"
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "nameZh": "荷兰",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Amsterdam",
+        "Rotterdam",
+        "The Hague",
+        "Utrecht",
+        "Eindhoven",
+        "Maastricht"
+      ]
+    },
+    {
+      "country": "Norway",
+      "nameZh": "挪威",
+      "eu": false,
+      "schengen": true,
+      "screenedCities": [
+        "Oslo",
+        "Bergen"
+      ]
+    },
+    {
+      "country": "Poland",
+      "nameZh": "波兰",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Warsaw",
+        "Kraków",
+        "Wrocław",
+        "Gdańsk",
+        "Poznań"
+      ]
+    },
+    {
+      "country": "Portugal",
+      "nameZh": "葡萄牙",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Lisbon",
+        "Porto"
+      ]
+    },
+    {
+      "country": "Romania",
+      "nameZh": "罗马尼亚",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Bucharest",
+        "Cluj-Napoca",
+        "Timișoara",
+        "Sibiu",
+        "Iași"
+      ]
+    },
+    {
+      "country": "Slovakia",
+      "nameZh": "斯洛伐克",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Bratislava",
+        "Košice"
+      ]
+    },
+    {
+      "country": "Slovenia",
+      "nameZh": "斯洛文尼亚",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Ljubljana",
+        "Maribor"
+      ]
+    },
+    {
+      "country": "Spain",
+      "nameZh": "西班牙",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Madrid",
+        "Barcelona",
+        "Seville",
+        "Valencia",
+        "Bilbao",
+        "Zaragoza",
+        "San Sebastián",
+        "Sitges"
+      ]
+    },
+    {
+      "country": "Sweden",
+      "nameZh": "瑞典",
+      "eu": true,
+      "schengen": true,
+      "screenedCities": [
+        "Stockholm",
+        "Gothenburg",
+        "Malmö"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "nameZh": "瑞士",
+      "eu": false,
+      "schengen": true,
+      "screenedCities": [
+        "Zurich",
+        "Geneva",
+        "Basel",
+        "Lausanne",
+        "Bern",
+        "Lucerne"
+      ]
+    },
+    {
+      "country": "United Kingdom",
+      "nameZh": "英国",
+      "eu": false,
+      "schengen": false,
+      "screenedCities": [
+        "London",
+        "Manchester",
+        "Edinburgh"
+      ]
+    },
+    {
+      "country": "Serbia",
+      "nameZh": "塞尔维亚",
+      "eu": false,
+      "schengen": false,
+      "screenedCities": [
+        "Belgrade"
+      ]
+    },
+    {
+      "country": "Albania",
+      "nameZh": "阿尔巴尼亚",
+      "eu": false,
+      "schengen": false,
+      "screenedCities": [
+        "Tirana"
+      ]
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "nameZh": "波黑",
+      "eu": false,
+      "schengen": false,
+      "screenedCities": [
+        "Sarajevo"
+      ]
+    },
+    {
+      "country": "Türkiye",
+      "nameZh": "土耳其",
+      "eu": false,
+      "schengen": false,
+      "screenedCities": [
+        "Istanbul"
+      ]
+    },
+    {
+      "country": "North Macedonia",
+      "nameZh": "北马其顿",
+      "eu": false,
+      "schengen": false,
+      "screenedCities": [
+        "Skopje"
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "country": "France",
+      "city": "Strasbourg",
+      "title": "Strasbourg Capitale de Noël",
+      "reason": "官网表示本届日期与节目尚待公布；未套用 2025 年日期。",
+      "url": "https://www.strasbourg.eu/fr/web/noel/agenda"
+    },
+    {
+      "country": "Spain",
+      "city": "Madrid",
+      "title": "Festival de Otoño",
+      "reason": "旅游局英文页为 11 月 6–26 日，西班牙文总览为 6–29 日；需主办方澄清后再加入日历。",
+      "url": "https://www.esmadrid.com/en/whats-on/autumn-festival",
+      "additionalUrl": "https://www.esmadrid.com/cosas-hacer-oto%C3%B1o-madrid"
+    },
+    {
+      "country": "Liechtenstein",
+      "city": "Vaduz",
+      "title": "Christmas markets",
+      "reason": "旅游局当前页面仍有 2025／26 日期；尚未确认 2026 年末档期。",
+      "url": "https://tourismus.li/weihnachtsmaerkte-und-adventsanlaesse.html"
+    },
+    {
+      "country": "Cyprus",
+      "city": "Nicosia",
+      "title": "Nicosia International Festival",
+      "reason": "国家旅游局 2026 年历仅给出 10–12 月大致范围，未据此编造起止日。",
+      "url": "https://www.visitcyprus.com/wp-content/uploads/2026/05/ANNUAL_EVENTS_8_2026.pdf"
+    },
+    {
+      "country": "North Macedonia",
+      "city": "Skopje",
+      "title": "Skopje Jazz Festival",
+      "reason": "所查主办方页面仍显示 2025 年 10 月 16–19 日；未确认本届日期。",
+      "url": "https://skopjejazzfest.com.mk/en/"
+    }
+  ]
+}

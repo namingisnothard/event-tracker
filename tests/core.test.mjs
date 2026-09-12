@@ -50,3 +50,29 @@ test('ICS uses exclusive end dates and clips the preview range',()=>{
   const one=makeICS([{id:'special',title:'Café, art; music',startDate:'2026-09-12',endDate:'2026-09-12',description:'A\nB',url:'https://example.org',city:'Paris'}]);
   assert.ok(one.includes('DTEND;VALUE=DATE:20260913'));assert.ok(one.includes('Café\\, art\\; music'));
 });
+
+test('EU and Schengen scopes preserve distinct memberships and region-wide skies',async()=>{
+  const {coverage}=JSON.parse(await readFile(new URL('../events.json',import.meta.url)));
+  assert.equal(coverage.countries.filter(c=>c.eu).length,27);
+  assert.equal(coverage.countries.filter(c=>c.schengen).length,29);
+  const union=coverage.countries.filter(c=>c.eu||c.schengen);
+  assert.equal(union.length,31);
+  for(const c of union) assert.ok(events.some(e=>e.country===c.country));
+  const countries=region=>new Set(filterEvents(events,{region}).filter(e=>e.geographicScope!=='europe-wide').map(e=>e.country));
+  for(const c of ['Cyprus','Ireland']){assert.ok(countries('eu').has(c));assert.ok(!countries('schengen').has(c));}
+  for(const c of ['Norway','Switzerland','Iceland','Liechtenstein']){assert.ok(!countries('eu').has(c));assert.ok(countries('schengen').has(c));}
+  assert.ok(!countries('eu-schengen').has('United Kingdom'));
+  assert.equal(countries('eu-schengen').size,31);
+  assert.equal(filterEvents(events,{region:'schengen',country:'Norway'}).filter(e=>e.geographicScope==='europe-wide').length,9);
+  assert.ok(!events.some(e=>e.title==='Festival de Otoño'||e.title==='Strasbourg Capitale de Noël'));
+});
+test('new public fair and festival windows exclude previews and retain cross-year ends',async()=>{
+  const {dateLabel}=await import('../core.js');
+  for(const [id,preview,opening] of [['luxembourg-art-week-2026','2026-11-19','2026-11-20'],['designblok-2026','2026-10-06','2026-10-07']]){
+    const e=events.find(e=>e.id===id);assert.ok(!occursOn(e,preview));assert.ok(occursOn(e,opening));
+  }
+  const e=events.find(e=>e.id==='tallinn-christmas-2026');
+  assert.equal(e.endDate,'2027-01-06');assert.match(dateLabel(e),/2027/);
+  assert.ok(occursOn(e,'2026-12-31'));assert.ok(!occursOn(e,'2027-01-01'));
+  assert.ok(makeICS([e]).includes('DTEND;VALUE=DATE:20270101'));
+});

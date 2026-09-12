@@ -45,6 +45,7 @@
           <label class="select-wrap"><span data-icon="pin"></span><select id="city" aria-label="Filter by city"><option value="">All cities</option></select><span data-icon="chevron-down"></span></label>
           <button class="icon-button reset-button" id="reset-button" aria-label="Reset all filters" title="Reset filters"><span data-icon="reset"></span></button>
         </div>
+        <div class="region-filters"><label>Travel area <select id="region" aria-label="Filter by European travel area"><option value="">All Europe</option><option value="eu-schengen">EU + Schengen · 31 countries</option><option value="eu">European Union · 27 countries</option><option value="schengen">Schengen · 29 countries</option></select></label><label class="public-toggle"><input type="checkbox" id="all-dates"><span>All remaining dates · list & map</span></label><a href="#country-directory">Browse by country ↓</a></div>
         <div class="filter-chips"><div id="active-categories"></div><label class="public-toggle"><input type="checkbox" id="public-only"><span>Public access only</span></label></div>
         <div class="calendar-panel">
           <div class="calendar-toolbar">
@@ -54,6 +55,12 @@
           <div id="results" aria-live="polite"></div>
           <div class="calendar-footer"><span><span class="today-dot"></span> Today, 12 Sep <span class="footer-divider">·</span> Click any event for the good stuff</span><span>All dates are local to the event <span data-icon="globe"></span></span></div>
         </div>
+      </section>
+      <section id="country-directory" class="country-directory" aria-label="Country and city coverage">
+        <div class="section-heading"><h2>Country by country <span lang="zh">· 逐国旅行目录</span></h2><span id="coverage-summary"></span></div>
+        <p lang="zh">优先覆盖欧盟／申根 31 国。展开国家，按城市查看 2026 年剩余日期；这里展示整份收录，不受上方月份和兴趣筛选影响。初筛城市不等于完整收录，待确认项目不进入日历。</p>
+        <label class="coverage-search">Find a country or city <input id="coverage-search" type="search" placeholder="国家、城市，例如：法国 / Tallinn" aria-label="Search country directory"></label>
+        <div id="coverage-grid" class="coverage-grid"></div>
       </section>
       <section class="watch-section"><div><span class="eyebrow">THE SMALL PRINT, MADE HUMAN</span><h3>Great plans start with a real date.</h3><p>A curated starting point for the rest of 2026. Every listing links to its organiser. Check ticket availability and individual session times before you book a trip.</p></div><button class="text-button" id="sources-button">About this collection <span>↗</span></button></section>
       <footer class="page-footer"><span>Made for getting out there.</span><span>Independently curated · Checked 12 September 2026</span><span>elsewhere.</span></footer>

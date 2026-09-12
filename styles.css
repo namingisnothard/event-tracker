@@ -101,3 +101,32 @@ dialog{width:530px;max-width:calc(100vw - 32px);padding:0;border:1px solid #dfe5
 @media(max-width:1200px){.map-layout{grid-template-columns:minmax(0,1fr) 245px}.map-stage{min-height:510px}.map-sidebar{height:510px}.map-heading>div:first-child{gap:6px}.map-heading strong{font-size:11px}.map-count-summary{font-size:9px}.map-panel-heading{padding:18px 15px}.map-panel-heading h3{font-size:25px}.map-city-button{padding:12px 14px}.map-event-card{padding:15px 12px}.map-precision{font-size:8px;padding:7px}.map-fit{font-size:9px;padding:7px 9px}.map-heading{padding:12px 14px}.map-legend>span:last-child{display:none}}
 @media(max-width:960px){.map-layout{grid-template-columns:minmax(0,1fr) 220px}.map-heading>div:first-child{display:grid}.map-precision{top:48px}.map-event-open h4{font-size:12px}.calendar-toolbar{gap:7px}.view-control{gap:8px}}
 @media(max-width:700px){.map-heading{flex-wrap:wrap;gap:12px}.map-heading>div:first-child{display:flex;gap:9px}.map-layout{grid-template-columns:minmax(0,1fr)}.map-stage{min-height:360px}.map-sidebar{height:350px;border-left:0;border-top:1px solid var(--line)}.map-precision{top:12px;font-size:8px}.map-fit{font-size:9px}.map-panel-heading{padding:16px}.map-panel-heading h3{margin:6px 0;font-size:26px}.map-city-button{padding:13px 16px}.map-event-card{padding:16px}.map-legend{padding:12px;gap:11px}.map-legend .map-category-legend{flex-basis:100%}.event-map .leaflet-control-attribution{font-size:8px;max-width:300px}.calendar-toolbar .month-control{flex-wrap:wrap}.map-range-switch button{font-size:10px}.map-event-open h4{font-size:13px}.map-event-access{font-size:9px}}
+:root { scroll-behavior: smooth; }
+.region-filters { display:flex; flex-wrap:wrap; align-items:center; gap:14px 24px; margin:14px 0; font-size:12px; color:#536157; }
+.region-filters label { display:flex; align-items:center; gap:9px; }
+.region-filters select, .coverage-search input { padding:10px 12px; border:1px solid #d9dfd7; border-radius:8px; background:#fff; color:#263e33; font:inherit; }
+.region-filters a { color:#263e33; margin-left:auto; text-underline-offset:4px; }
+.country-directory { margin-top:36px; scroll-margin-top:24px; }
+.country-directory > p { color:#667367; font-size:13px; line-height:1.8; max-width:900px; }
+.country-directory .section-heading h2 span { font-size:14px; font-weight:400; }
+.coverage-search { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin:20px 0; color:#536157; font-size:12px; }
+.coverage-search input { width:320px; max-width:100%; }
+.coverage-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; align-items:start; }
+.country-card { border:1px solid #dce1d9; border-radius:12px; background:#fff; min-width:0; overflow:hidden; }
+.country-card summary { cursor:pointer; padding:18px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.country-card summary::after { content:'+'; font-size:20px; color:#748275; }
+.country-card[open] summary::after { content:'−'; }
+.country-card summary > span { flex:1; }
+.country-card summary strong { color:#263e33; font-size:14px; }
+.country-card summary strong span { font-weight:400; }
+.country-card summary small { display:block; font-size:10px; color:#798378; margin-top:5px; font-weight:400; }
+.country-card summary b { text-align:right; font-size:20px; color:#355241; }
+.country-body { border-top:1px solid #edf0e9; padding:0 18px 18px; }
+.screened-cities { font-size:11px; line-height:1.8; color:#7a8378; padding:12px 0; overflow-wrap:anywhere; }
+.country-city h3,.country-pending h3 { font-size:12px; margin:18px 0 6px; color:#586a5a; }
+.country-event { display:flex; flex-direction:column; align-items:flex-start; width:100%; text-align:left; background:transparent; border:0; border-bottom:1px solid #edf0e9; padding:10px 0; color:#263e33; cursor:pointer; gap:4px; line-height:1.5; }
+.country-event:hover { color:#9d723d; }
+.country-event small { color:#7a8378; font-size:11px; }
+.country-pending { margin-top:18px; padding:1px 12px 10px; border-radius:8px; background:#faf5e9; font-size:11px; line-height:1.8; color:#746747; }
+.country-pending a { color:#725933; }
+@media(max-width:760px) { .coverage-grid { grid-template-columns:1fr; } .region-filters a { margin-left:0; } .country-directory .section-heading { align-items:flex-start; flex-direction:column; gap:8px; } }

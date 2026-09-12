@@ -13,7 +13,7 @@ test('every event maps to a valid European city centre',()=>{
     assert.ok(point,`${e.city}, ${e.country} is missing coordinates`);
     assert.equal(point.length,2);
     assert.ok(point.every(Number.isFinite));
-    assert.ok(point[0]>=35 && point[0]<=70);
+    assert.ok(point[0]>=34 && point[0]<=70);
     assert.ok(point[1]>=-25 && point[1]<=35);
   }
   const spielberg=CITY_COORDINATES['Spielberg|Austria'];
@@ -24,7 +24,9 @@ test('map grouping counts events once, not once per performance date',()=>{
   assert.equal(groups.filter(g=>!g.isRegional).length,new Set(events.filter(e=>e.geographicScope!=='europe-wide').map(e=>`${e.city}|${e.country}`)).size);
   assert.ok(groups.filter(g=>!g.isRegional).length>=40);
   assert.equal(groups.reduce((n,g)=>n+g.events.length,0),events.length);
-  assert.equal(groups.find(g=>g.city==='Düsseldorf').events.length,1);
+  const dusseldorf=groups.find(g=>g.city==='Düsseldorf');
+  assert.equal(dusseldorf.events.filter(e=>e.id==='backstreet-boys-dusseldorf').length,1);
+  assert.equal(dusseldorf.events.length,events.filter(e=>e.city==='Düsseldorf'&&e.country==='Germany').length);
   assert.ok(groups.every(g=>g.events.every(e=>`${e.city}|${e.country}`===g.key)));
 });
 test('map groups only the supplied month, location and shortlist results',()=>{
