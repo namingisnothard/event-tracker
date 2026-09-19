@@ -1,6 +1,18 @@
 # Elsewhere · Europe 2026 research
 
-This is a curated preview of major travel-worthy events, checked on **12 September 2026**, covering the remaining year through **31 December 2026**. It is not an exhaustive European event directory or a live ticket inventory.
+This is a curated preview of major travel-worthy events, initially checked on **12 September 2026**, with heritage and open-day additions checked on **19 September 2026**, covering the remaining year through **31 December 2026**. It is not an exhaustive European event directory or a live ticket inventory.
+
+## September 19 heritage and open-day follow-up
+
+`research-heritage.json` adds 40 sourced listings across 26 countries and 31 cities, bringing the total to 258. The new Heritage & open days filter covers heritage visits, architectural open houses and museum nights. Researchers' nights remain under Tech, and Strasbourg's COLORS and Ciné Cool remain under Art and Film. Search also accepts Chinese heritage and open-day terms.
+
+Strasbourg now includes European Heritage Days (19–20 September), three selected visits within that umbrella (Palais du Rhin, cathedral workshops and Hôtel de Ville), COLORS and Ciné Cool. Counts are listings, not unique festivals: the three individual heritage visits explicitly identify their parent event. COLORS uses selected weekend dates plus its opening evening, not a continuous daily opening span.
+
+Local calendars take precedence over presumed national dates. Berlin uses 12–13 September; Vienna's monument day is 27 September; Rome's heritage weekend is 26–27 September. Madrid Open House uses the organiser's explicitly revised 6–8 November dates despite old September text elsewhere on the site. Tallinn uses 9–11 October. Dublin distinguishes the 10–18 October festival from its 16–18 October main building weekend; Thessaloniki uses the 21–22 November Open Tours weekend. Zemun uses only the four dates in the city's programme. Luxembourg's institutional opening is only 17 October, not the entire national weekend.
+
+Free activities do not imply free museum admission: Rome preserves this distinction. Reservations and capacity remain venue-specific. Past events overlapping the original September 12 start remain historical additions. Existing listings were not all reverified on September 19; event dialogs and calendar exports show each record's own verification date.
+
+The country screen remains selective. National announcements without a verified local visit were not turned into invented city dates. Examples requiring further local confirmation include Croatia and Cyprus; Malta's heritage programme covers October without implying every venue opens every day. Liechtenstein's confirmed September 5 monument day and Istanbul's May 7–10 Open House fall outside this planner. No claim of exhaustive European coverage is made.
 
 ## Sources and updating
 

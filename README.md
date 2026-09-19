@@ -2,7 +2,7 @@
 
 [Open the live tracker](https://namingisnothard.github.io/event-tracker/)
 
-A responsive event calendar for 12 September–31 December 2026. Includes 218 sourced listings spanning music, sports, art, design, fashion, film, books, literature, astronomy, festivals and technology: 209 physical events across 115 cities in 36 countries, plus nine Europe-wide sky events. The country sweep adds 122 listings and includes all 31 countries in the EU/Schengen union; it is an initial screen, not exhaustive coverage of every city.
+A responsive event calendar for 12 September–31 December 2026. Includes 258 sourced listings spanning music, sports, art, design, heritage and open days, fashion, film, books, literature, astronomy, festivals and technology: 249 physical listings across 115 cities in 36 countries, plus nine Europe-wide sky events. The September 19 follow-up adds 40 listings in 26 countries, including a Strasbourg heritage-weekend guide. Coverage includes all 31 countries in the EU/Schengen union; it is an initial screen, not exhaustive coverage of every city. Festival umbrellas and selected individual visits are identified in their descriptions.
 
 Read the [Chinese country-by-country travel guide](TRAVEL-GUIDE-2026.md) and [Germany city guide](GERMANY-2026.md) for dates, official links and itinerary anchors.
 
@@ -30,9 +30,9 @@ Open http://localhost:3016. Set `PORT` to use another local port.
 
 ## Data and maintenance
 
-This is an independently curated snapshot researched on 12 September 2026, not an exhaustive directory or a live ticket feed. Ticket prices and availability are not scraped. Follow each official link before booking. Invitation-only and mixed-access events have explicit notes.
+This is an independently curated snapshot initially researched on 12 September 2026, with heritage and open-day additions checked on 19 September. Each listing retains its own verification date. It is not an exhaustive directory or a live ticket feed. Follow each official link before booking. Invitation-only and mixed-access events have explicit notes.
 
-Research lives in `research-{music,sports,culture,literature,astronomy,country-sweep}.json`. `research-coverage.json` records country membership, screened cities and pending confirmations. To update, verify changes with official sources, update the relevant research file and run:
+Research lives in `research-{music,sports,culture,literature,astronomy,country-sweep,heritage}.json`. `research-coverage.json` records country membership, screened cities and pending confirmations. To update, verify changes with official sources, update the relevant research file and run:
 
 ```sh
 node scripts/compile-data.mjs

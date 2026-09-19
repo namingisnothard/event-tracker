@@ -7,8 +7,8 @@ const RANGE_END = '2026-12-31';
 const coverage = JSON.parse(await readFile(new URL('research-coverage.json', ROOT), 'utf8'));
 const countryLookup = new Map(coverage.countries.map(country => [country.country, country]));
 const OPTIONAL_INPUTS = new Set(['research-literature.json', 'research-astronomy.json']);
-const INPUTS = ['research-music.json', 'research-sports.json', 'research-culture.json', 'research-country-sweep.json', ...OPTIONAL_INPUTS];
-const CATEGORIES = new Set(['music', 'tennis', 'table-tennis', 'art', 'design', 'fashion', 'film', 'festival', 'technology', 'sport', 'literature', 'astronomy']);
+const INPUTS = ['research-music.json', 'research-sports.json', 'research-culture.json', 'research-country-sweep.json', 'research-heritage.json', ...OPTIONAL_INPUTS];
+const CATEGORIES = new Set(['music', 'tennis', 'table-tennis', 'art', 'design', 'fashion', 'film', 'festival', 'technology', 'sport', 'literature', 'astronomy', 'heritage']);
 const CATEGORY_ALIASES = { 'table tennis': 'table-tennis', tabletennis: 'table-tennis', sports: 'sport', tech: 'technology', movies: 'film', films: 'film', festivals: 'festival' };
 const COUNTRY_ALIASES = { UK: 'United Kingdom', 'U.K.': 'United Kingdom', Britain: 'United Kingdom', England: 'United Kingdom', Scotland: 'United Kingdom', Turkey: 'Türkiye', 'Czech Republic': 'Czechia', Holland: 'Netherlands' };
 const ACCESS = new Set(['Public tickets', 'Free entry', 'Mixed access', 'Industry / invitation', 'Check official tickets', 'Check official details']);
@@ -156,6 +156,7 @@ for (const event of files.filter(Boolean).flat()) {
 }
 const events = [...byId.values()].sort((a, b) => a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title) || a.city.localeCompare(b.city));
 const output = new URL('events.json', ROOT);
-await writeFile(output, JSON.stringify({ asOf: AS_OF, rangeEnd: RANGE_END, coverage, events }, null, 2) + '\n');
+const lastUpdated = events.reduce((latest, event) => event.verifiedAt > latest ? event.verifiedAt : latest, AS_OF);
+await writeFile(output, JSON.stringify({ asOf: AS_OF, lastUpdated, rangeEnd: RANGE_END, coverage, events }, null, 2) + '\n');
 console.log(`Compiled ${events.length} events from ${files.filter(Boolean).length} research files (${duplicateCount} duplicates merged).`);
 console.log(fileURLToPath(output));

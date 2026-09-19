@@ -7,6 +7,7 @@ export const CATEGORIES = {
   'table-tennis': { label: 'Table tennis', color: '#4f8b9c', icon: 'paddle' },
   art: { label: 'Art', color: '#b9865d', icon: 'art' },
   design: { label: 'Design', color: '#698e7f', icon: 'design' },
+  heritage: { label: 'Heritage & open days', color: '#9b7856', icon: 'landmark', keywords:['heritage','open days','open doors','patrimoine','建筑','遗产','遗产日','开放日'] },
   fashion: { label: 'Fashion', color: '#ae7187', icon: 'fashion' },
   film: { label: 'Film', color: '#7083b1', icon: 'film' },
   literature: { label: 'Books & literature', color: '#9a7352', icon: 'book', keywords:['book','books','literature','poetry','reading','文学','书'] },
@@ -82,7 +83,7 @@ export function makeICS(events) {
       spans = [];
       for (let day = startBound; day <= endBound; day = addDays(day, 1)) if (occursOn(e, day)) spans.push([day, day]);
     } else spans = startBound <= endBound ? [[startBound, endBound]] : [];
-    for (const [start,end] of spans) lines.push('BEGIN:VEVENT', `UID:${e.id}-${start}@elsewhere.local`, 'DTSTAMP:20260912T120000Z', `DTSTART;VALUE=DATE:${start.replaceAll('-', '')}`, `DTEND;VALUE=DATE:${addDays(end, 1).replaceAll('-', '')}`, `SUMMARY:${icsEscape(e.title + (e.scheduleType === 'window' ? ' (tournament window)' : ''))}`, `LOCATION:${icsEscape([e.venue, e.city, e.country].filter(Boolean).join(', '))}`, `DESCRIPTION:${icsEscape([e.description, e.accessNote, e.notes, e.ticketNote, e.scheduleNote].filter(Boolean).join('\n') + '\nAccess: ' + (e.access || 'Check official website') + '\nOfficial details: ' + e.url + '\nDates checked 12 September 2026. ' + (e.geographicScope === 'europe-wide' ? 'Check viewing guidance: weather, moonlight and your location affect visibility.' : 'Check session times and tickets with the organiser.'))}`, `URL:${e.url}`, 'END:VEVENT');
+    for (const [start,end] of spans) lines.push('BEGIN:VEVENT', `UID:${e.id}-${start}@elsewhere.local`, `DTSTAMP:${(e.verifiedAt || AS_OF).replaceAll('-', '')}T120000Z`, `DTSTART;VALUE=DATE:${start.replaceAll('-', '')}`, `DTEND;VALUE=DATE:${addDays(end, 1).replaceAll('-', '')}`, `SUMMARY:${icsEscape(e.title + (e.scheduleType === 'window' ? ' (tournament window)' : ''))}`, `LOCATION:${icsEscape([e.venue, e.city, e.country].filter(Boolean).join(', '))}`, `DESCRIPTION:${icsEscape([e.description, e.accessNote, e.notes, e.ticketNote, e.scheduleNote].filter(Boolean).join('\n') + '\nAccess: ' + (e.access || 'Check official website') + '\nOfficial details: ' + e.url + '\nDates checked ' + (e.verifiedAt || AS_OF) + '. ' + (e.geographicScope === 'europe-wide' ? 'Check viewing guidance: weather, moonlight and your location affect visibility.' : 'Check session times and tickets with the organiser.'))}`, `URL:${e.url}`, 'END:VEVENT');
   }
   lines.push('END:VCALENDAR'); return lines.map(foldLine).join('\r\n') + '\r\n';
 }

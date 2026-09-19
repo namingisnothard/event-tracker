@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Elsewhere — Europe, worth showing up for.</title>
-  <meta name="description" content="Explore Europe's concerts, sports, art, design, fashion, film, book festivals and astronomical viewing windows for the rest of 2026, in calendar, list or map view.">
+  <meta name="description" content="Explore Europe's concerts, sports, art, design, fashion, film, heritage open days, book festivals and astronomical viewing windows for the rest of 2026, in calendar, list or map view.">
   <meta name="theme-color" content="#263e33"><link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./vendor/leaflet.css"><link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -53,7 +53,7 @@
             <div class="view-control"><div class="month-tabs" id="month-tabs"></div><div class="view-switch" aria-label="Event view"><button class="active" id="calendar-view" aria-label="Calendar view" aria-pressed="true"><span data-icon="calendar"></span><span>Calendar</span></button><button id="list-view" aria-label="List view" aria-pressed="false"><span data-icon="list"></span><span>List</span></button><button id="map-view" aria-label="Map view" aria-pressed="false"><span data-icon="map"></span><span>Map</span></button></div></div>
           </div>
           <div id="results" aria-live="polite"></div>
-          <div class="calendar-footer"><span><span class="today-dot"></span> Today, 12 Sep <span class="footer-divider">·</span> Click any event for the good stuff</span><span>All dates are local to the event <span data-icon="globe"></span></span></div>
+          <div class="calendar-footer"><span><span class="today-dot"></span> <span id="today-label">Today</span> <span class="footer-divider">·</span> Click any event for the good stuff</span><span>All dates are local to the event <span data-icon="globe"></span></span></div>
         </div>
       </section>
       <section id="country-directory" class="country-directory" aria-label="Country and city coverage">
@@ -63,7 +63,7 @@
         <div id="coverage-grid" class="coverage-grid"></div>
       </section>
       <section class="watch-section"><div><span class="eyebrow">THE SMALL PRINT, MADE HUMAN</span><h3>Great plans start with a real date.</h3><p>A curated starting point for the rest of 2026. Every listing links to its organiser. Check ticket availability and individual session times before you book a trip.</p></div><button class="text-button" id="sources-button">About this collection <span>↗</span></button></section>
-      <footer class="page-footer"><span>Made for getting out there.</span><span>Independently curated · Checked 12 September 2026</span><span>elsewhere.</span></footer>
+      <footer class="page-footer"><span>Made for getting out there.</span><span id="collection-updated">Independently curated · Updated 19 September 2026</span><span>elsewhere.</span></footer>
     </main>
   </div>
   <dialog id="detail-dialog" aria-label="Event details"></dialog>

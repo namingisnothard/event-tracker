@@ -1,5 +1,6 @@
 {
   "asOf": "2026-09-12",
+  "lastUpdated": "2026-09-19",
   "rangeEnd": "2026-12-31",
   "coverage": {
     "asOf": "2026-09-12",
@@ -519,6 +520,41 @@
       ]
     },
     {
+      "id": "heritage-prague-2026",
+      "title": "Dny evropského dědictví · Prague 1",
+      "city": "Prague",
+      "country": "Czechia",
+      "category": "heritage",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "sourceUrl": "https://www.praha1.cz/udalosti/dny-evropskeho-dedictvi-2026-na-praze-1/",
+      "url": "https://www.praha1.cz/udalosti/dny-evropskeho-dedictvi-2026-na-praze-1/",
+      "description": "布拉格一区的欧洲遗产日节目，开放历史建筑并介绍修复与再利用。",
+      "venue": "Selected heritage buildings in Prague 1",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "捷克"
+      ],
+      "scheduleNote": "这是一区官方公布的 9 月整月节目窗口，各建筑开放日不同，并非每天都能进入每处。具体日期见旅游局及场馆节目。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.praha1.cz/udalosti/dny-evropskeho-dedictvi-2026-na-praze-1/",
+        "https://prague.eu/cs/akce/dny-evropskeho-dedictvi/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
       "id": "venice-film-festival-2026",
       "title": "Venice International Film Festival",
       "startDate": "2026-09-02",
@@ -575,6 +611,49 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "colors-strasbourg-2026",
+      "title": "COLORS Urban Art Festival",
+      "city": "Strasbourg",
+      "country": "France",
+      "category": "art",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://www.colors-art.eu/",
+      "url": "https://www.colors-art.eu/",
+      "description": "AFPA 场地的街头艺术节，参观大型壁画、现场创作与活动。9 月 19–20 日是最后一个开放周末。",
+      "venue": "AFPA Strasbourg, rue des Corps-de-Garde",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "street art",
+        "壁画",
+        "街头艺术",
+        "斯特拉斯堡",
+        "法国"
+      ],
+      "scheduleNote": "常规仅周六、周日开放；9 月 4 日为开幕晚场。日历不把中间工作日列为开放日；9 月 12 日前的日期不导出。",
+      "dates": [
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-19",
+        "2026-09-20"
+      ],
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.colors-art.eu/",
+        "https://www.colors-art.eu/agenda/",
+        "https://culture.strasbourg.eu/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -762,6 +841,115 @@
       ]
     },
     {
+      "id": "heritage-zemun-belgrade-2026",
+      "title": "Dani evropske baštine · Zemun Programme",
+      "city": "Belgrade",
+      "country": "Serbia",
+      "category": "heritage",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-29",
+      "sourceUrl": "https://www.beograd.rs/cir/beoinfo-vesti/a115612/Dani-evropske-bastine-u-Zemunu.html",
+      "url": "https://www.beograd.rs/cir/beoinfo-vesti/a115612/Dani-evropske-bastine-u-Zemunu.html",
+      "description": "贝尔格莱德 Zemun 的遗产日活动：地方图书馆、展览和历史文化分享。仅收录官方列出的场次日期。",
+      "venue": "Zemun: Sveti Sava Library, Aviation House and local cultural venues",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "塞尔维亚"
+      ],
+      "scheduleNote": "9 月 19 日 11:00 图书馆活动；24 日 19:00/19:30 展览与新书；29 日 18:30 文化活动。9 月 11 日场次在本清单起始日前，保留原始记录但不显示或导出。",
+      "dates": [
+        "2026-09-11",
+        "2026-09-19",
+        "2026-09-24",
+        "2026-09-29"
+      ],
+      "eu": false,
+      "schengen": false,
+      "sourceUrls": [
+        "https://www.beograd.rs/cir/beoinfo-vesti/a115612/Dani-evropske-bastine-u-Zemunu.html"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "open-house-oslo-2026",
+      "title": "Open House Oslo",
+      "city": "Oslo",
+      "country": "Norway",
+      "category": "heritage",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-13",
+      "sourceUrl": "https://kulturvern.no/arrangementer/open-house-oslo/",
+      "url": "https://openhouseoslo.no/",
+      "description": "奥斯陆及周边的建筑、私人住宅与导览开放。历史补录：已结束。",
+      "venue": "Oslo and nearby participating buildings; wider programme includes Lillestrøm",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "挪威"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "eu": false,
+      "schengen": true,
+      "sourceUrls": [
+        "https://kulturvern.no/arrangementer/open-house-oslo/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "heritage-cantacuzino-bucharest-2026",
+      "title": "Weekend la Palat · Heritage Days",
+      "city": "Bucharest",
+      "country": "Romania",
+      "category": "heritage",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-13",
+      "sourceUrl": "https://www.georgeenescu.ro/stiri-noutati_doc_3123_comunicat-de-presa-zilele-europene-ale-patrimoniului-2026_pg_0.htm",
+      "url": "https://www.georgeenescu.ro/stiri-noutati_doc_3123_comunicat-de-presa-zilele-europene-ale-patrimoniului-2026_pg_0.htm",
+      "description": "乔治·埃内斯库博物馆的宫殿周末：在 Cantacuzino 宫庭院结合历史、建筑、音乐与影像。历史补录：已结束。",
+      "venue": "Courtyard of Cantacuzino Palace",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "罗马尼亚"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "本条为庭院活动，不代表宫殿室内全面开放。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.georgeenescu.ro/stiri-noutati_doc_3123_comunicat-de-presa-zilele-europene-ale-patrimoniului-2026_pg_0.htm"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
       "id": "celine-dion-paris",
       "startDate": "2026-09-12",
       "endDate": "2026-10-17",
@@ -805,6 +993,76 @@
       "access": "Check official tickets",
       "researchFiles": [
         "research-music.json"
+      ]
+    },
+    {
+      "id": "jep-geneva-2026",
+      "title": "Journées du patrimoine et du matrimoine · Geneva",
+      "city": "Geneva",
+      "country": "Switzerland",
+      "category": "heritage",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-13",
+      "sourceUrl": "https://www.ge.ch/evenement/journees-europeennes-du-patrimoine-du-matrimoine-2026",
+      "url": "https://www.ge.ch/evenement/journees-europeennes-du-patrimoine-du-matrimoine-2026",
+      "description": "日内瓦遗产日的导览、讲座和特别开放。历史补录：已结束。",
+      "venue": "Geneva · participating venues",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "瑞士"
+      ],
+      "scheduleNote": "本条记录官方正文列出的 9 月 12–13 日公众周末；页面总活动栏另含 9 月 11 日，不把它扩作全部场馆开放日。",
+      "accessNote": "部分项目须报名。",
+      "eu": false,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.ge.ch/evenement/journees-europeennes-du-patrimoine-du-matrimoine-2026"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "heritage-kalnciema-riga-2026",
+      "title": "Kalnciema Quarter · Heritage Open Doors",
+      "city": "Riga",
+      "country": "Latvia",
+      "category": "heritage",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-12",
+      "sourceUrl": "https://www.nkmp.gov.lv/lv/eiropas-kulturas-mantojuma-dienas-2026",
+      "url": "https://www.nkmp.gov.lv/lv/eiropas-kulturas-mantojuma-dienas-2026",
+      "description": "里加木建筑街区遗产日：进入修复后的 19 世纪木屋，结合农夫与手工艺市集。历史补录：已结束。",
+      "venue": "Kalnciema Quarter, Kalnciema iela 35",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "拉脱维亚"
+      ],
+      "scheduleNote": "9 月 12 日市场及活动 10:00–16:00；建筑导览 11:00、12:00、13:00。",
+      "accessNote": "导览免费，无需报名。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.nkmp.gov.lv/lv/eiropas-kulturas-mantojuma-dienas-2026"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -866,6 +1124,111 @@
       ]
     },
     {
+      "id": "open-house-london-2026",
+      "title": "Open House Festival · London",
+      "city": "London",
+      "country": "United Kingdom",
+      "category": "heritage",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://programme.openhouse.org.uk/calendar",
+      "url": "https://programme.openhouse.org.uk/calendar",
+      "description": "伦敦建筑开放节：参观私人住宅、公共建筑和创作场所的幕后空间。",
+      "venue": "London · participating venues",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "英国"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "各建筑只在指定日期与时段开放；部分导览须提前预约或抽签。",
+      "eu": false,
+      "schengen": false,
+      "sourceUrls": [
+        "https://programme.openhouse.org.uk/calendar"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "monument-amsterdam-2026",
+      "title": "Open Monumentendag · Amsterdam",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "category": "heritage",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-13",
+      "sourceUrl": "https://www.amsterdam.nl/en/news/heritage-days/",
+      "url": "https://www.amsterdam.nl/en/news/heritage-days/",
+      "description": "阿姆斯特丹古迹开放日：运河宅邸、酒店与历史建筑开放，另有周六晚间节目。历史补录：已结束。",
+      "venue": "Amsterdam · participating venues",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "荷兰"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "免费；特殊参观的排队、时段及预约看本地节目。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.amsterdam.nl/en/news/heritage-days/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "denkmal-berlin-2026",
+      "title": "Tag des offenen Denkmals · Berlin",
+      "city": "Berlin",
+      "country": "Germany",
+      "category": "heritage",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-13",
+      "sourceUrl": "https://www.berlin.de/landesdenkmalamt/aktivitaeten/presse/2026/pressemitteilung.1697825.php",
+      "url": "https://denkmaltag.berlin.de/suche",
+      "description": "柏林古迹开放周末：基础设施、历史建筑、导览与演出。历史补录：已于 9 月 13 日结束。",
+      "venue": "Berlin · participating venues",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "德国"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "按具体场馆确认入场及预约；柏林本地活动为两天，不能只套用全国 9 月 13 日。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.berlin.de/landesdenkmalamt/aktivitaeten/presse/2026/pressemitteilung.1697825.php"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
       "id": "nicosia-united-street-2026",
       "title": "United Street Festival",
       "city": "Nicosia",
@@ -891,6 +1254,42 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "cine-cool-strasbourg-2026",
+      "title": "Ciné Cool · Strasbourg",
+      "city": "Strasbourg",
+      "country": "France",
+      "category": "film",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://www.cine-cool.com/le-principe-de-cine-cool/",
+      "url": "https://www.cine-cool.com/le-principe-de-cine-cool/",
+      "description": "参与影院的优惠电影周与提前放映；Strasbourg 的 Star、Vox 等影院有本地节目。",
+      "venue": "Participating Strasbourg cinemas, including Star and Vox",
+      "access": "Public tickets",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "cinema",
+        "电影",
+        "优惠",
+        "斯特拉斯堡",
+        "法国"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "优惠票价 5 欧元；3D、特别场次及活动可能另有附加费或例外，按影院场次确认。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.cine-cool.com/le-principe-de-cine-cool/",
+        "https://culture.strasbourg.eu/",
+        "https://www.cinema-star.com/star/films-a-l-affiche/1000",
+        "https://www.cine-vox.com/evenements/78093-cinecool-2026/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -1004,6 +1403,42 @@
       "accessNote": "Industry access for most shows; selected events marked OPEN TO PUBLIC.",
       "researchFiles": [
         "research-culture.json"
+      ]
+    },
+    {
+      "id": "culture-night-dublin-2026",
+      "title": "Culture Night · Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "category": "heritage",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-18",
+      "sourceUrl": "https://culturenight.ie/culture-night-2026-press-release/",
+      "url": "https://culturenight.ie/country/dublin/",
+      "description": "都柏林文化夜：文化场馆延时开放、音乐和创作体验。历史补录：活动夜为 9 月 18 日，部分晚场跨过午夜。",
+      "venue": "Dublin · participating venues",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "culture night",
+        "museum night",
+        "文化夜",
+        "博物馆之夜",
+        "开放日",
+        "爱尔兰"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "活动免费，部分须预约。",
+      "eu": true,
+      "schengen": false,
+      "sourceUrls": [
+        "https://culturenight.ie/culture-night-2026-press-release/",
+        "https://culturenight.ie/country/dublin/page/7/",
+        "https://culturenight.ie/late-night-events-2/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -1208,6 +1643,292 @@
       ]
     },
     {
+      "id": "heritage-brussels-2026",
+      "title": "Heritage Days · Brussels",
+      "city": "Brussels",
+      "country": "Belgium",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://heritagedays.urban.brussels/fr/",
+      "url": "https://heritagedays.urban.brussels/fr/",
+      "description": "布鲁塞尔遗产日开放通常难以进入的空间，以城市景观为主题。",
+      "venue": "Brussels · participating venues",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "比利时"
+      ],
+      "scheduleNote": "9 月 19–20 日；周日同时为无车日，市内参观应另查交通安排。",
+      "accessNote": "部分参观须预订；官方预约自 9 月 8 日 13:00 开放，不保证仍有名额。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://heritagedays.urban.brussels/fr/",
+        "https://urban.brussels/en/events/heritage-days-2026"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "jep-hotel-ville-strasbourg-2026",
+      "title": "Hôtel de Ville · Heritage Days Visits",
+      "city": "Strasbourg",
+      "country": "France",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://my.weezevent.com/jep-2026-visite-de-lhotel-de-ville",
+      "url": "https://my.weezevent.com/jep-2026-visite-de-lhotel-de-ville",
+      "description": "遗产日重点场次：参观 Strasbourg 市政厅历史室内空间。周六上午自由参观；导览及周日儿童场须预订。属于 Strasbourg 欧洲遗产日。",
+      "venue": "Hôtel de Ville, 9 rue Brûlée",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "法国"
+      ],
+      "scheduleNote": "周六 10:00–12:00 自由参观；两天下午导览 14:00、15:30、16:45；周日儿童导览 10:00、11:00，须成人陪同。以页面详细节目为准，页面顶部总时段未包含周六上午。",
+      "accessNote": "导览必须预约，名额有限；预约页不代表还有余位。",
+      "parentEventId": "jep-strasbourg-2026",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://my.weezevent.com/jep-2026-visite-de-lhotel-de-ville"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "jep-bordeaux-2026",
+      "title": "Journées du patrimoine et du matrimoine · Bordeaux",
+      "city": "Bordeaux",
+      "country": "France",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://www.bordeaux-tourisme.com/evenements/journees-europeennes-du-patrimoine-du-matrimoine-bordeaux.html",
+      "url": "https://www.bordeaux-tourisme.com/evenements/journees-europeennes-du-patrimoine-du-matrimoine-bordeaux.html",
+      "description": "波尔多遗产与女性文化遗产周末：特别开放与主题导览，可结合老城步行参观。",
+      "venue": "Bordeaux · participating venues",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "法国"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.bordeaux-tourisme.com/evenements/journees-europeennes-du-patrimoine-du-matrimoine-bordeaux.html"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "jep-lyon-2026",
+      "title": "Journées européennes du patrimoine · Lyon",
+      "city": "Lyon",
+      "country": "France",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://www.lyon.fr/evenement/festival/journees-europeennes-du-patrimoine",
+      "url": "https://www.lyon.fr/evenement/festival/journees-europeennes-du-patrimoine",
+      "description": "里昂遗产日：市政厅、博物馆、档案馆与城市自然遗产活动。",
+      "venue": "Hôtel de Ville and participating Lyon venues",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "法国"
+      ],
+      "scheduleNote": "全市活动 9 月 19–20 日；市政厅两天均 10:00–18:00，由 Place des Terreaux 进入。其他场馆各有时段。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.lyon.fr/evenement/festival/journees-europeennes-du-patrimoine"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "jep-paris-2026",
+      "title": "Journées européennes du patrimoine · Paris",
+      "city": "Paris",
+      "country": "France",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://parisjetaime.com/eng/article/european-heritage-days-a1029",
+      "url": "https://parisjetaime.com/eng/article/european-heritage-days-a1029",
+      "description": "巴黎及周边的历史建筑与机构特别开放，包含平时难以进入的室内空间。",
+      "venue": "Participating Paris and Île-de-France heritage sites",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "法国"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "许多项目免费，但部分须预约或有资格限制。不同机构入场规则以各自官网为准。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://parisjetaime.com/eng/article/european-heritage-days-a1029"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "jep-strasbourg-2026",
+      "title": "Journées européennes du patrimoine · Strasbourg",
+      "city": "Strasbourg",
+      "country": "France",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://5elieu.strasbourg.eu/2026/08/journees-europeennes-du-patrimoine-rdv-le-19-et-20-septembre/",
+      "url": "https://5elieu.strasbourg.eu/2026/08/journees-europeennes-du-patrimoine-rdv-le-19-et-20-septembre/",
+      "description": "欧洲遗产日：特别开放历史建筑、修复工坊及文化场所。此条是全市节目入口；莱茵宫、市政厅和圣母院工坊另有重点场次条目，属于同一活动。",
+      "venue": "Strasbourg and Eurométropole; information stand at Place du Château",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "European Heritage Days",
+        "JEP",
+        "patrimoine",
+        "遗产日",
+        "欧洲遗产日",
+        "世界遗产日",
+        "开放日",
+        "建筑",
+        "斯特拉斯堡",
+        "法国"
+      ],
+      "scheduleNote": "9 月 19–20 日；Place du Château 咨询点两天均为 10:00–18:00。各场馆时段不同。",
+      "accessNote": "各场馆免费、预约及容量要求不同；凡注明 inscription 的项目须预约。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://5elieu.strasbourg.eu/2026/08/journees-europeennes-du-patrimoine-rdv-le-19-et-20-septembre/",
+        "https://culture.strasbourg.eu/actualites/les-journees-europeennes-du-patrimoine/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "heritage-budapest-2026",
+      "title": "Kulturális Örökség Napjai · Budapest",
+      "city": "Budapest",
+      "country": "Hungary",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://oroksegnapok.gov.hu/",
+      "url": "https://oroksegnapok.gov.hu/",
+      "description": "布达佩斯欧洲遗产日：历史建筑、机构与城市漫步。国家节目可按地点选择本地活动。",
+      "venue": "Participating Budapest venues, including Millennium Háza",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "匈牙利"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "标明 regisztráció 的项目须报名；其他入场规则仍需按场馆核对。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://oroksegnapok.gov.hu/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "jep-oeuvre-notre-dame-strasbourg-2026",
+      "title": "Œuvre Notre-Dame · Cathedral Workshop Open Doors",
+      "city": "Strasbourg",
+      "country": "France",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://www.oeuvre-notre-dame.org/blog/fondation-oeuvre-notre-dame-800-ans/",
+      "url": "https://www.oeuvre-notre-dame.org/blog/fondation-oeuvre-notre-dame-800-ans/",
+      "description": "遗产日重点场次：走进圣母院修复工坊，了解大教堂的维护与修复；也是基金会 800 周年活动之一。属于 Strasbourg 欧洲遗产日。",
+      "venue": "Ateliers de la Fondation de l’Œuvre Notre-Dame, 6 rue des Cordiers; entrance rue Rohan",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "法国"
+      ],
+      "scheduleNote": "9 月 19、20 日均为 10:00–17:00；入口在 rue Rohan。",
+      "parentEventId": "jep-strasbourg-2026",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.oeuvre-notre-dame.org/blog/fondation-oeuvre-notre-dame-800-ans/",
+        "https://www.amis-cathedrale-strasbourg.eu/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
       "id": "oktoberfest-2026",
       "title": "Oktoberfest",
       "startDate": "2026-09-19",
@@ -1233,6 +1954,145 @@
       "accessNote": "Main grounds and tents have free admission; food, rides and some areas cost extra. Tent capacity is limited.",
       "researchFiles": [
         "research-culture.json"
+      ]
+    },
+    {
+      "id": "jep-palais-rhin-strasbourg-2026",
+      "title": "Palais du Rhin · Heritage Days Open Doors",
+      "city": "Strasbourg",
+      "country": "France",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://journeesdupatrimoine.culture.gouv.fr/w/391796/evenement/20485520/ouverture-exceptionnelle-du-palais-du-rhin-ancien-palais-imperial",
+      "url": "https://journeesdupatrimoine.culture.gouv.fr/w/391796/evenement/20485520/ouverture-exceptionnelle-du-palais-du-rhin-ancien-palais-imperial",
+      "description": "遗产日重点场次：莱茵宫（原帝国皇宫）特别开放，可自由参观。属于 Strasbourg 欧洲遗产日。",
+      "venue": "Palais du Rhin, 2 place de la République",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "法国"
+      ],
+      "scheduleNote": "9 月 19 日 13:30–17:00；9 月 20 日 14:00–18:00。",
+      "accessNote": "免费，无需预约（sans réservation）。",
+      "parentEventId": "jep-strasbourg-2026",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://journeesdupatrimoine.culture.gouv.fr/w/391796/evenement/20485520/ouverture-exceptionnelle-du-palais-du-rhin-ancien-palais-imperial"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "jep-sao-roque-lisbon-2026",
+      "title": "São Roque · European Heritage Days",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "sourceUrl": "https://scml.pt/comunicacao/agenda/jornadas-europeias-do-patrimonio/",
+      "url": "https://scml.pt/comunicacao/agenda/jornadas-europeias-do-patrimonio/",
+      "description": "圣洛克教堂与博物馆的遗产日导览和交流活动，围绕馆藏的保存与失落展开。",
+      "venue": "Igreja e Museu de São Roque",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "葡萄牙"
+      ],
+      "scheduleNote": "仅记录此场馆 9 月 19–20 日的活动，不将葡萄牙全国较长活动期当成它的开放日。",
+      "accessNote": "免费，须事先预约，名额有限；官方电话及邮箱见活动页。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://scml.pt/comunicacao/agenda/jornadas-europeias-do-patrimonio/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "heritage-snipiskes-vilnius-2026",
+      "title": "Šnipiškės · European Heritage Days",
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-19",
+      "sourceUrl": "https://vilniausmuziejus.lt/renginys/europos-paveldo-dienos-snipiskese-amatai/",
+      "url": "https://vilniausmuziejus.lt/renginys/europos-paveldo-dienos-snipiskese-amatai/",
+      "description": "维尔纽斯 Šnipiškės 木屋街区的居民开放与传统、当代手工艺活动。",
+      "venue": "Šnipiškės neighbourhood, including S. Fino and Giedraičių streets",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "立陶宛"
+      ],
+      "scheduleNote": "仅 9 月 19 日；活动分布不同地点和时段，以博物馆节目为准。不要将页面底部博物馆常规地址当作全部活动集合点。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://vilniausmuziejus.lt/renginys/europos-paveldo-dienos-snipiskese-amatai/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "heritage-szucha-warsaw-2026",
+      "title": "Szucha 25 · European Heritage Days Walk",
+      "city": "Warsaw",
+      "country": "Poland",
+      "category": "heritage",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-19",
+      "sourceUrl": "https://mauzoleum-szucha.muzn.pl/pl/news/spacer-historyczny-szucha-25-odzyskany-symbol-panstwowosci-19-wrzesnia-2026-o-g-10-00/",
+      "url": "https://mauzoleum-szucha.muzn.pl/pl/news/spacer-historyczny-szucha-25-odzyskany-symbol-panstwowosci-19-wrzesnia-2026-o-g-10-00/",
+      "description": "华沙遗产日特别参观：教育部历史建筑与斗争及殉难纪念馆，了解建筑与波兰近现代史。",
+      "venue": "Ministry of Education and Mausoleum of Struggle and Martyrdom, al. Szucha 25",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "波兰"
+      ],
+      "scheduleNote": "9 月 19 日 10:00 教育部建筑参观，11:00 纪念馆导览；按主办方说明确认参加要求。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://mauzoleum-szucha.muzn.pl/pl/news/spacer-historyczny-szucha-25-odzyskany-symbol-panstwowosci-19-wrzesnia-2026-o-g-10-00/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -1616,6 +2476,76 @@
       ]
     },
     {
+      "id": "researchers-night-athens-2026",
+      "title": "European Researchers’ Night · Athens",
+      "city": "Athens",
+      "country": "Greece",
+      "category": "technology",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-25",
+      "sourceUrl": "https://researchersnight.gr/",
+      "url": "https://researchersnight.gr/",
+      "description": "雅典研究者之夜：面向公众的科学展示与研究交流。选择官网雅典分会场查看具体地点。",
+      "venue": "Athens · participating venues",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "researchers night",
+        "science",
+        "科研",
+        "科学",
+        "研究者之夜",
+        "开放日",
+        "希腊"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://researchersnight.gr/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
+      "id": "researchers-night-helsinki-2026",
+      "title": "European Researchers’ Night · Helsinki",
+      "city": "Helsinki",
+      "country": "Finland",
+      "category": "technology",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-25",
+      "sourceUrl": "https://www.helsinki.fi/en/science-education-and-academic-outreach/teachers/researchers-night",
+      "url": "https://www.helsinki.fi/en/science-education-and-academic-outreach/teachers/researchers-night",
+      "description": "赫尔辛基大学的研究者之夜，公众可参与科学活动、接触研究人员与天文主题展览。",
+      "venue": "University of Helsinki public evening venues, including Kaisa Library and Observatory",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "researchers night",
+        "science",
+        "科研",
+        "科学",
+        "研究者之夜",
+        "开放日",
+        "芬兰"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "公众晚间节目免费、无需报名；白天学校团体工作坊另有要求。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.helsinki.fi/en/science-education-and-academic-outreach/teachers/researchers-night",
+        "https://www.helsinki.fi/en/innovations-and-cooperation/alumni/alumni-events"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
       "id": "laver-cup-2026",
       "startDate": "2026-09-25",
       "endDate": "2026-09-27",
@@ -1641,6 +2571,43 @@
       ],
       "researchFiles": [
         "research-sports.json"
+      ]
+    },
+    {
+      "id": "science-night-prague-2026",
+      "title": "Noc vědy · Prague Science Night",
+      "city": "Prague",
+      "country": "Czechia",
+      "category": "technology",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-25",
+      "sourceUrl": "https://www.nocvedy.cz/",
+      "url": "https://www.nocvedy.cz/",
+      "description": "布拉格科学之夜：大学、实验室与研究机构向公众展示研究和互动实验。2026 年由 Noc vědců 更名为 Noc vědy。",
+      "venue": "Participating Prague universities and research institutes",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "researchers night",
+        "science",
+        "科研",
+        "科学",
+        "研究者之夜",
+        "开放日",
+        "捷克"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "免费；部分工作坊需要预约，各机构时间不同。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.nocvedy.cz/",
+        "https://www.nocvedy.cz/o-akci",
+        "https://www.nocvedy.cz/udalost/15735-proton-a-elektron-vedecka-show"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -1818,6 +2785,42 @@
       ]
     },
     {
+      "id": "gep-rome-2026",
+      "title": "Giornate Europee del Patrimonio · Rome",
+      "city": "Rome",
+      "country": "Italy",
+      "category": "heritage",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-27",
+      "sourceUrl": "https://www.turismoroma.it/it/eventi/giornate-europee-del-patrimonio-%E2%80%93-gep-2026",
+      "url": "https://www.turismoroma.it/it/eventi/giornate-europee-del-patrimonio-%E2%80%93-gep-2026",
+      "description": "罗马欧洲遗产日：博物馆、档案馆、历史建筑及考古场所的特别节目。",
+      "venue": "Rome · participating venues",
+      "access": "Mixed access",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "意大利"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "免费活动不一定包含场馆门票；罗马市属项目在适用时仍收门票，部分须预约。不能理解为所有景点免费。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.turismoroma.it/it/eventi/giornate-europee-del-patrimonio-%E2%80%93-gep-2026",
+        "https://www.sovraintendenzaroma.it/content/giornate-europee-del-patrimonio-2026"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
       "id": "limassol-wine-2026",
       "title": "Limassol Wine Festival",
       "city": "Limassol",
@@ -1872,6 +2875,41 @@
       ]
     },
     {
+      "id": "heritage-palisady-bratislava-2026",
+      "title": "Palisády · Bratislava Heritage Walk",
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "category": "heritage",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-26",
+      "sourceUrl": "https://www.dekd.sk/",
+      "url": "https://www.dekd.sk/",
+      "description": "遗产日主题步行：探索 Palisády 别墅街区的建筑与人物故事。",
+      "venue": "Palisády, Bratislava Old Town",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "斯洛伐克"
+      ],
+      "scheduleNote": "9 月 26 日 14:00–15:30；按报名确认集合点。",
+      "accessNote": "免费，名额有限，须经 www.asba.sk 预约。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.dekd.sk/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
       "id": "berlin-marathon-2026",
       "startDate": "2026-09-27",
       "endDate": "2026-09-27",
@@ -1897,6 +2935,42 @@
       ],
       "researchFiles": [
         "research-sports.json"
+      ]
+    },
+    {
+      "id": "denkmal-vienna-2026",
+      "title": "Tag des Denkmals · Vienna",
+      "city": "Vienna",
+      "country": "Austria",
+      "category": "heritage",
+      "startDate": "2026-09-27",
+      "endDate": "2026-09-27",
+      "sourceUrl": "https://www.tagdesdenkmals.at/programm/wien",
+      "url": "https://www.tagdesdenkmals.at/programm/wien",
+      "description": "维也纳古迹日：历史建筑、工坊及主题导览，适合一天集中探索建筑遗产。",
+      "venue": "Vienna · participating venues",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "奥地利"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "免费；少数场次须预约，各场馆开放时间不同。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.tagdesdenkmals.at/programm/wien",
+        "https://www.tagdesdenkmals.at/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -2100,6 +3174,41 @@
       ]
     },
     {
+      "id": "open-house-stockholm-2026",
+      "title": "Open House Stockholm",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "category": "heritage",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-04",
+      "sourceUrl": "https://www.openhousestockholm.com/",
+      "url": "https://www.openhousestockholm.com/",
+      "description": "大斯德哥尔摩地区的免费建筑导览与特别开放。可按英语／瑞典语、是否须预约筛选节目。",
+      "venue": "Stockholm · participating venues",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "瑞典"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.openhousestockholm.com/",
+        "https://www.openhousestockholm.com/program"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
       "id": "notte-bianca-malta-2026",
       "title": "Notte Bianca · Valletta",
       "city": "Valletta",
@@ -2124,6 +3233,39 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "museumsnacht-vienna-2026",
+      "title": "ORF Long Night of Museums · Vienna",
+      "city": "Vienna",
+      "country": "Austria",
+      "category": "heritage",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-03",
+      "sourceUrl": "https://langenacht.orf.at/",
+      "url": "https://langenacht.orf.at/",
+      "description": "维也纳博物馆之夜：用活动票串联参与博物馆与特别节目。",
+      "venue": "Participating Vienna museums, including ALBERTINA and Dom Museum",
+      "access": "Public tickets",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "museum night",
+        "博物馆之夜",
+        "文化夜",
+        "开放日",
+        "奥地利"
+      ],
+      "scheduleNote": "10 月 3 日 18:00–24:00；个别导览限额。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://langenacht.orf.at/",
+        "https://www.albertina.at/besuch/programm/lange-nacht-der-museen-2026/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -2320,6 +3462,41 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "heritage-zale-ljubljana-2026",
+      "title": "Plečnik’s Žale · Heritage Garden Tour",
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "category": "heritage",
+      "startDate": "2026-10-07",
+      "endDate": "2026-10-07",
+      "sourceUrl": "https://mgml.si/sl/plecnikova-hisa/dogodki/2361/2026-10-07/17-00/leto-vlasta-kopaca-2026-vrt-vseh-svetih-vrtnoarhitekturna-zasnova-plecnikovih-zal/",
+      "url": "https://mgml.si/sl/plecnikova-hisa/dogodki/2361/2026-10-07/17-00/leto-vlasta-kopaca-2026-vrt-vseh-svetih-vrtnoarhitekturna-zasnova-plecnikovih-zal/",
+      "description": "欧洲遗产日期间的建筑与园林主题导览，关注 Plečnik 的 Žale 及其与 Vlasto Kopač 的合作。",
+      "venue": "Main entrance colonnade, Plečnik’s Žale",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "斯洛文尼亚"
+      ],
+      "scheduleNote": "10 月 7 日 17:00–18:00；按正文在 Žale 主入口柱廊集合，不是 Plečnik 故居。",
+      "accessNote": "须提前通过主办方报名（prijava@mgml.si）；请核对费用及余位。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://mgml.si/sl/plecnikova-hisa/dogodki/2361/2026-10-07/17-00/leto-vlasta-kopaca-2026-vrt-vseh-svetih-vrtnoarhitekturna-zasnova-plecnikovih-zal/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -2635,6 +3812,42 @@
       ]
     },
     {
+      "id": "open-house-tallinn-2026",
+      "title": "Open House Tallinn",
+      "city": "Tallinn",
+      "country": "Estonia",
+      "category": "heritage",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-11",
+      "sourceUrl": "https://www.openhousetallinn.ee/en/post/open-house-tallinn-program-now-public",
+      "url": "https://www.openhousetallinn.ee/en/post/open-house-tallinn-program-now-public",
+      "description": "塔林建筑开放节：进入平时不开放的机构、公共建筑及施工场所。",
+      "venue": "Tallinn · participating venues",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "爱沙尼亚"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "官方旅游页说明导览免费；在活动网站按场次报名。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.openhousetallinn.ee/en/post/open-house-tallinn-program-now-public",
+        "https://www.visittallinn.ee/eng/visitor/see-do/events/events/14478/open-house-tallinn"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
       "id": "warsaw-film-2026",
       "title": "Warsaw International Film Festival",
       "city": "Warsaw",
@@ -2773,6 +3986,42 @@
       "access": "Check official tickets",
       "researchFiles": [
         "research-music.json"
+      ]
+    },
+    {
+      "id": "open-house-dublin-2026",
+      "title": "Open House Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "category": "heritage",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-18",
+      "sourceUrl": "https://openhousedublin.com/registration-form/",
+      "url": "https://openhousedublin.com/",
+      "description": "都柏林建筑节，包含家庭节目、导览与建筑开放。",
+      "venue": "Dublin · participating venues",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "爱尔兰"
+      ],
+      "scheduleNote": "总体 10 月 10–18 日；Junior 家庭周末 10–11 日，主要建筑导览及开放周末 16–18 日。不是所有建筑连续开放九天。",
+      "accessNote": "部分场次须预约；记录日期的 registration-form 是主办方征集页面，不是访客订票入口。请从首页查访客节目。",
+      "eu": true,
+      "schengen": false,
+      "sourceUrls": [
+        "https://openhousedublin.com/registration-form/",
+        "https://dublin.ie/whats-on/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -3281,6 +4530,41 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "heritage-state-luxembourg-2026",
+      "title": "At the Heart of the State · Heritage Open Doors",
+      "city": "Luxembourg City",
+      "country": "Luxembourg",
+      "category": "heritage",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-17",
+      "sourceUrl": "https://www.luxembourg-city.com/fr/agenda/event/at-the-heart-of-the-state-discover-emblematic-institutional-sites-of-luxembourg-s-heritage-3jn0pi",
+      "url": "https://www.luxembourg-city.com/fr/agenda/event/at-the-heart-of-the-state-discover-emblematic-institutional-sites-of-luxembourg-s-heritage-3jn0pi",
+      "description": "卢森堡遗产日特别开放：议会、大公宫及政府机构联合开放，了解建筑与国家机构历史。",
+      "venue": "Chamber of Deputies, Grand Ducal Palace and participating ministries, Luxembourg City",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "卢森堡"
+      ],
+      "scheduleNote": "此项特别开放仅 10 月 17 日，10:00 开始，16:00 最后入场；不是全国 10 月 16–18 日每天都开放。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.luxembourg-city.com/fr/agenda/event/at-the-heart-of-the-state-discover-emblematic-institutional-sites-of-luxembourg-s-heritage-3jn0pi",
+        "https://mcult.gouvernement.lu/fr/Domaines/appels-a-projets/appel-jep-2026.html"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -3796,6 +5080,41 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "open-house-barcelona-2026",
+      "title": "48h Open House Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "category": "heritage",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "sourceUrl": "https://www.48hopenhousebarcelona.org/",
+      "url": "https://www.48hopenhousebarcelona.org/",
+      "description": "巴塞罗那建筑开放周末：探索不同年代和用途的建筑、室内空间与城市路线。",
+      "venue": "Barcelona · participating venues",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "西班牙"
+      ],
+      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "accessNote": "参加方式、容量及是否需要预订请查看本届具体建筑页面。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.48hopenhousebarcelona.org/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -4812,6 +6131,41 @@
       ]
     },
     {
+      "id": "open-house-madrid-2026",
+      "title": "Open House Madrid",
+      "city": "Madrid",
+      "country": "Spain",
+      "category": "heritage",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08",
+      "sourceUrl": "https://www.openhousemadrid.org/",
+      "url": "https://www.openhousemadrid.org/",
+      "description": "马德里建筑开放节，参观建筑、工作室与城市路线。",
+      "venue": "Madrid · participating venues",
+      "access": "Check official details",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "西班牙"
+      ],
+      "scheduleNote": "以官网明确标注 NUEVA FECHA 的 2026 年 11 月 6–8 日为准；网站旧介绍仍写九月底、旧节目仍标 2023/2025，未用旧节目推断本届场次。",
+      "accessNote": "具体 2026 场馆、预约及入场安排以本届节目为准。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.openhousemadrid.org/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
+      ]
+    },
+    {
       "id": "resonances-strasbourg-2026",
       "title": "Résonances · European Fine Craft Fair",
       "city": "Strasbourg",
@@ -4951,6 +6305,40 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "museumnacht-amsterdam-2026",
+      "title": "Museumnacht Amsterdam",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "category": "heritage",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "sourceUrl": "https://museumnacht.amsterdam/faq",
+      "url": "https://museumnacht.amsterdam/faq",
+      "description": "阿姆斯特丹博物馆之夜，活动票可用于参与场馆的晚间节目。",
+      "venue": "Amsterdam · participating venues",
+      "access": "Public tickets",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "museum night",
+        "博物馆之夜",
+        "文化夜",
+        "开放日",
+        "荷兰"
+      ],
+      "scheduleNote": "主活动夜为 11 月 7 日；场馆时间及跨午夜节目按官网确认，不将后续免费重访期当成连续的博物馆之夜。",
+      "accessNote": "须购买 Museumnacht 活动票；后续凭腕带重访的规则与活动夜不同。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://museumnacht.amsterdam/faq",
+        "https://museumnacht.amsterdam/herhaalbezoek"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
@@ -5973,6 +7361,41 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "open-house-thessaloniki-2026",
+      "title": "Open House Thessaloniki · Open Tours",
+      "city": "Thessaloniki",
+      "country": "Greece",
+      "category": "heritage",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-22",
+      "sourceUrl": "https://www.openhousethessaloniki.gr/events/",
+      "url": "https://www.openhousethessaloniki.gr/en/",
+      "description": "塞萨洛尼基建筑开放节的主要 Open Tours 周末，免费参观公共与私人建筑。",
+      "venue": "Thessaloniki · participating venues",
+      "access": "Free entry",
+      "verifiedAt": "2026-09-19",
+      "status": "confirmed",
+      "tags": [
+        "heritage",
+        "open days",
+        "遗产",
+        "遗产日",
+        "开放日",
+        "建筑",
+        "希腊"
+      ],
+      "scheduleNote": "建筑 Open Tours 仅 11 月 21–22 日；11 月 14 日起的步行、学校、办公室等周边活动不能视为全部建筑已开放。",
+      "eu": true,
+      "schengen": true,
+      "sourceUrls": [
+        "https://www.openhousethessaloniki.gr/events/",
+        "https://www.openhousethessaloniki.gr/en/"
+      ],
+      "researchFiles": [
+        "research-heritage.json"
       ]
     },
     {
