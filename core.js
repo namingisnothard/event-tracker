@@ -1,4 +1,4 @@
-export const AS_OF = '2026-09-12';
+export const AS_OF = '2026-10-18';
 export const RANGE_END = '2026-12-31';
 export const MONTHS = ['September', 'October', 'November', 'December'];
 export const CATEGORIES = {
@@ -30,7 +30,7 @@ export function occursOn(event, day) {
 export function overlapsMonth(event, month) {
   const start = `2026-${String(month + 1).padStart(2, '0')}-01`;
   const end = isoDate(new Date(Date.UTC(2026, month + 1, 0, 12)));
-  return event.dates?.length ? event.dates.some(d => d >= start && d <= end && d >= AS_OF) : event.startDate <= end && event.endDate >= start;
+  return monthDays(month).some(day => day >= start && day <= end && occursOn(event, day));
 }
 export function filterEvents(events, filters, saved = []) {
   const q = (filters.search || '').trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();

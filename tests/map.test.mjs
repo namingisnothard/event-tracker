@@ -24,9 +24,9 @@ test('map grouping counts events once, not once per performance date',()=>{
   assert.equal(groups.filter(g=>!g.isRegional).length,new Set(events.filter(e=>e.geographicScope!=='europe-wide').map(e=>`${e.city}|${e.country}`)).size);
   assert.ok(groups.filter(g=>!g.isRegional).length>=40);
   assert.equal(groups.reduce((n,g)=>n+g.events.length,0),events.length);
-  const dusseldorf=groups.find(g=>g.city==='Düsseldorf');
-  assert.equal(dusseldorf.events.filter(e=>e.id==='backstreet-boys-dusseldorf').length,1);
-  assert.equal(dusseldorf.events.length,events.filter(e=>e.city==='Düsseldorf'&&e.country==='Germany').length);
+  const dusseldorf=groups.find(g=>g.city==='Dublin');
+  assert.equal(dusseldorf.events.filter(e=>e.id==='niall-horan-dublin').length,1);
+  assert.equal(dusseldorf.events.length,events.filter(e=>e.city==='Dublin'&&e.country==='Ireland').length);
   assert.ok(groups.every(g=>g.events.every(e=>`${e.city}|${e.country}`===g.key)));
 });
 test('map groups only the supplied month, location and shortlist results',()=>{
@@ -34,7 +34,7 @@ test('map groups only the supplied month, location and shortlist results',()=>{
   const groups=groupEventsByCity(selected);
   assert.equal(groups.length,1);assert.equal(groups[0].city,'Montpellier');
   assert.equal(groups[0].events[0].id,'wtt-montpellier-2026');
-  const shortlist=groupEventsByCity(filterEvents(events,{savedOnly:true},['bigbang-paris','bigbang-london']));
+  const shortlist=groupEventsByCity(filterEvents(events,{savedOnly:true},['niall-horan-dublin','athens-marathon-2026']));
   assert.equal(shortlist.length,2);
   assert.deepEqual(groupEventsByCity([]),[]);
 });

@@ -180,9 +180,12 @@
     "description": "奥斯陆世界音乐节，以跨文化演出安排秋季音乐旅行。",
     "venue": "Oslo music venues",
     "access": "Public tickets",
-    "verifiedAt": "2026-09-12",
+    "verifiedAt": "2026-10-18",
     "status": "confirmed",
-    "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates."
+    "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
+    "sourceUrls": [
+      "https://osloworld.no/en/om-oss"
+    ]
   },
   {
     "id": "biff-bergen-2026",
@@ -247,9 +250,12 @@
     "description": "塞萨洛尼基国际电影节，适合结合港区、老城与电影的秋季旅行。",
     "venue": "Thessaloniki festival cinemas",
     "access": "Public tickets",
-    "verifiedAt": "2026-09-12",
+    "verifiedAt": "2026-10-18",
     "status": "confirmed",
-    "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates."
+    "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
+    "sourceUrls": [
+      "https://filmfestival.gr/en/"
+    ]
   },
   {
     "id": "genussfestival-vaduz-2026",
@@ -617,9 +623,12 @@
     "description": "斯德哥尔摩国际电影节，旅行前按片单和字幕选择场次。",
     "venue": "Stockholm cinemas",
     "access": "Public tickets",
-    "verifiedAt": "2026-09-12",
+    "verifiedAt": "2026-10-18",
     "status": "confirmed",
-    "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates."
+    "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
+    "sourceUrls": [
+      "https://www.stockholmfilmfestival.se/en/"
+    ]
   },
   {
     "id": "riff-2026",

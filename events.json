@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-09-12",
-  "lastUpdated": "2026-09-19",
+  "asOf": "2026-10-18",
+  "lastUpdated": "2026-10-18",
   "rangeEnd": "2026-12-31",
   "coverage": {
     "asOf": "2026-09-12",
@@ -520,2599 +520,37 @@
       ]
     },
     {
-      "id": "heritage-prague-2026",
-      "title": "Dny evropského dědictví · Prague 1",
-      "city": "Prague",
-      "country": "Czechia",
-      "category": "heritage",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-30",
-      "sourceUrl": "https://www.praha1.cz/udalosti/dny-evropskeho-dedictvi-2026-na-praze-1/",
-      "url": "https://www.praha1.cz/udalosti/dny-evropskeho-dedictvi-2026-na-praze-1/",
-      "description": "布拉格一区的欧洲遗产日节目，开放历史建筑并介绍修复与再利用。",
-      "venue": "Selected heritage buildings in Prague 1",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "捷克"
-      ],
-      "scheduleNote": "这是一区官方公布的 9 月整月节目窗口，各建筑开放日不同，并非每天都能进入每处。具体日期见旅游局及场馆节目。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.praha1.cz/udalosti/dny-evropskeho-dedictvi-2026-na-praze-1/",
-        "https://prague.eu/cs/akce/dny-evropskeho-dedictvi/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "venice-film-festival-2026",
-      "title": "Venice International Film Festival",
-      "startDate": "2026-09-02",
-      "endDate": "2026-09-12",
-      "city": "Venice",
-      "country": "Italy",
-      "venue": "Lido di Venezia festival cinemas",
-      "category": "film",
-      "description": "The 83rd Venice International Film Festival reaches its final day on 12 September, with public screenings on the Lido.",
-      "access": "Public tickets",
-      "accessNote": "Check the public screening programme for remaining sessions and admission; closing-ceremony access is not guaranteed.",
-      "notes": "Already underway; only 12 September remains inside this preview's date window.",
-      "sourceUrl": "https://www.labiennale.org/en/cinema/2026",
-      "url": "https://www.labiennale.org/en/cinema/2026/program-cinema-2026-public",
-      "verifiedAt": "2026-09-12",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "意大利"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.labiennale.org/en/cinema/2026",
-        "https://www.labiennale.org/en/cinema/2026/program-cinema-2026-public"
-      ],
-      "researchFiles": [
-        "research-culture.json"
-      ]
-    },
-    {
-      "id": "beethovenfest-bonn-2026",
-      "title": "Beethovenfest Bonn",
-      "city": "Bonn",
-      "country": "Germany",
-      "category": "music",
-      "startDate": "2026-09-03",
-      "endDate": "2026-10-03",
-      "sourceUrl": "https://www.beethovenfest.de/en",
-      "url": "https://www.beethovenfest.de/en",
-      "description": "贝多芬音乐节，既有交响与室内乐，也有跨界节目；已开始，9 月 12 日以后仍有多场演出可选。",
-      "venue": "Beethovenhalle and Bonn-area venues",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "波恩",
-        "德国"
-      ],
-      "scheduleNote": "Published festival window, not a promise of daily performances or opening at every venue. Confirm individual sessions, opening days, registration, language and subtitles with the organiser.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.beethovenfest.de/en"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "colors-strasbourg-2026",
-      "title": "COLORS Urban Art Festival",
-      "city": "Strasbourg",
-      "country": "France",
-      "category": "art",
-      "startDate": "2026-09-04",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://www.colors-art.eu/",
-      "url": "https://www.colors-art.eu/",
-      "description": "AFPA 场地的街头艺术节，参观大型壁画、现场创作与活动。9 月 19–20 日是最后一个开放周末。",
-      "venue": "AFPA Strasbourg, rue des Corps-de-Garde",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "street art",
-        "壁画",
-        "街头艺术",
-        "斯特拉斯堡",
-        "法国"
-      ],
-      "scheduleNote": "常规仅周六、周日开放；9 月 4 日为开幕晚场。日历不把中间工作日列为开放日；9 月 12 日前的日期不导出。",
-      "dates": [
-        "2026-09-04",
-        "2026-09-05",
-        "2026-09-06",
-        "2026-09-12",
-        "2026-09-13",
-        "2026-09-19",
-        "2026-09-20"
-      ],
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.colors-art.eu/",
-        "https://www.colors-art.eu/agenda/",
-        "https://culture.strasbourg.eu/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "genussfestival-vaduz-2026",
-      "title": "Genussfestival Vaduz",
-      "city": "Vaduz",
-      "country": "Liechtenstein",
-      "category": "festival",
-      "startDate": "2026-09-05",
-      "endDate": "2026-09-13",
-      "sourceUrl": "https://www.genussfestival.li/",
-      "url": "https://www.genussfestival.li/",
-      "description": "瓦杜兹美食节，旅行窗口内仅剩 12–13 日；餐饮和特别活动需查看预订。",
-      "venue": "Rathausplatz",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": false,
-      "schengen": true,
-      "tags": [
-        "列支敦士登"
-      ],
-      "sourceUrls": [
-        "https://www.genussfestival.li/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "ars-electronica-festival-2026",
-      "title": "Ars Electronica · Negotiating Humanity",
-      "startDate": "2026-09-09",
-      "endDate": "2026-09-13",
-      "city": "Linz",
-      "country": "Austria",
-      "venue": "OK Quarter, MED Campus, Danube Triangle and city venues",
-      "category": "art",
-      "subcategory": "Art & technology",
-      "description": "Linz's international media-art festival connects exhibitions, performances, technology and society. Its final weekend runs 12–13 September.",
-      "access": "Public tickets",
-      "accessNote": "Festival tickets are sold online and at festival information desks; check programme entries for individual access requirements.",
-      "notes": "Already underway; 12–13 September remain inside this preview's date window.",
-      "sourceUrl": "https://ars.electronica.art/negotiatinghumanity/en/",
-      "url": "https://ars.electronica.art/negotiatinghumanity/en/",
-      "verifiedAt": "2026-09-12",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "奥地利"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://ars.electronica.art/negotiatinghumanity/en/"
-      ],
-      "researchFiles": [
-        "research-culture.json"
-      ]
-    },
-    {
-      "id": "berlin-art-week-2026",
-      "title": "Berlin Art Week",
-      "startDate": "2026-09-09",
-      "endDate": "2026-09-13",
-      "city": "Berlin",
-      "country": "Germany",
-      "venue": "Museums, galleries, collections and venues across Berlin",
-      "category": "art",
-      "description": "Contemporary art exhibitions, performances, screenings and talks across Berlin. The final weekend includes the Meet the Artist programme.",
-      "access": "Mixed access",
-      "accessNote": "Many events are free; partner venues set individual admission prices. Selected tours, performances and screenings require registration.",
-      "notes": "Already underway; 12–13 September remain inside this preview's date window.",
-      "sourceUrl": "https://berlinartweek.de/en/about-berlin-art-week/",
-      "url": "https://berlinartweek.de/",
-      "verifiedAt": "2026-09-12",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "德国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://berlinartweek.de/en/about-berlin-art-week/",
-        "https://berlinartweek.de/ihr-besuch/",
-        "https://berlinartweek.de/?lang=de"
-      ],
-      "researchFiles": [
-        "research-culture.json"
-      ]
-    },
-    {
-      "id": "seville-bienal-2026",
-      "title": "Bienal de Flamenco de Sevilla",
-      "city": "Seville",
-      "country": "Spain",
-      "category": "music",
-      "startDate": "2026-09-09",
-      "endDate": "2026-10-03",
-      "sourceUrl": "https://www.sevilla.org/bienal-de-flamenco",
-      "url": "https://www.sevilla.org/bienal-de-flamenco",
-      "description": "塞维利亚弗拉门戈双年展，适合以几场重点演出安排安达卢西亚旅行。",
-      "venue": "Seville performance venues",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "西班牙"
-      ],
-      "sourceUrls": [
-        "https://www.sevilla.org/bienal-de-flamenco"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "hay-festival-segovia-2026",
-      "title": "Hay Festival Segovia",
-      "startDate": "2026-09-10",
-      "endDate": "2026-09-13",
-      "city": "Segovia",
-      "country": "Spain",
-      "venue": "IE University, Teatro Juan Bravo and city venues",
-      "category": "literature",
-      "subcategory": "Literature & ideas",
-      "description": "Conversations with international writers and thinkers connect literature, philosophy, architecture and visual art in Segovia's historic centre. The final weekend remains on 12–13 September.",
-      "access": "Public tickets",
-      "accessNote": "Book individual events; check each session's language, venue and remaining availability.",
-      "notes": "Already underway; 12–13 September remain inside the tracker window. Main festival dates are 10–13 September 2026.",
-      "sourceUrl": "https://www.hayfestival.com/segovia/home",
-      "sourceUrls": [
-        "https://www.hayfestival.com/segovia/home",
-        "https://www.hayfestival.com/news/blog.aspx?post=1850",
-        "https://www.hayfestival.com/segovia/programme-quick-view.aspx?SectionFilterID=983&pview=0"
-      ],
-      "url": "https://www.hayfestival.com/segovia/home",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "西班牙"
-      ],
-      "researchFiles": [
-        "research-literature.json"
-      ]
-    },
-    {
-      "id": "paris-design-week-2026",
-      "title": "Paris Design Week · 巴黎设计周",
-      "city": "Paris",
-      "country": "France",
-      "category": "design",
-      "startDate": "2026-09-10",
-      "endDate": "2026-09-19",
-      "sourceUrl": "https://www.maison-objet.com/en/paris-design-week",
-      "sourceUrls": [
-        "https://www.maison-objet.com/en/paris-design-week",
-        "https://www.paris.fr/evenements/paris-design-week-de-retour-du-10-au-19-septembre-117050"
-      ],
-      "url": "https://www.maison-objet.com/en/paris-design-week",
-      "description": "巴黎全城设计周，串联展厅、画廊、工作室与博物馆。2026 年 9 月 10–19 日；新锐设计师 Factory 单元仅 10–14 日，免费但需登记。适合设计、家具、工艺与城市空间旅行。",
-      "venue": "Rive Gauche; Marais–Bastille–République; Opéra–Concorde–Étoile; Palais-Royal–Place des Victoires–Pigalle",
-      "access": "Mixed access",
-      "accessNote": "面向公众；巴黎市活动页标注免费。Factory 免费但需登记，其他场馆、特别活动的预约与入场条件逐项查看。",
-      "scheduleNote": "整体设计周至 9 月 19 日；Factory 至 9 月 14 日。下周为 9 月 14–20 日，其中 14–19 日在主活动档期内。各场馆开放时间不同；个别关联展览会延长，但不能据此延长整个设计周的日期。",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "巴黎",
-        "Paris Design Week",
-        "PDW",
-        "Factory",
-        "设计周",
-        "法国"
-      ],
-      "eu": true,
-      "schengen": true,
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "heritage-zemun-belgrade-2026",
-      "title": "Dani evropske baštine · Zemun Programme",
-      "city": "Belgrade",
-      "country": "Serbia",
-      "category": "heritage",
-      "startDate": "2026-09-11",
-      "endDate": "2026-09-29",
-      "sourceUrl": "https://www.beograd.rs/cir/beoinfo-vesti/a115612/Dani-evropske-bastine-u-Zemunu.html",
-      "url": "https://www.beograd.rs/cir/beoinfo-vesti/a115612/Dani-evropske-bastine-u-Zemunu.html",
-      "description": "贝尔格莱德 Zemun 的遗产日活动：地方图书馆、展览和历史文化分享。仅收录官方列出的场次日期。",
-      "venue": "Zemun: Sveti Sava Library, Aviation House and local cultural venues",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "塞尔维亚"
-      ],
-      "scheduleNote": "9 月 19 日 11:00 图书馆活动；24 日 19:00/19:30 展览与新书；29 日 18:30 文化活动。9 月 11 日场次在本清单起始日前，保留原始记录但不显示或导出。",
-      "dates": [
-        "2026-09-11",
-        "2026-09-19",
-        "2026-09-24",
-        "2026-09-29"
-      ],
-      "eu": false,
-      "schengen": false,
-      "sourceUrls": [
-        "https://www.beograd.rs/cir/beoinfo-vesti/a115612/Dani-evropske-bastine-u-Zemunu.html"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "open-house-oslo-2026",
-      "title": "Open House Oslo",
-      "city": "Oslo",
-      "country": "Norway",
-      "category": "heritage",
-      "startDate": "2026-09-11",
-      "endDate": "2026-09-13",
-      "sourceUrl": "https://kulturvern.no/arrangementer/open-house-oslo/",
-      "url": "https://openhouseoslo.no/",
-      "description": "奥斯陆及周边的建筑、私人住宅与导览开放。历史补录：已结束。",
-      "venue": "Oslo and nearby participating buildings; wider programme includes Lillestrøm",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "挪威"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "eu": false,
-      "schengen": true,
-      "sourceUrls": [
-        "https://kulturvern.no/arrangementer/open-house-oslo/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "heritage-cantacuzino-bucharest-2026",
-      "title": "Weekend la Palat · Heritage Days",
-      "city": "Bucharest",
-      "country": "Romania",
-      "category": "heritage",
-      "startDate": "2026-09-11",
-      "endDate": "2026-09-13",
-      "sourceUrl": "https://www.georgeenescu.ro/stiri-noutati_doc_3123_comunicat-de-presa-zilele-europene-ale-patrimoniului-2026_pg_0.htm",
-      "url": "https://www.georgeenescu.ro/stiri-noutati_doc_3123_comunicat-de-presa-zilele-europene-ale-patrimoniului-2026_pg_0.htm",
-      "description": "乔治·埃内斯库博物馆的宫殿周末：在 Cantacuzino 宫庭院结合历史、建筑、音乐与影像。历史补录：已结束。",
-      "venue": "Courtyard of Cantacuzino Palace",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "罗马尼亚"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "本条为庭院活动，不代表宫殿室内全面开放。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.georgeenescu.ro/stiri-noutati_doc_3123_comunicat-de-presa-zilele-europene-ale-patrimoniului-2026_pg_0.htm"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "celine-dion-paris",
-      "startDate": "2026-09-12",
-      "endDate": "2026-10-17",
-      "dates": [
-        "2026-09-12",
-        "2026-09-16",
-        "2026-09-18",
-        "2026-09-19",
-        "2026-09-23",
-        "2026-09-25",
-        "2026-09-26",
-        "2026-09-30",
-        "2026-10-02",
-        "2026-10-03",
-        "2026-10-07",
-        "2026-10-09",
-        "2026-10-10",
-        "2026-10-14",
-        "2026-10-16",
-        "2026-10-17"
-      ],
-      "city": "Paris",
-      "country": "France",
-      "venue": "Plenitude Arena, Nanterre (formerly Paris La Défense Arena)",
-      "category": "music",
-      "subcategory": "Pop",
-      "description": "A major stage comeback with French and English favourites. Sixteen selected concert nights; check the official sellers for availability.",
-      "sourceUrl": "https://paris.celinedion.com/",
-      "verifiedAt": "2026-09-12",
-      "title": "Céline Dion · Paris 2026",
-      "url": "https://paris.celinedion.com/",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "法国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://paris.celinedion.com/"
-      ],
-      "access": "Check official tickets",
-      "researchFiles": [
-        "research-music.json"
-      ]
-    },
-    {
-      "id": "jep-geneva-2026",
-      "title": "Journées du patrimoine et du matrimoine · Geneva",
-      "city": "Geneva",
-      "country": "Switzerland",
-      "category": "heritage",
-      "startDate": "2026-09-12",
-      "endDate": "2026-09-13",
-      "sourceUrl": "https://www.ge.ch/evenement/journees-europeennes-du-patrimoine-du-matrimoine-2026",
-      "url": "https://www.ge.ch/evenement/journees-europeennes-du-patrimoine-du-matrimoine-2026",
-      "description": "日内瓦遗产日的导览、讲座和特别开放。历史补录：已结束。",
-      "venue": "Geneva · participating venues",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "瑞士"
-      ],
-      "scheduleNote": "本条记录官方正文列出的 9 月 12–13 日公众周末；页面总活动栏另含 9 月 11 日，不把它扩作全部场馆开放日。",
-      "accessNote": "部分项目须报名。",
-      "eu": false,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.ge.ch/evenement/journees-europeennes-du-patrimoine-du-matrimoine-2026"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "heritage-kalnciema-riga-2026",
-      "title": "Kalnciema Quarter · Heritage Open Doors",
-      "city": "Riga",
-      "country": "Latvia",
-      "category": "heritage",
-      "startDate": "2026-09-12",
-      "endDate": "2026-09-12",
-      "sourceUrl": "https://www.nkmp.gov.lv/lv/eiropas-kulturas-mantojuma-dienas-2026",
-      "url": "https://www.nkmp.gov.lv/lv/eiropas-kulturas-mantojuma-dienas-2026",
-      "description": "里加木建筑街区遗产日：进入修复后的 19 世纪木屋，结合农夫与手工艺市集。历史补录：已结束。",
-      "venue": "Kalnciema Quarter, Kalnciema iela 35",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "拉脱维亚"
-      ],
-      "scheduleNote": "9 月 12 日市场及活动 10:00–16:00；建筑导览 11:00、12:00、13:00。",
-      "accessNote": "导览免费，无需报名。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.nkmp.gov.lv/lv/eiropas-kulturas-mantojuma-dienas-2026"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "london-design-festival-2026",
-      "title": "London Design Festival",
-      "startDate": "2026-09-12",
-      "endDate": "2026-09-20",
-      "city": "London",
-      "country": "United Kingdom",
-      "venue": "Design districts and venues across London",
-      "category": "design",
-      "description": "A citywide week of installations, exhibitions, open studios and design conversations. Explore the programme by neighbourhood and discipline.",
-      "access": "Mixed access",
-      "sourceUrl": "https://londondesignfestival.com/programme",
-      "url": "https://londondesignfestival.com/programme",
-      "verifiedAt": "2026-09-12",
-      "eu": false,
-      "schengen": false,
-      "tags": [
-        "英国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://londondesignfestival.com/programme"
-      ],
-      "accessNote": "Access and booking vary by individual event.",
-      "researchFiles": [
-        "research-culture.json"
-      ]
-    },
-    {
-      "id": "moon-celebration-week-2026",
-      "title": "Moon Celebration Week",
-      "category": "astronomy",
-      "subcategory": "Astronomy, science & creativity",
-      "startDate": "2026-09-12",
-      "endDate": "2026-09-20",
-      "city": "London",
-      "country": "United Kingdom",
-      "venue": "Royal Observatory Greenwich, National Maritime Museum and partner venues",
-      "description": "Lunar talks, tours, workshops and an astrophotography evening connect space science with art and the history of Moon mapping.",
-      "access": "Mixed access",
-      "accessNote": "Some activities are free; tours and evening events have separate tickets. Check individual dates, age guidance and booking requirements.",
-      "notes": "The programme runs 12–20 September; individual activities do not run every day.",
-      "sourceUrl": "https://www.rmg.co.uk/whats-on/national-maritime-museum-royal-observatory/moon-celebration-week",
-      "url": "https://www.rmg.co.uk/whats-on/national-maritime-museum-royal-observatory/moon-celebration-week",
-      "verifiedAt": "2026-09-12",
-      "eu": false,
-      "schengen": false,
-      "tags": [
-        "英国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.rmg.co.uk/whats-on/national-maritime-museum-royal-observatory/moon-celebration-week"
-      ],
-      "researchFiles": [
-        "research-astronomy.json"
-      ]
-    },
-    {
-      "id": "open-house-london-2026",
-      "title": "Open House Festival · London",
-      "city": "London",
-      "country": "United Kingdom",
-      "category": "heritage",
-      "startDate": "2026-09-12",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://programme.openhouse.org.uk/calendar",
-      "url": "https://programme.openhouse.org.uk/calendar",
-      "description": "伦敦建筑开放节：参观私人住宅、公共建筑和创作场所的幕后空间。",
-      "venue": "London · participating venues",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "英国"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "各建筑只在指定日期与时段开放；部分导览须提前预约或抽签。",
-      "eu": false,
-      "schengen": false,
-      "sourceUrls": [
-        "https://programme.openhouse.org.uk/calendar"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "monument-amsterdam-2026",
-      "title": "Open Monumentendag · Amsterdam",
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "category": "heritage",
-      "startDate": "2026-09-12",
-      "endDate": "2026-09-13",
-      "sourceUrl": "https://www.amsterdam.nl/en/news/heritage-days/",
-      "url": "https://www.amsterdam.nl/en/news/heritage-days/",
-      "description": "阿姆斯特丹古迹开放日：运河宅邸、酒店与历史建筑开放，另有周六晚间节目。历史补录：已结束。",
-      "venue": "Amsterdam · participating venues",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "荷兰"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "免费；特殊参观的排队、时段及预约看本地节目。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.amsterdam.nl/en/news/heritage-days/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "denkmal-berlin-2026",
-      "title": "Tag des offenen Denkmals · Berlin",
-      "city": "Berlin",
-      "country": "Germany",
-      "category": "heritage",
-      "startDate": "2026-09-12",
-      "endDate": "2026-09-13",
-      "sourceUrl": "https://www.berlin.de/landesdenkmalamt/aktivitaeten/presse/2026/pressemitteilung.1697825.php",
-      "url": "https://denkmaltag.berlin.de/suche",
-      "description": "柏林古迹开放周末：基础设施、历史建筑、导览与演出。历史补录：已于 9 月 13 日结束。",
-      "venue": "Berlin · participating venues",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "德国"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "按具体场馆确认入场及预约；柏林本地活动为两天，不能只套用全国 9 月 13 日。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.berlin.de/landesdenkmalamt/aktivitaeten/presse/2026/pressemitteilung.1697825.php"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "nicosia-united-street-2026",
-      "title": "United Street Festival",
-      "city": "Nicosia",
-      "country": "Cyprus",
-      "category": "festival",
-      "startDate": "2026-09-12",
-      "endDate": "2026-09-13",
-      "sourceUrl": "https://www.visitcyprus.com/de/event/united-street-festival-12-13-9-2026/",
-      "url": "https://www.visitcyprus.com/de/event/united-street-festival-12-13-9-2026/",
-      "description": "尼科西亚音乐、设计与街头美食周末，当地城市体验；每晚节目不同。",
-      "venue": "Eleftheria Square",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": false,
-      "tags": [
-        "塞浦路斯"
-      ],
-      "sourceUrls": [
-        "https://www.visitcyprus.com/de/event/united-street-festival-12-13-9-2026/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "cine-cool-strasbourg-2026",
-      "title": "Ciné Cool · Strasbourg",
-      "city": "Strasbourg",
-      "country": "France",
-      "category": "film",
-      "startDate": "2026-09-16",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://www.cine-cool.com/le-principe-de-cine-cool/",
-      "url": "https://www.cine-cool.com/le-principe-de-cine-cool/",
-      "description": "参与影院的优惠电影周与提前放映；Strasbourg 的 Star、Vox 等影院有本地节目。",
-      "venue": "Participating Strasbourg cinemas, including Star and Vox",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "cinema",
-        "电影",
-        "优惠",
-        "斯特拉斯堡",
-        "法国"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "优惠票价 5 欧元；3D、特别场次及活动可能另有附加费或例外，按影院场次确认。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.cine-cool.com/le-principe-de-cine-cool/",
-        "https://culture.strasbourg.eu/",
-        "https://www.cinema-star.com/star/films-a-l-affiche/1000",
-        "https://www.cine-vox.com/evenements/78093-cinecool-2026/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "oldenburg-film-2026",
-      "title": "Oldenburg International Film Festival",
-      "city": "Oldenburg",
-      "country": "Germany",
-      "category": "film",
-      "startDate": "2026-09-16",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://www.filmfest-oldenburg.de/en/industry/film-entry/",
-      "url": "https://www.filmfest-oldenburg.de/",
-      "description": "独立电影主题国际电影节；适合安排连续数日观影，按具体场次确认票务。",
-      "venue": "Oldenburg cinemas and festival venues",
-      "access": "Check official tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "奥尔登堡",
-        "德国"
-      ],
-      "scheduleNote": "Published festival window, not a promise of daily performances or opening at every venue. Confirm individual sessions, opening days, registration, language and subtitles with the organiser.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.filmfest-oldenburg.de/en/industry/film-entry/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "reeperbahn-festival",
-      "startDate": "2026-09-16",
-      "endDate": "2026-09-19",
-      "city": "Hamburg",
-      "country": "Germany",
-      "venue": "Clubs and venues around St. Pauli",
-      "category": "music",
-      "subcategory": "Festival",
-      "description": "Four days of emerging artists and club discoveries across Hamburg's St. Pauli neighbourhood.",
-      "sourceUrl": "https://www.hamburg.de/kultur/festival/reeperbahn-festival-402628",
-      "verifiedAt": "2026-09-12",
-      "title": "Reeperbahn Festival",
-      "url": "https://www.reeperbahnfestival.com/",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "德国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.hamburg.de/kultur/festival/reeperbahn-festival-402628"
-      ],
-      "access": "Check official tickets",
-      "researchFiles": [
-        "research-music.json"
-      ]
-    },
-    {
-      "id": "helsinki-film-2026",
-      "title": "Helsinki International Film Festival · Love & Anarchy",
-      "city": "Helsinki",
-      "country": "Finland",
-      "category": "film",
-      "startDate": "2026-09-17",
-      "endDate": "2026-09-27",
-      "sourceUrl": "https://hiff.fi/",
-      "url": "https://hiff.fi/",
-      "description": "赫尔辛基国际电影节，适合电影爱好者安排秋季北欧城市旅行。",
-      "venue": "Helsinki cinemas",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "芬兰"
-      ],
-      "sourceUrls": [
-        "https://hiff.fi/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "london-fashion-week-ss27",
-      "title": "London Fashion Week · SS27",
-      "startDate": "2026-09-17",
-      "endDate": "2026-09-21",
-      "city": "London",
-      "country": "United Kingdom",
-      "venue": "Designer venues across London",
-      "category": "fashion",
-      "description": "British fashion's spring/summer showcase. Runway events are mainly invitation only; the official schedule also identifies public showcases and pop-ups.",
-      "access": "Mixed access",
-      "sourceUrl": "https://londonfashionweek.co.uk/schedule",
-      "url": "https://londonfashionweek.co.uk/schedule",
-      "verifiedAt": "2026-09-12",
-      "eu": false,
-      "schengen": false,
-      "tags": [
-        "英国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://londonfashionweek.co.uk/schedule"
-      ],
-      "accessNote": "Industry access for most shows; selected events marked OPEN TO PUBLIC.",
-      "researchFiles": [
-        "research-culture.json"
-      ]
-    },
-    {
-      "id": "culture-night-dublin-2026",
-      "title": "Culture Night · Dublin",
-      "city": "Dublin",
-      "country": "Ireland",
-      "category": "heritage",
-      "startDate": "2026-09-18",
-      "endDate": "2026-09-18",
-      "sourceUrl": "https://culturenight.ie/culture-night-2026-press-release/",
-      "url": "https://culturenight.ie/country/dublin/",
-      "description": "都柏林文化夜：文化场馆延时开放、音乐和创作体验。历史补录：活动夜为 9 月 18 日，部分晚场跨过午夜。",
-      "venue": "Dublin · participating venues",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "culture night",
-        "museum night",
-        "文化夜",
-        "博物馆之夜",
-        "开放日",
-        "爱尔兰"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "活动免费，部分须预约。",
-      "eu": true,
-      "schengen": false,
-      "sourceUrls": [
-        "https://culturenight.ie/culture-night-2026-press-release/",
-        "https://culturenight.ie/country/dublin/page/7/",
-        "https://culturenight.ie/late-night-events-2/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "biblideales-strasbourg-2026",
-      "title": "Les Bibliothèques Idéales",
-      "city": "Strasbourg",
-      "country": "France",
-      "category": "literature",
-      "startDate": "2026-09-18",
-      "endDate": "2026-10-04",
-      "sourceUrl": "https://biblideales.fr/",
-      "url": "https://biblideales.fr/",
-      "description": "文学、思想对谈、朗读和音乐活动；主要活动语言为法语，部分音乐会需预约或购票。",
-      "venue": "European Parliament, Saint-Guillaume, libraries and bookshops in Strasbourg",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "斯特拉斯堡",
-        "法国"
-      ],
-      "scheduleNote": "Published festival/event window. Check individual session dates, venue opening days, language, subtitles and booking requirements before choosing travel dates.",
-      "sourceUrls": [
-        "https://biblideales.fr/",
-        "https://www.strasbourg.eu/evenement/-/entity/id/599230702/bibliotheques-ideales-2026"
-      ],
-      "eu": true,
-      "schengen": true,
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "motogp-austria-2026",
-      "startDate": "2026-09-18",
-      "endDate": "2026-09-20",
-      "city": "Spielberg",
-      "country": "Austria",
-      "venue": "Red Bull Ring",
-      "category": "sport",
-      "description": "A full MotoGP weekend at Austria’s Red Bull Ring.",
-      "url": "https://motogppremier.motogp.com/2026-motogp-austria",
-      "sourceUrl": "https://motogppremier.motogp.com/2026-motogp-austria",
-      "notes": "Friday–Sunday event weekend; grand prix race September 20.",
-      "status": "confirmed",
-      "verifiedAt": "2026-09-12",
-      "title": "MotoGP Austrian Grand Prix",
-      "access": "Check official tickets",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "奥地利"
-      ],
-      "sourceUrls": [
-        "https://motogppremier.motogp.com/2026-motogp-austria"
-      ],
-      "researchFiles": [
-        "research-sports.json"
-      ]
-    },
-    {
-      "id": "musica-strasbourg-2026",
-      "title": "Musica · Contemporary Music Festival",
-      "city": "Strasbourg",
-      "country": "France",
-      "category": "music",
-      "startDate": "2026-09-18",
-      "endDate": "2026-10-04",
-      "sourceUrl": "https://culture.strasbourg.eu/sortir/musica/",
-      "url": "https://culture.strasbourg.eu/sortir/musica/",
-      "description": "当代音乐与跨媒介舞台创作，可与同档期的奇幻电影节组合。",
-      "venue": "Strasbourg concert and theatre venues",
-      "access": "Check official tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "斯特拉斯堡",
-        "法国"
-      ],
-      "scheduleNote": "Published festival/event window. Check individual session dates, venue opening days, language, subtitles and booking requirements before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://culture.strasbourg.eu/sortir/musica/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "san-sebastian-film-festival-2026",
-      "title": "San Sebastián Film Festival",
-      "startDate": "2026-09-18",
-      "endDate": "2026-09-26",
-      "city": "San Sebastián",
-      "country": "Spain",
-      "venue": "Kursaal, Victoria Eugenia and city cinemas",
-      "category": "film",
-      "description": "The festival's 74th edition pairs international premieres, competitions and filmmaker appearances with a coastal Basque city break.",
-      "access": "Public tickets",
-      "sourceUrl": "https://www.sansebastianfestival.com/programacion",
-      "url": "https://www.sansebastianfestival.com/programacion",
-      "verifiedAt": "2026-09-12",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "西班牙"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.sansebastianfestival.com/programacion"
-      ],
-      "accessNote": "Screening tickets; check each session's access and language information.",
-      "researchFiles": [
-        "research-culture.json"
-      ]
-    },
-    {
-      "id": "bigbang-paris",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-19",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Stade de France, Saint-Denis",
-      "category": "music",
-      "subcategory": "K-pop",
-      "description": "BIGBANG's 20th-anniversary world tour reaches the Stade de France. One of two announced European tour stops.",
-      "sourceUrl": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
-      "verifiedAt": "2026-09-12",
-      "title": "BIGBANG · XX : COSMOS",
-      "url": "https://www.aegpresents.fr/event/bigbang/",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "法国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
-      ],
-      "access": "Check official tickets",
-      "researchFiles": [
-        "research-music.json"
-      ]
-    },
-    {
-      "id": "museumsnacht-dortmund-2026",
-      "title": "DEW21 Dortmund Museum Night",
-      "city": "Dortmund",
-      "country": "Germany",
-      "category": "art",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-19",
-      "sourceUrl": "https://www.dortmund.de/themen/freizeit-und-kultur/museen-und-kunst/dortmunder-dew21-museumsnacht/alle-veranstaltungen/",
-      "url": "https://www.dortmund.de/themen/freizeit-und-kultur/museen-und-kunst/dortmunder-dew21-museumsnacht/alle-veranstaltungen/",
-      "description": "全城博物馆与文化场馆联动的夜间活动，可关注 Dortmunder U 的媒体艺术与外墙映射节目。",
-      "venue": "Participating Dortmund museums and cultural venues",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "多特蒙德",
-        "德国"
-      ],
-      "scheduleNote": "Published festival window, not a promise of daily performances or opening at every venue. Confirm individual sessions, opening days, registration, language and subtitles with the organiser.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.dortmund.de/themen/freizeit-und-kultur/museen-und-kunst/dortmunder-dew21-museumsnacht/alle-veranstaltungen/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "harbour-front-2026",
-      "title": "Harbour Front Literature Festival",
-      "city": "Hamburg",
-      "country": "Germany",
-      "category": "literature",
-      "startDate": "2026-09-19",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://harbourfront-hamburg.com/",
-      "url": "https://harbourfront-hamburg.com/",
-      "description": "港口城市文学节，多场作家朗读与对谈；按语言、作者及具体场次选票。",
-      "venue": "Hamburg literary and theatre venues",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "汉堡",
-        "德国"
-      ],
-      "scheduleNote": "Published festival window, not a promise of daily performances or opening at every venue. Confirm individual sessions, opening days, registration, language and subtitles with the organiser.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://harbourfront-hamburg.com/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "heritage-brussels-2026",
-      "title": "Heritage Days · Brussels",
-      "city": "Brussels",
-      "country": "Belgium",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://heritagedays.urban.brussels/fr/",
-      "url": "https://heritagedays.urban.brussels/fr/",
-      "description": "布鲁塞尔遗产日开放通常难以进入的空间，以城市景观为主题。",
-      "venue": "Brussels · participating venues",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "比利时"
-      ],
-      "scheduleNote": "9 月 19–20 日；周日同时为无车日，市内参观应另查交通安排。",
-      "accessNote": "部分参观须预订；官方预约自 9 月 8 日 13:00 开放，不保证仍有名额。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://heritagedays.urban.brussels/fr/",
-        "https://urban.brussels/en/events/heritage-days-2026"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "jep-hotel-ville-strasbourg-2026",
-      "title": "Hôtel de Ville · Heritage Days Visits",
-      "city": "Strasbourg",
-      "country": "France",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://my.weezevent.com/jep-2026-visite-de-lhotel-de-ville",
-      "url": "https://my.weezevent.com/jep-2026-visite-de-lhotel-de-ville",
-      "description": "遗产日重点场次：参观 Strasbourg 市政厅历史室内空间。周六上午自由参观；导览及周日儿童场须预订。属于 Strasbourg 欧洲遗产日。",
-      "venue": "Hôtel de Ville, 9 rue Brûlée",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "法国"
-      ],
-      "scheduleNote": "周六 10:00–12:00 自由参观；两天下午导览 14:00、15:30、16:45；周日儿童导览 10:00、11:00，须成人陪同。以页面详细节目为准，页面顶部总时段未包含周六上午。",
-      "accessNote": "导览必须预约，名额有限；预约页不代表还有余位。",
-      "parentEventId": "jep-strasbourg-2026",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://my.weezevent.com/jep-2026-visite-de-lhotel-de-ville"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "jep-bordeaux-2026",
-      "title": "Journées du patrimoine et du matrimoine · Bordeaux",
-      "city": "Bordeaux",
-      "country": "France",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://www.bordeaux-tourisme.com/evenements/journees-europeennes-du-patrimoine-du-matrimoine-bordeaux.html",
-      "url": "https://www.bordeaux-tourisme.com/evenements/journees-europeennes-du-patrimoine-du-matrimoine-bordeaux.html",
-      "description": "波尔多遗产与女性文化遗产周末：特别开放与主题导览，可结合老城步行参观。",
-      "venue": "Bordeaux · participating venues",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "法国"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.bordeaux-tourisme.com/evenements/journees-europeennes-du-patrimoine-du-matrimoine-bordeaux.html"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "jep-lyon-2026",
-      "title": "Journées européennes du patrimoine · Lyon",
-      "city": "Lyon",
-      "country": "France",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://www.lyon.fr/evenement/festival/journees-europeennes-du-patrimoine",
-      "url": "https://www.lyon.fr/evenement/festival/journees-europeennes-du-patrimoine",
-      "description": "里昂遗产日：市政厅、博物馆、档案馆与城市自然遗产活动。",
-      "venue": "Hôtel de Ville and participating Lyon venues",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "法国"
-      ],
-      "scheduleNote": "全市活动 9 月 19–20 日；市政厅两天均 10:00–18:00，由 Place des Terreaux 进入。其他场馆各有时段。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.lyon.fr/evenement/festival/journees-europeennes-du-patrimoine"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "jep-paris-2026",
-      "title": "Journées européennes du patrimoine · Paris",
-      "city": "Paris",
-      "country": "France",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://parisjetaime.com/eng/article/european-heritage-days-a1029",
-      "url": "https://parisjetaime.com/eng/article/european-heritage-days-a1029",
-      "description": "巴黎及周边的历史建筑与机构特别开放，包含平时难以进入的室内空间。",
-      "venue": "Participating Paris and Île-de-France heritage sites",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "法国"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "许多项目免费，但部分须预约或有资格限制。不同机构入场规则以各自官网为准。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://parisjetaime.com/eng/article/european-heritage-days-a1029"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "jep-strasbourg-2026",
-      "title": "Journées européennes du patrimoine · Strasbourg",
-      "city": "Strasbourg",
-      "country": "France",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://5elieu.strasbourg.eu/2026/08/journees-europeennes-du-patrimoine-rdv-le-19-et-20-septembre/",
-      "url": "https://5elieu.strasbourg.eu/2026/08/journees-europeennes-du-patrimoine-rdv-le-19-et-20-septembre/",
-      "description": "欧洲遗产日：特别开放历史建筑、修复工坊及文化场所。此条是全市节目入口；莱茵宫、市政厅和圣母院工坊另有重点场次条目，属于同一活动。",
-      "venue": "Strasbourg and Eurométropole; information stand at Place du Château",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "European Heritage Days",
-        "JEP",
-        "patrimoine",
-        "遗产日",
-        "欧洲遗产日",
-        "世界遗产日",
-        "开放日",
-        "建筑",
-        "斯特拉斯堡",
-        "法国"
-      ],
-      "scheduleNote": "9 月 19–20 日；Place du Château 咨询点两天均为 10:00–18:00。各场馆时段不同。",
-      "accessNote": "各场馆免费、预约及容量要求不同；凡注明 inscription 的项目须预约。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://5elieu.strasbourg.eu/2026/08/journees-europeennes-du-patrimoine-rdv-le-19-et-20-septembre/",
-        "https://culture.strasbourg.eu/actualites/les-journees-europeennes-du-patrimoine/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "heritage-budapest-2026",
-      "title": "Kulturális Örökség Napjai · Budapest",
-      "city": "Budapest",
-      "country": "Hungary",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://oroksegnapok.gov.hu/",
-      "url": "https://oroksegnapok.gov.hu/",
-      "description": "布达佩斯欧洲遗产日：历史建筑、机构与城市漫步。国家节目可按地点选择本地活动。",
-      "venue": "Participating Budapest venues, including Millennium Háza",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "匈牙利"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "标明 regisztráció 的项目须报名；其他入场规则仍需按场馆核对。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://oroksegnapok.gov.hu/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "jep-oeuvre-notre-dame-strasbourg-2026",
-      "title": "Œuvre Notre-Dame · Cathedral Workshop Open Doors",
-      "city": "Strasbourg",
-      "country": "France",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://www.oeuvre-notre-dame.org/blog/fondation-oeuvre-notre-dame-800-ans/",
-      "url": "https://www.oeuvre-notre-dame.org/blog/fondation-oeuvre-notre-dame-800-ans/",
-      "description": "遗产日重点场次：走进圣母院修复工坊，了解大教堂的维护与修复；也是基金会 800 周年活动之一。属于 Strasbourg 欧洲遗产日。",
-      "venue": "Ateliers de la Fondation de l’Œuvre Notre-Dame, 6 rue des Cordiers; entrance rue Rohan",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "法国"
-      ],
-      "scheduleNote": "9 月 19、20 日均为 10:00–17:00；入口在 rue Rohan。",
-      "parentEventId": "jep-strasbourg-2026",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.oeuvre-notre-dame.org/blog/fondation-oeuvre-notre-dame-800-ans/",
-        "https://www.amis-cathedrale-strasbourg.eu/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "oktoberfest-2026",
-      "title": "Oktoberfest",
-      "startDate": "2026-09-19",
-      "endDate": "2026-10-04",
-      "city": "Munich",
-      "country": "Germany",
-      "venue": "Theresienwiese",
-      "category": "festival",
-      "description": "Munich's enormous Bavarian folk festival: beer tents, brass bands, traditional food, parades and fairground rides.",
-      "access": "Free entry",
-      "sourceUrl": "https://www.oktoberfest.de/en",
-      "url": "https://www.oktoberfest.de/en/information/service-for-visitors/faqs-for-wiesn-visitors",
-      "verifiedAt": "2026-09-12",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "德国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.oktoberfest.de/en"
-      ],
-      "accessNote": "Main grounds and tents have free admission; food, rides and some areas cost extra. Tent capacity is limited.",
-      "researchFiles": [
-        "research-culture.json"
-      ]
-    },
-    {
-      "id": "jep-palais-rhin-strasbourg-2026",
-      "title": "Palais du Rhin · Heritage Days Open Doors",
-      "city": "Strasbourg",
-      "country": "France",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://journeesdupatrimoine.culture.gouv.fr/w/391796/evenement/20485520/ouverture-exceptionnelle-du-palais-du-rhin-ancien-palais-imperial",
-      "url": "https://journeesdupatrimoine.culture.gouv.fr/w/391796/evenement/20485520/ouverture-exceptionnelle-du-palais-du-rhin-ancien-palais-imperial",
-      "description": "遗产日重点场次：莱茵宫（原帝国皇宫）特别开放，可自由参观。属于 Strasbourg 欧洲遗产日。",
-      "venue": "Palais du Rhin, 2 place de la République",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "法国"
-      ],
-      "scheduleNote": "9 月 19 日 13:30–17:00；9 月 20 日 14:00–18:00。",
-      "accessNote": "免费，无需预约（sans réservation）。",
-      "parentEventId": "jep-strasbourg-2026",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://journeesdupatrimoine.culture.gouv.fr/w/391796/evenement/20485520/ouverture-exceptionnelle-du-palais-du-rhin-ancien-palais-imperial"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "jep-sao-roque-lisbon-2026",
-      "title": "São Roque · European Heritage Days",
-      "city": "Lisbon",
-      "country": "Portugal",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-20",
-      "sourceUrl": "https://scml.pt/comunicacao/agenda/jornadas-europeias-do-patrimonio/",
-      "url": "https://scml.pt/comunicacao/agenda/jornadas-europeias-do-patrimonio/",
-      "description": "圣洛克教堂与博物馆的遗产日导览和交流活动，围绕馆藏的保存与失落展开。",
-      "venue": "Igreja e Museu de São Roque",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "葡萄牙"
-      ],
-      "scheduleNote": "仅记录此场馆 9 月 19–20 日的活动，不将葡萄牙全国较长活动期当成它的开放日。",
-      "accessNote": "免费，须事先预约，名额有限；官方电话及邮箱见活动页。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://scml.pt/comunicacao/agenda/jornadas-europeias-do-patrimonio/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "heritage-snipiskes-vilnius-2026",
-      "title": "Šnipiškės · European Heritage Days",
-      "city": "Vilnius",
-      "country": "Lithuania",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-19",
-      "sourceUrl": "https://vilniausmuziejus.lt/renginys/europos-paveldo-dienos-snipiskese-amatai/",
-      "url": "https://vilniausmuziejus.lt/renginys/europos-paveldo-dienos-snipiskese-amatai/",
-      "description": "维尔纽斯 Šnipiškės 木屋街区的居民开放与传统、当代手工艺活动。",
-      "venue": "Šnipiškės neighbourhood, including S. Fino and Giedraičių streets",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "立陶宛"
-      ],
-      "scheduleNote": "仅 9 月 19 日；活动分布不同地点和时段，以博物馆节目为准。不要将页面底部博物馆常规地址当作全部活动集合点。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://vilniausmuziejus.lt/renginys/europos-paveldo-dienos-snipiskese-amatai/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "heritage-szucha-warsaw-2026",
-      "title": "Szucha 25 · European Heritage Days Walk",
-      "city": "Warsaw",
-      "country": "Poland",
-      "category": "heritage",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-19",
-      "sourceUrl": "https://mauzoleum-szucha.muzn.pl/pl/news/spacer-historyczny-szucha-25-odzyskany-symbol-panstwowosci-19-wrzesnia-2026-o-g-10-00/",
-      "url": "https://mauzoleum-szucha.muzn.pl/pl/news/spacer-historyczny-szucha-25-odzyskany-symbol-panstwowosci-19-wrzesnia-2026-o-g-10-00/",
-      "description": "华沙遗产日特别参观：教育部历史建筑与斗争及殉难纪念馆，了解建筑与波兰近现代史。",
-      "venue": "Ministry of Education and Mausoleum of Struggle and Martyrdom, al. Szucha 25",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "波兰"
-      ],
-      "scheduleNote": "9 月 19 日 10:00 教育部建筑参观，11:00 纪念馆导览；按主办方说明确认参加要求。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://mauzoleum-szucha.muzn.pl/pl/news/spacer-historyczny-szucha-25-odzyskany-symbol-panstwowosci-19-wrzesnia-2026-o-g-10-00/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "tirana-film-2026",
-      "title": "Tirana International Film Festival",
-      "city": "Tirana",
-      "country": "Albania",
-      "category": "film",
-      "startDate": "2026-09-21",
-      "endDate": "2026-09-27",
-      "sourceUrl": "https://tiranafilmfest.org/news-of-the-24th-edition-tirana-international-film-festival-2026/",
-      "url": "https://tiranafilmfest.org/news-of-the-24th-edition-tirana-international-film-festival-2026/",
-      "description": "地拉那国际电影节，影片与活动准入需查本届公众票务或注册说明。",
-      "venue": "Tirana festival cinemas",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": false,
-      "schengen": false,
-      "tags": [
-        "阿尔巴尼亚"
-      ],
-      "sourceUrls": [
-        "https://tiranafilmfest.org/news-of-the-24th-edition-tirana-international-film-festival-2026/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "milan-fashion-week-ss27",
-      "title": "Milan Fashion Week · SS27",
-      "startDate": "2026-09-22",
-      "endDate": "2026-09-28",
-      "city": "Milan",
-      "country": "Italy",
-      "venue": "Designer venues across Milan",
-      "category": "fashion",
-      "description": "The womenswear spring/summer season across Milan. Treat this as an industry calendar; confirm individual event access before planning a visit.",
-      "access": "Industry / invitation",
-      "sourceUrl": "https://www.cameramoda.it/it/",
-      "url": "https://www.cameramoda.it/it/",
-      "verifiedAt": "2026-09-12",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "意大利"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.cameramoda.it/it/",
-        "https://www.cameramoda.it/it/area-stampa/stampa-accrediti/"
-      ],
-      "accessNote": "Industry accreditation and individual invitations; public show admission is not guaranteed.",
-      "researchFiles": [
-        "research-culture.json"
-      ]
-    },
-    {
-      "id": "la-merce-2026",
-      "title": "La Mercè · Barcelona City Festival",
-      "city": "Barcelona",
-      "country": "Spain",
-      "category": "festival",
-      "startDate": "2026-09-23",
-      "endDate": "2026-09-27",
-      "sourceUrl": "https://portolimpic.barcelona/es/merce",
-      "url": "https://portolimpic.barcelona/es/merce",
-      "description": "巴塞罗那年度城市节庆，可按节目选择街头文化、音乐和家庭活动。",
-      "venue": "Citywide; Port Olímpic and other venues",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "西班牙"
-      ],
-      "sourceUrls": [
-        "https://portolimpic.barcelona/es/merce"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "sirenos-2026",
-      "title": "Sirenos · International Theatre Festival",
-      "city": "Vilnius",
-      "country": "Lithuania",
-      "category": "festival",
-      "startDate": "2026-09-23",
-      "endDate": "2026-10-10",
-      "sourceUrl": "https://www.govilnius.lt/visit-vilnius/latest-tips/vilniuss-biggest-events",
-      "url": "https://www.govilnius.lt/visit-vilnius/latest-tips/vilniuss-biggest-events",
-      "description": "维尔纽斯国际戏剧节；订票前确认演出语言和字幕。",
-      "venue": "Vilnius theatres",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "立陶宛"
-      ],
-      "sourceUrls": [
-        "https://www.govilnius.lt/visit-vilnius/latest-tips/vilniuss-biggest-events"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "aarhus-folk-2026",
-      "title": "Aarhus Folk Festival",
-      "city": "Aarhus",
-      "country": "Denmark",
-      "category": "music",
-      "startDate": "2026-09-24",
-      "endDate": "2026-09-27",
-      "sourceUrl": "https://www.aarhusfolkfestival.dk/",
-      "url": "https://www.aarhusfolkfestival.dk/",
-      "description": "奥胡斯民间音乐节，含音乐会、舞蹈与工作坊，适合北欧民谣爱好者。",
-      "venue": "Aarhus music venues",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "丹麦"
-      ],
-      "sourceUrls": [
-        "https://www.aarhusfolkfestival.dk/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "elvelangs-oslo-2026",
-      "title": "Elvelangs i fakkellys",
-      "city": "Oslo",
-      "country": "Norway",
-      "category": "festival",
-      "startDate": "2026-09-24",
-      "endDate": "2026-09-24",
-      "sourceUrl": "https://www.visitoslo.com/no/hva-skjer/arlige-hoydepunkter",
-      "url": "https://www.visitoslo.com/no/hva-skjer/arlige-hoydepunkter",
-      "description": "奥斯陆阿克斯河火炬夜游，适合步行欣赏沿河艺术与表演。",
-      "venue": "Akerselva river",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "eu": false,
-      "schengen": true,
-      "tags": [
-        "挪威"
-      ],
-      "sourceUrls": [
-        "https://www.visitoslo.com/no/hva-skjer/arlige-hoydepunkter"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "filmfest-hamburg-2026",
-      "title": "FilmFest Hamburg",
-      "city": "Hamburg",
-      "country": "Germany",
-      "category": "film",
-      "startDate": "2026-09-24",
-      "endDate": "2026-10-03",
-      "sourceUrl": "https://www.filmfesthamburg.de/?date=2026-09-25",
-      "url": "https://www.filmfesthamburg.de/?date=2026-09-25",
-      "description": "汉堡电影节，便于结合港区和音乐场所的城市行程。",
-      "venue": "Hamburg cinemas",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "德国"
-      ],
-      "sourceUrls": [
-        "https://www.filmfesthamburg.de/?date=2026-09-25"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "gothenburg-book-fair-2026",
-      "title": "Gothenburg Book Fair",
-      "startDate": "2026-09-24",
-      "endDate": "2026-09-27",
-      "city": "Gothenburg",
-      "country": "Sweden",
-      "venue": "Swedish Exhibition & Congress Centre, Mässans gata 10",
-      "category": "literature",
-      "subcategory": "Book fair & gaming",
-      "description": "A major Nordic gathering for books and ideas, with 2026 themes spanning popular adult education and games. Author encounters range from crime fiction to fantasy and international literature.",
-      "access": "Public tickets",
-      "accessNote": "Admission tickets cover the exhibition. Seminar passes and special-event tickets are sold separately; choose the ticket for the sessions you want.",
-      "sourceUrl": "https://goteborg-bookfair.com/",
-      "sourceUrls": [
-        "https://goteborg-bookfair.com/",
-        "https://goteborg-bookfair.com/home/shop/",
-        "https://goteborg-bookfair.com/home/plan-your-visit/opening-hours/"
-      ],
-      "url": "https://goteborg-bookfair.com/home/shop/",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "瑞典"
-      ],
-      "researchFiles": [
-        "research-literature.json"
-      ]
-    },
-    {
-      "id": "lucas-frankfurt-2026",
-      "title": "LUCAS · International Festival for Young Film Lovers",
-      "city": "Frankfurt",
-      "country": "Germany",
-      "category": "film",
-      "startDate": "2026-09-24",
-      "endDate": "2026-10-01",
-      "sourceUrl": "https://www.dff.film/kino/kinoprogramm/filmreihen-specials-september-2026/49-lucas-filmfestival/",
-      "url": "https://www.dff.film/kino/kinoprogramm/filmreihen-specials-september-2026/49-lucas-filmfestival/",
-      "description": "面向儿童、青少年及年轻观众的国际电影节，主会场在 DFF；其他莱茵美因城市也有场次。",
-      "venue": "DFF cinema, Cinéma and CineStar Metropolis; wider regional venues",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "法兰克福",
-        "德国"
-      ],
-      "scheduleNote": "Check the official daily programme, individual sessions and ticket or registration requirements before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.dff.film/kino/kinoprogramm/filmreihen-specials-september-2026/49-lucas-filmfestival/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "riff-2026",
-      "title": "Reykjavík International Film Festival",
-      "city": "Reykjavík",
-      "country": "Iceland",
-      "category": "film",
-      "startDate": "2026-09-24",
-      "endDate": "2026-10-04",
-      "sourceUrl": "https://riff.is/en/product/gjafahatidarpassi-2/",
-      "url": "https://riff.is/en/product/gjafahatidarpassi-2/",
-      "description": "雷克雅未克国际电影节，可把观影穿插于冰岛行程；特殊放映单独订票。",
-      "venue": "Reykjavík festival venues",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": false,
-      "schengen": true,
-      "tags": [
-        "冰岛"
-      ],
-      "sourceUrls": [
-        "https://riff.is/en/product/gjafahatidarpassi-2/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "zurich-film-2026",
-      "title": "Zurich Film Festival",
-      "city": "Zurich",
-      "country": "Switzerland",
-      "category": "film",
-      "startDate": "2026-09-24",
-      "endDate": "2026-10-04",
-      "sourceUrl": "https://zff.com/de/programm-tickets/zff-auf-einen-blick",
-      "url": "https://zff.com/de/programm-tickets/zff-auf-einen-blick",
-      "description": "苏黎世电影节，可与湖边城市旅行搭配；公众电影票不等于首映礼嘉宾资格。",
-      "venue": "Zurich cinemas and festival centre",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": false,
-      "schengen": true,
-      "tags": [
-        "瑞士"
-      ],
-      "sourceUrls": [
-        "https://zff.com/de/programm-tickets/zff-auf-einen-blick"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "backstreet-boys-dusseldorf",
-      "startDate": "2026-09-25",
-      "endDate": "2026-10-07",
-      "dates": [
-        "2026-09-25",
-        "2026-09-26",
-        "2026-09-27",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-02",
-        "2026-10-03",
-        "2026-10-04",
-        "2026-10-06",
-        "2026-10-07"
-      ],
-      "city": "Düsseldorf",
-      "country": "Germany",
-      "venue": "MERKUR SPIEL-ARENA",
-      "category": "music",
-      "subcategory": "Pop",
-      "description": "The band's only European concerts in 2026: ten selected stadium nights for Homecoming: Live in Germany.",
-      "sourceUrl": "https://www.merkur-spiel-arena.de/backstreet-boys",
-      "verifiedAt": "2026-09-12",
-      "title": "Backstreet Boys · Into the Millennium",
-      "url": "https://www.merkur-spiel-arena.de/backstreet-boys",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "德国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.merkur-spiel-arena.de/backstreet-boys"
-      ],
-      "access": "Check official tickets",
-      "researchFiles": [
-        "research-music.json"
-      ]
-    },
-    {
-      "id": "cannstatter-volksfest-2026",
-      "title": "Cannstatter Volksfest",
-      "city": "Stuttgart",
-      "country": "Germany",
-      "category": "festival",
-      "startDate": "2026-09-25",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/cannstatter-volksfest-87003",
-      "url": "https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/cannstatter-volksfest-87003",
-      "description": "斯图加特大型民俗啤酒节与游乐集市，适合专程体验节庆。",
-      "venue": "Cannstatter Wasen",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "德国"
-      ],
-      "sourceUrls": [
-        "https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/cannstatter-volksfest-87003"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "researchers-night-athens-2026",
-      "title": "European Researchers’ Night · Athens",
+      "id": "clinamen-athens-2026",
+      "title": "clinamen · Céleste Boursier-Mougenot",
+      "startDate": "2026-09-26",
+      "endDate": "2026-12-05",
       "city": "Athens",
       "country": "Greece",
-      "category": "technology",
-      "startDate": "2026-09-25",
-      "endDate": "2026-09-25",
-      "sourceUrl": "https://researchersnight.gr/",
-      "url": "https://researchersnight.gr/",
-      "description": "雅典研究者之夜：面向公众的科学展示与研究交流。选择官网雅典分会场查看具体地点。",
-      "venue": "Athens · participating venues",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
+      "category": "art",
+      "venue": "Onassis Mandra, Dionysiou Areopagitou 2",
+      "url": "https://www.onassis.org/whats-on/clinamen-celeste-boursier-mougenot",
+      "sourceUrl": "https://www.onassis.org/whats-on/clinamen-celeste-boursier-mougenot",
+      "description": "雅典 Plaka 的声音装置：水池中漂浮的瓷碗碰撞发声。周三至周日开放；恶劣天气可能暂停。",
+      "access": "Public tickets",
+      "verifiedAt": "2026-10-18",
       "tags": [
-        "researchers night",
-        "science",
-        "科研",
-        "科学",
-        "研究者之夜",
-        "开放日",
+        "October update",
+        "未来一个月",
         "希腊"
       ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
+      "closedWeekdays": [
+        1,
+        2
+      ],
+      "accessNote": "€5 single-day ticket; ages 15 and under free. Wednesday–Sunday, 11:00–14:30 and 17:30–21:30.",
       "eu": true,
       "schengen": true,
-      "sourceUrls": [
-        "https://researchersnight.gr/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "researchers-night-helsinki-2026",
-      "title": "European Researchers’ Night · Helsinki",
-      "city": "Helsinki",
-      "country": "Finland",
-      "category": "technology",
-      "startDate": "2026-09-25",
-      "endDate": "2026-09-25",
-      "sourceUrl": "https://www.helsinki.fi/en/science-education-and-academic-outreach/teachers/researchers-night",
-      "url": "https://www.helsinki.fi/en/science-education-and-academic-outreach/teachers/researchers-night",
-      "description": "赫尔辛基大学的研究者之夜，公众可参与科学活动、接触研究人员与天文主题展览。",
-      "venue": "University of Helsinki public evening venues, including Kaisa Library and Observatory",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "researchers night",
-        "science",
-        "科研",
-        "科学",
-        "研究者之夜",
-        "开放日",
-        "芬兰"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "公众晚间节目免费、无需报名；白天学校团体工作坊另有要求。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.helsinki.fi/en/science-education-and-academic-outreach/teachers/researchers-night",
-        "https://www.helsinki.fi/en/innovations-and-cooperation/alumni/alumni-events"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "laver-cup-2026",
-      "startDate": "2026-09-25",
-      "endDate": "2026-09-27",
-      "city": "London",
-      "country": "United Kingdom",
-      "venue": "The O2",
-      "category": "tennis",
-      "description": "Team Europe takes on Team World over five arena sessions.",
-      "url": "https://lavercup.com/tickets",
-      "sourceUrl": "https://lavercup.com/event-guide",
-      "notes": "Tournament matches September 25–27; optional open practice is September 24.",
-      "status": "confirmed",
-      "verifiedAt": "2026-09-12",
-      "title": "Laver Cup",
-      "access": "Check official tickets",
-      "eu": false,
-      "schengen": false,
-      "tags": [
-        "英国"
-      ],
-      "sourceUrls": [
-        "https://lavercup.com/event-guide"
-      ],
-      "researchFiles": [
-        "research-sports.json"
-      ]
-    },
-    {
-      "id": "science-night-prague-2026",
-      "title": "Noc vědy · Prague Science Night",
-      "city": "Prague",
-      "country": "Czechia",
-      "category": "technology",
-      "startDate": "2026-09-25",
-      "endDate": "2026-09-25",
-      "sourceUrl": "https://www.nocvedy.cz/",
-      "url": "https://www.nocvedy.cz/",
-      "description": "布拉格科学之夜：大学、实验室与研究机构向公众展示研究和互动实验。2026 年由 Noc vědců 更名为 Noc vědy。",
-      "venue": "Participating Prague universities and research institutes",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "researchers night",
-        "science",
-        "科研",
-        "科学",
-        "研究者之夜",
-        "开放日",
-        "捷克"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "免费；部分工作坊需要预约，各机构时间不同。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.nocvedy.cz/",
-        "https://www.nocvedy.cz/o-akci",
-        "https://www.nocvedy.cz/udalost/15735-proton-a-elektron-vedecka-show"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "saarbrucken-oktoberkirmes-2026",
-      "title": "Saarbrücker Oktoberkirmes",
-      "city": "Saarbrücken",
-      "country": "Germany",
-      "category": "festival",
-      "startDate": "2026-09-25",
-      "endDate": "2026-10-04",
-      "sourceUrl": "https://www.saarbruecken.de/kultur/kirmes/oktoberkirmes",
-      "url": "https://www.saarbruecken.de/kultur/kirmes/oktoberkirmes",
-      "description": "传统秋季游乐集市，适合顺路体验当地节庆、美食和游乐设施。以市政府活动专页和旅游局一致的 9 月 25 日至 10 月 4 日为准；综合概览页仍有不同日期。",
-      "venue": "Festplatz Saarterrassen / Burbach",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "萨尔布吕肯",
-        "Saarbrucken",
-        "Saarbruecken",
-        "德国"
-      ],
-      "scheduleNote": "Check the official daily programme, individual sessions and ticket or registration requirements before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.saarbruecken.de/kultur/kirmes/oktoberkirmes"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "feffs-strasbourg-2026",
-      "title": "Strasbourg European Fantastic Film Festival",
-      "city": "Strasbourg",
-      "country": "France",
-      "category": "film",
-      "startDate": "2026-09-25",
-      "endDate": "2026-10-04",
-      "sourceUrl": "https://strasbourgfestival.com/fr/edition-2026/",
-      "url": "https://strasbourgfestival.com/fr/edition-2026/",
-      "description": "欧洲奇幻电影节，适合科幻、恐怖与类型电影爱好者；按具体放映场次安排行程。",
-      "venue": "Strasbourg cinemas and festival venues",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "斯特拉斯堡",
-        "法国"
-      ],
-      "scheduleNote": "Published festival/event window. Check individual session dates, venue opening days, language, subtitles and booking requirements before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://strasbourgfestival.com/fr/edition-2026/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "vienna-design-week-2026",
-      "title": "Vienna Design Week",
-      "startDate": "2026-09-25",
-      "endDate": "2026-10-04",
-      "city": "Vienna",
-      "country": "Austria",
-      "venue": "Festival headquarters and venues across Vienna",
-      "category": "design",
-      "description": "The festival's 20th edition explores objects, craft, experimental design and the city through exhibitions, workshops and open studios.",
-      "access": "Mixed access",
-      "sourceUrl": "https://www.viennadesignweek.at/info/festival-2026/",
-      "url": "https://www.viennadesignweek.at/en/programme/",
-      "verifiedAt": "2026-09-12",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "奥地利"
-      ],
       "status": "confirmed",
       "sourceUrls": [
-        "https://www.viennadesignweek.at/info/festival-2026/"
-      ],
-      "accessNote": "Check individual programme entries for opening hours and registration.",
-      "researchFiles": [
-        "research-culture.json"
-      ]
-    },
-    {
-      "id": "wigtown-book-festival-2026",
-      "title": "Wigtown Book Festival",
-      "startDate": "2026-09-25",
-      "endDate": "2026-10-04",
-      "city": "Wigtown",
-      "country": "United Kingdom",
-      "venue": "Festival Marquee, County Buildings and town venues",
-      "category": "literature",
-      "subcategory": "Literary festival",
-      "description": "Scotland's National Book Town hosts ten days of readings and conversations, with separate programmes for children and young adults alongside its independent bookshops.",
-      "access": "Public tickets",
-      "accessNote": "Book individual events through the festival box office; check venue addresses for sessions outside the town centre.",
-      "sourceUrl": "https://www.wigtownbookfestival.com/",
-      "sourceUrls": [
-        "https://www.wigtownbookfestival.com/",
-        "https://www.wigtownbookfestival.com/visit/festival-venues"
-      ],
-      "url": "https://tickets.wigtownbookfestival.com/",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "eu": false,
-      "schengen": false,
-      "tags": [
-        "英国"
+        "https://www.onassis.org/whats-on/clinamen-celeste-boursier-mougenot"
       ],
       "researchFiles": [
-        "research-literature.json"
-      ]
-    },
-    {
-      "id": "bigbang-london",
-      "startDate": "2026-09-26",
-      "endDate": "2026-09-26",
-      "city": "London",
-      "country": "United Kingdom",
-      "venue": "Tottenham Hotspur Stadium",
-      "category": "music",
-      "subcategory": "K-pop",
-      "description": "The London stadium date of BIGBANG's 20th-anniversary world tour, announced by YG Entertainment.",
-      "sourceUrl": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
-      "verifiedAt": "2026-09-12",
-      "title": "BIGBANG · XX : COSMOS",
-      "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
-      "eu": false,
-      "schengen": false,
-      "tags": [
-        "英国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
-      ],
-      "access": "Check official tickets",
-      "researchFiles": [
-        "research-music.json"
-      ]
-    },
-    {
-      "id": "fab-bordeaux-2026",
-      "title": "FAB · Bordeaux International Arts Festival",
-      "city": "Bordeaux",
-      "country": "France",
-      "category": "art",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-10",
-      "sourceUrl": "https://fab.festivalbordeaux.com/",
-      "url": "https://fab.festivalbordeaux.com/",
-      "description": "波尔多国际艺术节，涵盖舞蹈、剧场、表演与视觉艺术；开幕周末有免费节目。",
-      "venue": "Bordeaux Métropole venues",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "法国"
-      ],
-      "sourceUrls": [
-        "https://fab.festivalbordeaux.com/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "gep-rome-2026",
-      "title": "Giornate Europee del Patrimonio · Rome",
-      "city": "Rome",
-      "country": "Italy",
-      "category": "heritage",
-      "startDate": "2026-09-26",
-      "endDate": "2026-09-27",
-      "sourceUrl": "https://www.turismoroma.it/it/eventi/giornate-europee-del-patrimonio-%E2%80%93-gep-2026",
-      "url": "https://www.turismoroma.it/it/eventi/giornate-europee-del-patrimonio-%E2%80%93-gep-2026",
-      "description": "罗马欧洲遗产日：博物馆、档案馆、历史建筑及考古场所的特别节目。",
-      "venue": "Rome · participating venues",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "意大利"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "免费活动不一定包含场馆门票；罗马市属项目在适用时仍收门票，部分须预约。不能理解为所有景点免费。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.turismoroma.it/it/eventi/giornate-europee-del-patrimonio-%E2%80%93-gep-2026",
-        "https://www.sovraintendenzaroma.it/content/giornate-europee-del-patrimonio-2026"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "limassol-wine-2026",
-      "title": "Limassol Wine Festival",
-      "city": "Limassol",
-      "country": "Cyprus",
-      "category": "festival",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-04",
-      "sourceUrl": "https://www.visitcyprus.com/wp-content/uploads/2026/05/ANNUAL_EVENTS_8_2026.pdf",
-      "url": "https://www.visitcyprus.com/wp-content/uploads/2026/05/ANNUAL_EVENTS_8_2026.pdf",
-      "description": "利马索尔葡萄酒节，适合塞浦路斯秋季美食旅行。日期见国家旅游局 2026 年历。",
-      "venue": "Lemesos Municipal Gardens",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": false,
-      "tags": [
-        "塞浦路斯"
-      ],
-      "sourceUrls": [
-        "https://www.visitcyprus.com/wp-content/uploads/2026/05/ANNUAL_EVENTS_8_2026.pdf"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "neptune-opposition-2026",
-      "title": "Neptune at opposition · 海王星冲日",
-      "category": "astronomy",
-      "subcategory": "Planet observing",
-      "startDate": "2026-09-26",
-      "endDate": "2026-09-27",
-      "geographicScope": "europe-wide",
-      "city": "Across Europe",
-      "country": "Europe-wide",
-      "venue": "Dark-sky locations across Europe",
-      "description": "A telescope challenge: Neptune reaches opposition on 26 September, with the distant planet in Pisces.",
-      "access": "Check official details",
-      "accessNote": "A telescope is required; Neptune is not a naked-eye target. Observatory sessions may require separate booking. Self-guided skywatching",
-      "notes": "26 September evening–27 September morning is a suggested observing window around the opposition date. Visibility depends on location, horizon and weather; nearby nights are also suitable.",
-      "sourceUrl": "https://www.rmg.co.uk/stories/space-astronomy/astronomy/night-sky-highlights-september-2026",
-      "url": "https://www.rmg.co.uk/stories/space-astronomy/astronomy/night-sky-highlights-september-2026",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.rmg.co.uk/stories/space-astronomy/astronomy/night-sky-highlights-september-2026"
-      ],
-      "researchFiles": [
-        "research-astronomy.json"
-      ]
-    },
-    {
-      "id": "heritage-palisady-bratislava-2026",
-      "title": "Palisády · Bratislava Heritage Walk",
-      "city": "Bratislava",
-      "country": "Slovakia",
-      "category": "heritage",
-      "startDate": "2026-09-26",
-      "endDate": "2026-09-26",
-      "sourceUrl": "https://www.dekd.sk/",
-      "url": "https://www.dekd.sk/",
-      "description": "遗产日主题步行：探索 Palisády 别墅街区的建筑与人物故事。",
-      "venue": "Palisády, Bratislava Old Town",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "斯洛伐克"
-      ],
-      "scheduleNote": "9 月 26 日 14:00–15:30；按报名确认集合点。",
-      "accessNote": "免费，名额有限，须经 www.asba.sk 预约。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.dekd.sk/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "berlin-marathon-2026",
-      "startDate": "2026-09-27",
-      "endDate": "2026-09-27",
-      "city": "Berlin",
-      "country": "Germany",
-      "venue": "Berlin city course",
-      "category": "sport",
-      "description": "A World Marathon Major with citywide crowds and elite road racing.",
-      "url": "https://www.bmw-berlin-marathon.com/en/",
-      "sourceUrl": "https://www.bmw-berlin-marathon.com/",
-      "notes": "Calendar entry is marathon race day. Running entry and spectator access are different; check organiser details.",
-      "status": "confirmed",
-      "verifiedAt": "2026-09-12",
-      "title": "BMW Berlin Marathon",
-      "access": "Check official tickets",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "德国"
-      ],
-      "sourceUrls": [
-        "https://www.bmw-berlin-marathon.com/"
-      ],
-      "researchFiles": [
-        "research-sports.json"
-      ]
-    },
-    {
-      "id": "denkmal-vienna-2026",
-      "title": "Tag des Denkmals · Vienna",
-      "city": "Vienna",
-      "country": "Austria",
-      "category": "heritage",
-      "startDate": "2026-09-27",
-      "endDate": "2026-09-27",
-      "sourceUrl": "https://www.tagdesdenkmals.at/programm/wien",
-      "url": "https://www.tagdesdenkmals.at/programm/wien",
-      "description": "维也纳古迹日：历史建筑、工坊及主题导览，适合一天集中探索建筑遗产。",
-      "venue": "Vienna · participating venues",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "奥地利"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "免费；少数场次须预约，各场馆开放时间不同。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.tagdesdenkmals.at/programm/wien",
-        "https://www.tagdesdenkmals.at/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "paris-fashion-week-ss27",
-      "title": "Paris Fashion Week · SS27",
-      "startDate": "2026-09-28",
-      "endDate": "2026-10-06",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Fashion-house venues across Paris",
-      "category": "fashion",
-      "description": "The womenswear spring/summer 2027 collections. Official shows and presentations require invitations from the fashion houses; FHCM does not sell tickets.",
-      "access": "Industry / invitation",
-      "sourceUrl": "https://www.fhcm.paris/en/upcoming-seasons-and-previous-editions",
-      "url": "https://www.fhcm.paris/en/paris-fashion-week",
-      "verifiedAt": "2026-09-12",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "法国"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.fhcm.paris/en/upcoming-seasons-and-previous-editions",
-        "https://www.fhcm.paris/en/news/pfwr-fraudulent-solicitations"
-      ],
-      "accessNote": "Invitation only for official shows and presentations.",
-      "researchFiles": [
-        "research-culture.json"
-      ]
-    },
-    {
-      "id": "turku-food-fun-2026",
-      "title": "Food & Fun Turku",
-      "city": "Turku",
-      "country": "Finland",
-      "category": "festival",
-      "startDate": "2026-09-30",
-      "endDate": "2026-10-03",
-      "sourceUrl": "https://www.turku.fi/en/node/14041",
-      "url": "https://www.turku.fi/en/node/14041",
-      "description": "图尔库美食节，以餐厅活动规划芬兰美食旅行，预订按各餐厅执行。",
-      "venue": "Participating Turku restaurants",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "芬兰"
-      ],
-      "sourceUrls": [
-        "https://www.turku.fi/en/node/14041"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "animest-2026",
-      "title": "Animest · Bucharest Animation Film Festival",
-      "city": "Bucharest",
-      "country": "Romania",
-      "category": "film",
-      "startDate": "2026-10-02",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://www.animest.ro/en/",
-      "url": "https://www.animest.ro/en/",
-      "description": "布加勒斯特国际动画电影节，选片覆盖不同年龄；按具体电影核对适龄与字幕。",
-      "venue": "Bucharest cinemas",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "罗马尼亚"
-      ],
-      "sourceUrls": [
-        "https://www.animest.ro/en/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "biela-noc-bratislava-2026",
-      "title": "Biela Noc · Bratislava White Night",
-      "city": "Bratislava",
-      "country": "Slovakia",
-      "category": "art",
-      "startDate": "2026-10-02",
-      "endDate": "2026-10-04",
-      "sourceUrl": "https://www.visitbratislava.com/events/biela-noc-bratislava-2026/",
-      "url": "https://www.visitbratislava.com/events/biela-noc-bratislava-2026/",
-      "description": "布拉迪斯拉发夜间灯光与当代艺术节，适合从维也纳出发的短途周末。",
-      "venue": "Citywide installations",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "斯洛伐克"
-      ],
-      "sourceUrls": [
-        "https://www.visitbratislava.com/events/biela-noc-bratislava-2026/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "comicfestival-hamburg-2026",
-      "title": "Comicfestival Hamburg",
-      "city": "Hamburg",
-      "country": "Germany",
-      "category": "design",
-      "startDate": "2026-10-02",
-      "endDate": "2026-10-04",
-      "sourceUrl": "https://www.hamburg.de/kultur/festival",
-      "url": "https://comicfestivalhamburg.de/de",
-      "description": "漫画、插画、展览与创作者活动，适合关注视觉叙事和独立出版的人。",
-      "venue": "Hamburg exhibition and festival venues",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "汉堡",
-        "德国"
-      ],
-      "scheduleNote": "Published festival window, not a promise of daily performances or opening at every venue. Confirm individual sessions, opening days, registration, language and subtitles with the organiser.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.hamburg.de/kultur/festival"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
+        "research-october-focus.json"
       ]
     },
     {
@@ -3174,156 +612,6 @@
       ]
     },
     {
-      "id": "open-house-stockholm-2026",
-      "title": "Open House Stockholm",
-      "city": "Stockholm",
-      "country": "Sweden",
-      "category": "heritage",
-      "startDate": "2026-10-02",
-      "endDate": "2026-10-04",
-      "sourceUrl": "https://www.openhousestockholm.com/",
-      "url": "https://www.openhousestockholm.com/",
-      "description": "大斯德哥尔摩地区的免费建筑导览与特别开放。可按英语／瑞典语、是否须预约筛选节目。",
-      "venue": "Stockholm · participating venues",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "瑞典"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.openhousestockholm.com/",
-        "https://www.openhousestockholm.com/program"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "notte-bianca-malta-2026",
-      "title": "Notte Bianca · Valletta",
-      "city": "Valletta",
-      "country": "Malta",
-      "category": "festival",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-03",
-      "sourceUrl": "https://www.festivals.mt/",
-      "url": "https://www.festivals.mt/",
-      "description": "瓦莱塔白夜：在历史城区安排一整晚文化活动与城市漫步。",
-      "venue": "Valletta city centre",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "马耳他"
-      ],
-      "sourceUrls": [
-        "https://www.festivals.mt/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "museumsnacht-vienna-2026",
-      "title": "ORF Long Night of Museums · Vienna",
-      "city": "Vienna",
-      "country": "Austria",
-      "category": "heritage",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-03",
-      "sourceUrl": "https://langenacht.orf.at/",
-      "url": "https://langenacht.orf.at/",
-      "description": "维也纳博物馆之夜：用活动票串联参与博物馆与特别节目。",
-      "venue": "Participating Vienna museums, including ALBERTINA and Dom Museum",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "museum night",
-        "博物馆之夜",
-        "文化夜",
-        "开放日",
-        "奥地利"
-      ],
-      "scheduleNote": "10 月 3 日 18:00–24:00；个别导览限额。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://langenacht.orf.at/",
-        "https://www.albertina.at/besuch/programm/lange-nacht-der-museen-2026/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "nfl-london-commanders-colts-2026",
-      "startDate": "2026-10-04",
-      "endDate": "2026-10-04",
-      "city": "London",
-      "country": "United Kingdom",
-      "venue": "Tottenham Hotspur Stadium",
-      "category": "sport",
-      "description": "Indianapolis and Washington open the autumn NFL games in London.",
-      "url": "https://www.nfl.com/international/international-games",
-      "sourceUrl": "https://www.patriots.com/news/patriots-to-face-lions-in-week-10-international-game-on-november-15-2026",
-      "notes": "Kickoff announced for 14:30 London local time.",
-      "status": "confirmed",
-      "verifiedAt": "2026-09-12",
-      "title": "NFL London: Colts vs Commanders",
-      "access": "Check official tickets",
-      "eu": false,
-      "schengen": false,
-      "tags": [
-        "英国"
-      ],
-      "sourceUrls": [
-        "https://www.patriots.com/news/patriots-to-face-lions-in-week-10-international-game-on-november-15-2026"
-      ],
-      "researchFiles": [
-        "research-sports.json"
-      ]
-    },
-    {
-      "id": "saturn-opposition-2026",
-      "title": "Saturn at opposition · 土星冲日",
-      "category": "astronomy",
-      "subcategory": "Planet observing",
-      "startDate": "2026-10-04",
-      "endDate": "2026-10-05",
-      "geographicScope": "europe-wide",
-      "city": "Across Europe",
-      "country": "Europe-wide",
-      "venue": "Dark-sky locations across Europe",
-      "description": "Saturn reaches opposition on 4 October: an inviting autumn opportunity to observe the ringed planet.",
-      "access": "Check official details",
-      "accessNote": "Saturn can be seen by eye; use a telescope to resolve its rings. Local astronomy clubs may offer separate sessions. Self-guided skywatching",
-      "notes": "Suggested night: 4–5 October. The opportunity extends to nearby nights; local weather and horizon determine visibility.",
-      "sourceUrl": "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026",
-      "url": "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.rmg.co.uk/stories/space-astronomy/space-astronomy-highlights-2026",
-        "https://www.rmg.co.uk/stories/space-astronomy/astronomy/night-sky-highlights-september-2026"
-      ],
-      "researchFiles": [
-        "research-astronomy.json"
-      ]
-    },
-    {
       "id": "bfi-london-film-festival-2026",
       "title": "BFI London Film Festival",
       "startDate": "2026-10-07",
@@ -3352,62 +640,6 @@
       ]
     },
     {
-      "id": "designblok-2026",
-      "title": "DesignBlok · Public days",
-      "city": "Prague",
-      "country": "Czechia",
-      "category": "design",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://www.designblok.cz/en/",
-      "url": "https://www.designblok.cz/en/",
-      "description": "布拉格设计节，公众日期 7–11 日；6 日专业活动不计入本条。",
-      "venue": "Prague Exhibition Grounds, museums and Prague Castle venues",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "捷克"
-      ],
-      "sourceUrls": [
-        "https://www.designblok.cz/en/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "montmartre-vendanges-2026",
-      "title": "Fête des Vendanges de Montmartre",
-      "city": "Paris",
-      "country": "France",
-      "category": "festival",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://fetedesvendangesdemontmartre.com/",
-      "url": "https://fetedesvendangesdemontmartre.com/",
-      "description": "巴黎蒙马特葡萄收获节，以街区音乐、美食和文化活动体验巴黎。",
-      "venue": "Montmartre and Paris 18th arrondissement",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "法国"
-      ],
-      "sourceUrls": [
-        "https://fetedesvendangesdemontmartre.com/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
       "id": "film-fest-gent-2026",
       "title": "Film Fest Gent",
       "city": "Ghent",
@@ -3430,125 +662,6 @@
       ],
       "sourceUrls": [
         "https://www.filmfestival.be/en"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "new-fall-dusseldorf-2026",
-      "title": "New Fall Festival",
-      "city": "Düsseldorf",
-      "country": "Germany",
-      "category": "music",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://www.new-fall-festival.de/",
-      "url": "https://www.new-fall-festival.de/",
-      "description": "在剧院、教堂与特色空间听现场，阵容含 Apparat、The Cinematic Orchestra、José González 等；按场次购票。",
-      "venue": "Düsseldorf theatres, concert halls and Johanneskirche",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "杜塞尔多夫",
-        "德国"
-      ],
-      "scheduleNote": "Published festival window, not a promise of daily performances or opening at every venue. Confirm individual sessions, opening days, registration, language and subtitles with the organiser.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.new-fall-festival.de/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "heritage-zale-ljubljana-2026",
-      "title": "Plečnik’s Žale · Heritage Garden Tour",
-      "city": "Ljubljana",
-      "country": "Slovenia",
-      "category": "heritage",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-07",
-      "sourceUrl": "https://mgml.si/sl/plecnikova-hisa/dogodki/2361/2026-10-07/17-00/leto-vlasta-kopaca-2026-vrt-vseh-svetih-vrtnoarhitekturna-zasnova-plecnikovih-zal/",
-      "url": "https://mgml.si/sl/plecnikova-hisa/dogodki/2361/2026-10-07/17-00/leto-vlasta-kopaca-2026-vrt-vseh-svetih-vrtnoarhitekturna-zasnova-plecnikovih-zal/",
-      "description": "欧洲遗产日期间的建筑与园林主题导览，关注 Plečnik 的 Žale 及其与 Vlasto Kopač 的合作。",
-      "venue": "Main entrance colonnade, Plečnik’s Žale",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "斯洛文尼亚"
-      ],
-      "scheduleNote": "10 月 7 日 17:00–18:00；按正文在 Žale 主入口柱廊集合，不是 Plečnik 故居。",
-      "accessNote": "须提前通过主办方报名（prijava@mgml.si）；请核对费用及余位。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://mgml.si/sl/plecnikova-hisa/dogodki/2361/2026-10-07/17-00/leto-vlasta-kopaca-2026-vrt-vseh-svetih-vrtnoarhitekturna-zasnova-plecnikovih-zal/"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
-      "id": "draconids-viewing-2026",
-      "title": "Draconid meteor shower · 天龙座流星雨",
-      "category": "astronomy",
-      "subcategory": "Meteor shower",
-      "startDate": "2026-10-08",
-      "endDate": "2026-10-09",
-      "geographicScope": "europe-wide",
-      "city": "Across Europe",
-      "country": "Europe-wide",
-      "venue": "Dark-sky locations across Europe",
-      "description": "An evening-friendly meteor watch with little moonlight. This is usually a modest shower; no exceptional outburst is predicted for 2026.",
-      "access": "Check official details",
-      "accessNote": "Watch by eye from a dark, open site. No telescope is needed; access rules and weather depend on your chosen location. Self-guided skywatching",
-      "notes": "Viewing window: evening 8 October into 9 October. Spain's National Astronomical Observatory places maximum around 02:00 UTC on 9 October; evening viewing benefits from the higher radiant. Active 6–10 October.",
-      "sourceUrl": "https://astronomia.ign.es/en/draconidas",
-      "url": "https://astronomia.ign.es/en/draconidas",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://astronomia.ign.es/en/draconidas",
-        "https://www.rmg.co.uk/stories/space-astronomy/draconid-meteor-shower-when-where-see-it-uk"
-      ],
-      "researchFiles": [
-        "research-astronomy.json"
-      ]
-    },
-    {
-      "id": "fiesta-suds-2026",
-      "title": "Fiesta des Suds",
-      "city": "Marseille",
-      "country": "France",
-      "category": "music",
-      "startDate": "2026-10-08",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://www.marseille-tourisme.com/en/vivez-marseille/blog-marseille/fiesta-des-suds/",
-      "url": "https://www.marseille-tourisme.com/en/vivez-marseille/blog-marseille/fiesta-des-suds/",
-      "description": "马赛南方音乐节，适合体验港口城市的多元音乐文化。",
-      "venue": "Promenade Robert Laffont",
-      "access": "Check official tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "法国"
-      ],
-      "sourceUrls": [
-        "https://www.marseille-tourisme.com/en/vivez-marseille/blog-marseille/fiesta-des-suds/"
       ],
       "researchFiles": [
         "research-country-sweep.json"
@@ -3584,32 +697,32 @@
       ]
     },
     {
-      "id": "nuremberg-pop-2026",
-      "title": "Nürnberg Pop Festival",
-      "city": "Nuremberg",
-      "country": "Germany",
-      "category": "music",
+      "id": "liszt-fest-budapest-2026",
+      "title": "Liszt Fest · International Cultural Festival",
       "startDate": "2026-10-08",
-      "endDate": "2026-10-10",
-      "sourceUrl": "https://www.nuernberg-pop.com/",
-      "url": "https://www.nuernberg-pop.com/",
-      "description": "老城多场馆俱乐部与新人展示音乐节。公众音乐节门票不等于可参加需邀请的开幕或颁奖活动。",
-      "venue": "Nuremberg old town clubs and cultural venues",
+      "endDate": "2026-10-22",
+      "city": "Budapest",
+      "country": "Hungary",
+      "category": "music",
+      "venue": "Müpa and venues across Budapest",
+      "url": "https://lisztunnep.hu/en/news/from-the-pioneers-of-contemporary-music-to-liszt-s-monumental-christus-works-and-artists-who-are-not-afraid-to-experiment-at-the-2026-liszt-fest",
+      "sourceUrl": "https://lisztunnep.hu/en/news/from-the-pioneers-of-contemporary-music-to-liszt-s-monumental-christus-works-and-artists-who-are-not-afraid-to-experiment-at-the-2026-liszt-fest",
+      "description": "布达佩斯李斯特文化节，涵盖古典、当代音乐及跨界演出；今天起仍有尾段节目可选。",
       "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
+      "verifiedAt": "2026-10-18",
       "tags": [
-        "纽伦堡",
-        "德国"
+        "October update",
+        "未来一个月",
+        "匈牙利"
       ],
-      "scheduleNote": "Published festival window, not a promise of daily performances or opening at every venue. Confirm individual sessions, opening days, registration, language and subtitles with the organiser.",
       "eu": true,
       "schengen": true,
+      "status": "confirmed",
       "sourceUrls": [
-        "https://www.nuernberg-pop.com/"
+        "https://lisztunnep.hu/en/news/from-the-pioneers-of-contemporary-music-to-liszt-s-monumental-christus-works-and-artists-who-are-not-afraid-to-experiment-at-the-2026-liszt-fest"
       ],
       "researchFiles": [
-        "research-country-sweep.json"
+        "research-october-focus.json"
       ]
     },
     {
@@ -3669,34 +782,6 @@
       ]
     },
     {
-      "id": "biela-noc-kosice-2026",
-      "title": "Biela Noc · Košice White Night",
-      "city": "Košice",
-      "country": "Slovakia",
-      "category": "art",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://visitkosice.org/podujatia/biela-noc-kosice-2026",
-      "url": "https://visitkosice.org/podujatia/biela-noc-kosice-2026",
-      "description": "科希策老城夜间艺术路线，灯光、投影和表演组成城市步行体验。",
-      "venue": "Old Town and city venues",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "斯洛伐克"
-      ],
-      "sourceUrls": [
-        "https://visitkosice.org/podujatia/biela-noc-kosice-2026"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
       "id": "cheltenham-literature-festival-2026",
       "title": "Cheltenham Literature Festival",
       "startDate": "2026-10-09",
@@ -3724,127 +809,6 @@
       ],
       "researchFiles": [
         "research-literature.json"
-      ]
-    },
-    {
-      "id": "frankfurt-book-fair-public-2026",
-      "title": "Frankfurt Book Fair · Public days",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-11",
-      "city": "Frankfurt",
-      "country": "Germany",
-      "venue": "Messe Frankfurt",
-      "category": "literature",
-      "subcategory": "International book fair",
-      "description": "The public days of the international publishing fair bring author talks, readings, signings and book discoveries. Czechia is the 2026 Guest of Honour.",
-      "access": "Public tickets",
-      "accessNote": "Public admission starts Friday 9 October at 11:00; Saturday opens at 09:00 and Sunday at 09:00. Industry-only rights centres require the appropriate credentials and appointments.",
-      "scheduleNote": "Calendar shows the public visitor dates. The full trade fair runs 7–11 October; 7–8 October are for trade visitors.",
-      "sourceUrl": "https://www.buchmesse.de/en",
-      "sourceUrls": [
-        "https://www.buchmesse.de/en",
-        "https://www.buchmesse.de/besuchen/tickets"
-      ],
-      "url": "https://www.buchmesse.de/besuchen/tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "德国"
-      ],
-      "researchFiles": [
-        "research-literature.json"
-      ]
-    },
-    {
-      "id": "copenhagen-culture-night-2026",
-      "title": "Kulturnatten · Copenhagen Culture Night",
-      "city": "Copenhagen",
-      "country": "Denmark",
-      "category": "festival",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "sourceUrl": "https://www.visitcopenhagen.com/copenhagen/planning/culture-night-gdk421149",
-      "url": "https://www.visitcopenhagen.com/copenhagen/planning/culture-night-gdk421149",
-      "description": "哥本哈根文化之夜，博物馆与文化机构延时开放；需购买文化通票，热门场次可能预约。",
-      "venue": "Copenhagen and Frederiksberg",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "丹麦"
-      ],
-      "sourceUrls": [
-        "https://www.visitcopenhagen.com/copenhagen/planning/culture-night-gdk421149"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "lichtfest-leipzig-2026",
-      "title": "Lichtfest Leipzig",
-      "city": "Leipzig",
-      "country": "Germany",
-      "category": "festival",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "sourceUrl": "https://lichtfest.leipziger-freiheit.de/pressemitteilung/lichtfest-leipzig-stellt-programm-2026-vor",
-      "url": "https://lichtfest.leipziger-freiheit.de/pressemitteilung/lichtfest-leipzig-stellt-programm-2026-vor",
-      "description": "莱比锡灯光节，以城市夜游纪念和平革命。",
-      "venue": "Leipzig city centre",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "德国"
-      ],
-      "sourceUrls": [
-        "https://lichtfest.leipziger-freiheit.de/pressemitteilung/lichtfest-leipzig-stellt-programm-2026-vor"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "open-house-tallinn-2026",
-      "title": "Open House Tallinn",
-      "city": "Tallinn",
-      "country": "Estonia",
-      "category": "heritage",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://www.openhousetallinn.ee/en/post/open-house-tallinn-program-now-public",
-      "url": "https://www.openhousetallinn.ee/en/post/open-house-tallinn-program-now-public",
-      "description": "塔林建筑开放节：进入平时不开放的机构、公共建筑及施工场所。",
-      "venue": "Tallinn · participating venues",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "爱沙尼亚"
-      ],
-      "scheduleNote": "活动日期为本地日期；多场馆条目表示节目窗口，不保证每处每天开放。请按官方节目选择场次、语言及预约方式。",
-      "accessNote": "官方旅游页说明导览免费；在活动网站按场次报名。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.openhousetallinn.ee/en/post/open-house-tallinn-program-now-public",
-        "https://www.visittallinn.ee/eng/visitor/see-do/events/events/14478/open-house-tallinn"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
       ]
     },
     {
@@ -3932,63 +896,6 @@
       ]
     },
     {
-      "id": "formats-strasbourg-2026",
-      "title": "FORMAT(S) · Graphic Design Fair Weekend",
-      "city": "Strasbourg",
-      "country": "France",
-      "category": "design",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://formats-festival.org/",
-      "url": "https://formats-festival.org/",
-      "description": "FORMAT(S) 平面设计节的设计出版市集周末：独立出版、字体与书籍设计，市集免费入场。完整节庆还包含其他日期的展览、讲座和工作坊；本条只记录 10–11 日市集，部分工作坊另需预约。",
-      "venue": "Garage Coop, Strasbourg",
-      "access": "Free entry",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "斯特拉斯堡",
-        "法国"
-      ],
-      "scheduleNote": "Published festival/event window. Check individual session dates, venue opening days, language, subtitles and booking requirements before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://formats-festival.org/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "niall-horan-copenhagen",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-10",
-      "city": "Copenhagen",
-      "country": "Denmark",
-      "venue": "Royal Arena",
-      "category": "music",
-      "subcategory": "Pop",
-      "description": "The former One Direction singer brings his Dinner Party album and arena tour to Copenhagen.",
-      "sourceUrl": "https://www.royalarena.dk/en/all-events/niall-horan-tickets-ae985162",
-      "verifiedAt": "2026-09-12",
-      "title": "Niall Horan · Dinner Party",
-      "url": "https://www.royalarena.dk/en/all-events/niall-horan-tickets-ae985162",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "丹麦"
-      ],
-      "status": "confirmed",
-      "sourceUrls": [
-        "https://www.royalarena.dk/en/all-events/niall-horan-tickets-ae985162"
-      ],
-      "access": "Check official tickets",
-      "researchFiles": [
-        "research-music.json"
-      ]
-    },
-    {
       "id": "open-house-dublin-2026",
       "title": "Open House Dublin",
       "city": "Dublin",
@@ -4025,61 +932,6 @@
       ]
     },
     {
-      "id": "sofia-marathon-2026",
-      "title": "Wizz Air Sofia Marathon",
-      "city": "Sofia",
-      "country": "Bulgaria",
-      "category": "sport",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://sofiamarathon.bg/en/",
-      "url": "https://sofiamarathon.bg/en/",
-      "description": "索非亚马拉松周末，10 日为短距离项目，11 日为全马与半马；参赛需报名。",
-      "venue": "Sofia road race courses",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "保加利亚"
-      ],
-      "sourceUrls": [
-        "https://sofiamarathon.bg/en/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
-      "id": "barcolana-2026",
-      "title": "Barcolana · Main Regatta",
-      "city": "Trieste",
-      "country": "Italy",
-      "category": "sport",
-      "startDate": "2026-10-11",
-      "endDate": "2026-10-11",
-      "sourceUrl": "https://www.barcolana.it/?menu=calendario&submenu=barcolanaclassic",
-      "url": "https://www.barcolana.it/?menu=calendario&submenu=barcolanaclassic",
-      "description": "的里雅斯特巴尔科拉纳帆船赛主赛日。相关活动在此前展开，海上赛程受天气影响。",
-      "venue": "Gulf of Trieste and waterfront",
-      "access": "Mixed access",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "eu": true,
-      "schengen": true,
-      "tags": [
-        "意大利"
-      ],
-      "sourceUrls": [
-        "https://www.barcolana.it/?menu=calendario&submenu=barcolanaclassic"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
       "id": "european-table-tennis-2026",
       "startDate": "2026-10-11",
       "endDate": "2026-10-18",
@@ -4105,35 +957,6 @@
       ],
       "researchFiles": [
         "research-sports.json"
-      ]
-    },
-    {
-      "id": "jazzfestival-frankfurt-2026",
-      "title": "Deutsches Jazzfestival Frankfurt",
-      "city": "Frankfurt",
-      "country": "Germany",
-      "category": "music",
-      "startDate": "2026-10-13",
-      "endDate": "2026-10-17",
-      "sourceUrl": "https://www.hr.de/presse/programme-und-veranstaltungen/2026/deutsches-jazzfestival-frankfurt-2026-vom-13-bis-17-oktober-mit-emile-parisien-myra-melford-louis-sclavis-und-shake-stew-v1%2Cdeutsches-jazzfestival-frankfurt-2026-100.html",
-      "url": "https://www.hr.de/presse/programme-und-veranstaltungen/2026/deutsches-jazzfestival-frankfurt-2026-vom-13-bis-17-oktober-mit-emile-parisien-myra-melford-louis-sclavis-und-shake-stew-v1%2Cdeutsches-jazzfestival-frankfurt-2026-100.html",
-      "description": "德国爵士音乐节，含国际当代爵士与 hr-Bigband；10 月 16 日为分布于多个场馆的 Clubnacht，各场馆分别售票。",
-      "venue": "hr-Sendesaal and participating Frankfurt clubs",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "法兰克福",
-        "德国"
-      ],
-      "scheduleNote": "Check the official daily programme, individual sessions and ticket or registration requirements before choosing travel dates.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.hr.de/presse/programme-und-veranstaltungen/2026/deutsches-jazzfestival-frankfurt-2026-vom-13-bis-17-oktober-mit-emile-parisien-myra-melford-louis-sclavis-und-shake-stew-v1%2Cdeutsches-jazzfestival-frankfurt-2026-100.html"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
       ]
     },
     {
@@ -4533,41 +1356,6 @@
       ]
     },
     {
-      "id": "heritage-state-luxembourg-2026",
-      "title": "At the Heart of the State · Heritage Open Doors",
-      "city": "Luxembourg City",
-      "country": "Luxembourg",
-      "category": "heritage",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "sourceUrl": "https://www.luxembourg-city.com/fr/agenda/event/at-the-heart-of-the-state-discover-emblematic-institutional-sites-of-luxembourg-s-heritage-3jn0pi",
-      "url": "https://www.luxembourg-city.com/fr/agenda/event/at-the-heart-of-the-state-discover-emblematic-institutional-sites-of-luxembourg-s-heritage-3jn0pi",
-      "description": "卢森堡遗产日特别开放：议会、大公宫及政府机构联合开放，了解建筑与国家机构历史。",
-      "venue": "Chamber of Deputies, Grand Ducal Palace and participating ministries, Luxembourg City",
-      "access": "Check official details",
-      "verifiedAt": "2026-09-19",
-      "status": "confirmed",
-      "tags": [
-        "heritage",
-        "open days",
-        "遗产",
-        "遗产日",
-        "开放日",
-        "建筑",
-        "卢森堡"
-      ],
-      "scheduleNote": "此项特别开放仅 10 月 17 日，10:00 开始，16:00 最后入场；不是全国 10 月 16–18 日每天都开放。",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.luxembourg-city.com/fr/agenda/event/at-the-heart-of-the-state-discover-emblematic-institutional-sites-of-luxembourg-s-heritage-3jn0pi",
-        "https://mcult.gouvernement.lu/fr/Domaines/appels-a-projets/appel-jep-2026.html"
-      ],
-      "researchFiles": [
-        "research-heritage.json"
-      ]
-    },
-    {
       "id": "european-open-brussels-2026",
       "startDate": "2026-10-17",
       "endDate": "2026-10-25",
@@ -4625,35 +1413,6 @@
       ]
     },
     {
-      "id": "museumsnacht-munich-2026",
-      "title": "Long Night of Munich Museums",
-      "city": "Munich",
-      "country": "Germany",
-      "category": "art",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "sourceUrl": "https://www.muenchner.de/museumsnacht/de/meine-nacht/",
-      "url": "https://www.muenchner.de/museumsnacht/de/meine-nacht/",
-      "description": "博物馆长夜，主活动从 17 日晚延续至次日凌晨；部分亲子活动下午先开始，具体场馆依节目安排。",
-      "venue": "Participating Munich museums",
-      "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
-      "status": "confirmed",
-      "tags": [
-        "慕尼黑",
-        "德国"
-      ],
-      "scheduleNote": "Published festival window, not a promise of daily performances or opening at every venue. Confirm individual sessions, opening days, registration, language and subtitles with the organiser.",
-      "eu": true,
-      "schengen": true,
-      "sourceUrls": [
-        "https://www.muenchner.de/museumsnacht/de/meine-nacht/"
-      ],
-      "researchFiles": [
-        "research-country-sweep.json"
-      ]
-    },
-    {
       "id": "lyon-atp-2026",
       "startDate": "2026-10-18",
       "endDate": "2026-10-25",
@@ -4679,6 +1438,35 @@
       ],
       "researchFiles": [
         "research-sports.json"
+      ]
+    },
+    {
+      "id": "conrad-krakow-2026",
+      "title": "Conrad Festival · Disobedience",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "city": "Kraków",
+      "country": "Poland",
+      "category": "literature",
+      "venue": "Kraków literary festival venues",
+      "url": "https://visitmalopolska.pl/en_GB/obiekt/-/poi/miedzynarodowy-festiwal-literatury-im-josepha-conrada",
+      "sourceUrl": "https://visitmalopolska.pl/en_GB/obiekt/-/poi/miedzynarodowy-festiwal-literatury-im-josepha-conrada",
+      "description": "克拉科夫第 18 届康拉德文学节，主题为“不服从”；适合与同期书展组合，语言及预约要求以各场活动为准。",
+      "access": "Public tickets",
+      "verifiedAt": "2026-10-18",
+      "tags": [
+        "October update",
+        "未来一个月",
+        "波兰"
+      ],
+      "eu": true,
+      "schengen": true,
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://visitmalopolska.pl/en_GB/obiekt/-/poi/miedzynarodowy-festiwal-literatury-im-josepha-conrada"
+      ],
+      "researchFiles": [
+        "research-october-focus.json"
       ]
     },
     {
@@ -4841,7 +1629,7 @@
         "https://kirjamessut.messukeskus.com/en/info/"
       ],
       "url": "https://kirjamessut.messukeskus.com/en/",
-      "verifiedAt": "2026-09-12",
+      "verifiedAt": "2026-10-18",
       "status": "confirmed",
       "eu": true,
       "schengen": true,
@@ -5080,6 +1868,35 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "jihlava-documentary-2026",
+      "title": "Ji.hlava · International Documentary Film Festival",
+      "startDate": "2026-10-23",
+      "endDate": "2026-11-01",
+      "city": "Jihlava",
+      "country": "Czechia",
+      "category": "film",
+      "venue": "Jihlava festival cinemas",
+      "url": "https://www.ji-hlava.com/prihlaseni-filmu",
+      "sourceUrl": "https://www.ji-hlava.com/prihlaseni-filmu",
+      "description": "第 30 届纪录片电影节，此日期仅指 Jihlava 线下节期，不包含之后的线上展映。",
+      "access": "Public tickets",
+      "verifiedAt": "2026-10-18",
+      "tags": [
+        "October update",
+        "未来一个月",
+        "捷克"
+      ],
+      "eu": true,
+      "schengen": true,
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.ji-hlava.com/prihlaseni-filmu"
+      ],
+      "researchFiles": [
+        "research-october-focus.json"
       ]
     },
     {
@@ -5446,16 +2263,17 @@
       "description": "奥斯陆世界音乐节，以跨文化演出安排秋季音乐旅行。",
       "venue": "Oslo music venues",
       "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
+      "verifiedAt": "2026-10-18",
       "status": "confirmed",
       "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
+      "sourceUrls": [
+        "https://www.visitoslo.com/no/hva-skjer/arlige-hoydepunkter",
+        "https://osloworld.no/en/om-oss"
+      ],
       "eu": false,
       "schengen": true,
       "tags": [
         "挪威"
-      ],
-      "sourceUrls": [
-        "https://www.visitoslo.com/no/hva-skjer/arlige-hoydepunkter"
       ],
       "researchFiles": [
         "research-country-sweep.json"
@@ -5637,6 +2455,35 @@
       ]
     },
     {
+      "id": "tampere-jazz-2026",
+      "title": "Tampere Jazz Happening",
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-01",
+      "city": "Tampere",
+      "country": "Finland",
+      "category": "music",
+      "venue": "Tampere festival venues",
+      "url": "https://www.tamperejazz.fi/en/current/",
+      "sourceUrl": "https://www.tamperejazz.fi/en/current/",
+      "description": "坦佩雷现代爵士音乐节，第 45 届；具体场馆与演出时间以本届节目单为准。",
+      "access": "Public tickets",
+      "verifiedAt": "2026-10-18",
+      "tags": [
+        "October update",
+        "未来一个月",
+        "芬兰"
+      ],
+      "eu": true,
+      "schengen": true,
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.tamperejazz.fi/en/current/"
+      ],
+      "researchFiles": [
+        "research-october-focus.json"
+      ]
+    },
+    {
       "id": "artissima-2026",
       "title": "Artissima · Public fair",
       "city": "Turin",
@@ -5723,6 +2570,35 @@
       ]
     },
     {
+      "id": "mix-copenhagen-2026",
+      "title": "MIX Copenhagen · LGBTQIA+ Film Festival",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-08",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "category": "film",
+      "venue": "Copenhagen festival cinemas",
+      "url": "https://mixcopenhagen.dk/?lang=en",
+      "sourceUrl": "https://mixcopenhagen.dk/?lang=en",
+      "description": "哥本哈根酷儿电影节，适合串联市区影院观影；按场次选择影片。",
+      "access": "Public tickets",
+      "verifiedAt": "2026-10-18",
+      "tags": [
+        "October update",
+        "未来一个月",
+        "丹麦"
+      ],
+      "eu": true,
+      "schengen": true,
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://mixcopenhagen.dk/?lang=en"
+      ],
+      "researchFiles": [
+        "research-october-focus.json"
+      ]
+    },
+    {
       "id": "rolex-paris-masters-2026",
       "startDate": "2026-10-31",
       "endDate": "2026-11-08",
@@ -5750,6 +2626,36 @@
       ],
       "researchFiles": [
         "research-sports.json"
+      ]
+    },
+    {
+      "id": "prague-sounds-2026",
+      "title": "Prague Sounds · 30th Anniversary",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-22",
+      "city": "Prague",
+      "country": "Czechia",
+      "category": "music",
+      "venue": "Venues across Prague",
+      "url": "https://praguesounds.cz/",
+      "sourceUrl": "https://praguesounds.cz/",
+      "description": "布拉格跨类型音乐节，30 周年；节期是系列音乐会的整体范围，并非每天都有演出。",
+      "access": "Public tickets",
+      "verifiedAt": "2026-10-18",
+      "tags": [
+        "October update",
+        "未来一个月",
+        "捷克"
+      ],
+      "scheduleNote": "Festival window only; consult the programme for individual concert dates.",
+      "eu": true,
+      "schengen": true,
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://praguesounds.cz/"
+      ],
+      "researchFiles": [
+        "research-october-focus.json"
       ]
     },
     {
@@ -5968,7 +2874,10 @@
       "subcategory": "Festival",
       "description": "The main three-day programme pairs Icelandic discoveries with international artists across Reykjavík. Additional special events run outside these main festival dates.",
       "sourceUrl": "https://icelandairwaves.is/lineup/",
-      "verifiedAt": "2026-09-12",
+      "verifiedAt": "2026-10-18",
+      "sourceUrls": [
+        "https://icelandairwaves.is/lineup/"
+      ],
       "title": "Iceland Airwaves",
       "url": "https://icelandairwaves.is/",
       "eu": false,
@@ -5977,9 +2886,6 @@
         "冰岛"
       ],
       "status": "confirmed",
-      "sourceUrls": [
-        "https://icelandairwaves.is/lineup/"
-      ],
       "access": "Check official tickets",
       "researchFiles": [
         "research-music.json"
@@ -6056,19 +2962,49 @@
       "description": "塞萨洛尼基国际电影节，适合结合港区、老城与电影的秋季旅行。",
       "venue": "Thessaloniki festival cinemas",
       "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
+      "verifiedAt": "2026-10-18",
       "status": "confirmed",
       "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
+      "sourceUrls": [
+        "https://filmfestival.gr/el/newsroom/news/submissions-open-for-the-67th-tiff/",
+        "https://filmfestival.gr/en/"
+      ],
       "eu": true,
       "schengen": true,
       "tags": [
         "希腊"
       ],
-      "sourceUrls": [
-        "https://filmfestival.gr/el/newsroom/news/submissions-open-for-the-67th-tiff/"
-      ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "ai-filmfest-athens-awards-2026",
+      "title": "AI Filmfest Athens · Awards Ceremony",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-06",
+      "city": "Athens",
+      "country": "Greece",
+      "category": "film",
+      "venue": "The Ellinikon Experience Centre",
+      "url": "https://www.aifilmfestathens.gr/en",
+      "sourceUrl": "https://www.aifilmfestathens.gr/en",
+      "description": "雅典 AI 电影节闭幕颁奖礼。此条仅记录官网确认的 11 月 6 日仪式，不把影片征集时间当作公众放映日；入场条件需向主办方确认。",
+      "access": "Check official details",
+      "verifiedAt": "2026-10-18",
+      "tags": [
+        "October update",
+        "未来一个月",
+        "希腊"
+      ],
+      "eu": true,
+      "schengen": true,
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.aifilmfestathens.gr/en"
+      ],
+      "researchFiles": [
+        "research-october-focus.json"
       ]
     },
     {
@@ -6584,16 +3520,17 @@
       "description": "斯德哥尔摩国际电影节，旅行前按片单和字幕选择场次。",
       "venue": "Stockholm cinemas",
       "access": "Public tickets",
-      "verifiedAt": "2026-09-12",
+      "verifiedAt": "2026-10-18",
       "status": "confirmed",
       "scheduleNote": "Published festival/event window. Individual performances, installations, restaurants and venues may run on selected dates or have closures. Check the daily programme before choosing travel dates.",
+      "sourceUrls": [
+        "https://www.stockholmfilmfestival.se/",
+        "https://www.stockholmfilmfestival.se/en/"
+      ],
       "eu": true,
       "schengen": true,
       "tags": [
         "瑞典"
-      ],
-      "sourceUrls": [
-        "https://www.stockholmfilmfestival.se/"
       ],
       "researchFiles": [
         "research-country-sweep.json"
@@ -6735,6 +3672,38 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "jazztopad-wroclaw-2026",
+      "title": "Jazztopad Festival",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-22",
+      "city": "Wrocław",
+      "country": "Poland",
+      "category": "music",
+      "venue": "National Forum of Music and festival venues",
+      "url": "https://www.nfm.wroclaw.pl/festiwale/jazztopad-festival",
+      "sourceUrl": "https://www.nfm.wroclaw.pl/festiwale/jazztopad-festival",
+      "description": "弗罗茨瓦夫爵士音乐节；官方列出的节期为 11 月 13–16 日及 18–22 日，17 日不列入日历。",
+      "access": "Public tickets",
+      "verifiedAt": "2026-10-18",
+      "tags": [
+        "October update",
+        "未来一个月",
+        "波兰"
+      ],
+      "closedDates": [
+        "2026-11-17"
+      ],
+      "eu": true,
+      "schengen": true,
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.nfm.wroclaw.pl/festiwale/jazztopad-festival"
+      ],
+      "researchFiles": [
+        "research-october-focus.json"
       ]
     },
     {
@@ -6998,6 +3967,35 @@
       ],
       "researchFiles": [
         "research-country-sweep.json"
+      ]
+    },
+    {
+      "id": "verzio-budapest-2026",
+      "title": "Verzió · Human Rights Documentary Film Festival",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-25",
+      "city": "Budapest",
+      "country": "Hungary",
+      "category": "film",
+      "venue": "Budapest festival cinemas",
+      "url": "https://www.verzio.org/en/News/2026/more-than-80-films-23_rd-verzio-festival",
+      "sourceUrl": "https://www.verzio.org/en/News/2026/more-than-80-films-23_rd-verzio-festival",
+      "description": "第 23 届人权纪录片节。此条为布达佩斯观影入口；其他匈牙利城市及线上安排需另查节目。",
+      "access": "Public tickets",
+      "verifiedAt": "2026-10-18",
+      "tags": [
+        "October update",
+        "未来一个月",
+        "匈牙利"
+      ],
+      "eu": true,
+      "schengen": true,
+      "status": "confirmed",
+      "sourceUrls": [
+        "https://www.verzio.org/en/News/2026/more-than-80-films-23_rd-verzio-festival"
+      ],
+      "researchFiles": [
+        "research-october-focus.json"
       ]
     },
     {

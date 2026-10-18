@@ -14,7 +14,11 @@
     "accessNote": "Book individual events; check each session's language, venue and remaining availability.",
     "notes": "Already underway; 12–13 September remain inside the tracker window. Main festival dates are 10–13 September 2026.",
     "sourceUrl": "https://www.hayfestival.com/segovia/home",
-    "sourceUrls": ["https://www.hayfestival.com/segovia/home", "https://www.hayfestival.com/news/blog.aspx?post=1850", "https://www.hayfestival.com/segovia/programme-quick-view.aspx?SectionFilterID=983&pview=0"],
+    "sourceUrls": [
+      "https://www.hayfestival.com/segovia/home",
+      "https://www.hayfestival.com/news/blog.aspx?post=1850",
+      "https://www.hayfestival.com/segovia/programme-quick-view.aspx?SectionFilterID=983&pview=0"
+    ],
     "url": "https://www.hayfestival.com/segovia/home",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -33,7 +37,11 @@
     "access": "Public tickets",
     "accessNote": "Admission tickets cover the exhibition. Seminar passes and special-event tickets are sold separately; choose the ticket for the sessions you want.",
     "sourceUrl": "https://goteborg-bookfair.com/",
-    "sourceUrls": ["https://goteborg-bookfair.com/", "https://goteborg-bookfair.com/home/shop/", "https://goteborg-bookfair.com/home/plan-your-visit/opening-hours/"],
+    "sourceUrls": [
+      "https://goteborg-bookfair.com/",
+      "https://goteborg-bookfair.com/home/shop/",
+      "https://goteborg-bookfair.com/home/plan-your-visit/opening-hours/"
+    ],
     "url": "https://goteborg-bookfair.com/home/shop/",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -52,7 +60,10 @@
     "access": "Public tickets",
     "accessNote": "Book individual events through the festival box office; check venue addresses for sessions outside the town centre.",
     "sourceUrl": "https://www.wigtownbookfestival.com/",
-    "sourceUrls": ["https://www.wigtownbookfestival.com/", "https://www.wigtownbookfestival.com/visit/festival-venues"],
+    "sourceUrls": [
+      "https://www.wigtownbookfestival.com/",
+      "https://www.wigtownbookfestival.com/visit/festival-venues"
+    ],
     "url": "https://tickets.wigtownbookfestival.com/",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -72,7 +83,10 @@
     "accessNote": "Public admission starts Friday 9 October at 11:00; Saturday opens at 09:00 and Sunday at 09:00. Industry-only rights centres require the appropriate credentials and appointments.",
     "scheduleNote": "Calendar shows the public visitor dates. The full trade fair runs 7–11 October; 7–8 October are for trade visitors.",
     "sourceUrl": "https://www.buchmesse.de/en",
-    "sourceUrls": ["https://www.buchmesse.de/en", "https://www.buchmesse.de/besuchen/tickets"],
+    "sourceUrls": [
+      "https://www.buchmesse.de/en",
+      "https://www.buchmesse.de/besuchen/tickets"
+    ],
     "url": "https://www.buchmesse.de/besuchen/tickets",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -109,7 +123,10 @@
     "access": "Mixed access",
     "accessNote": "Book individual author events; the festival also offers free activities. Check the programme for session venues and ticket availability.",
     "sourceUrl": "https://www.cheltenhamfestivals.org/festivals/literature-festival",
-    "sourceUrls": ["https://www.cheltenhamfestivals.org/festivals/literature-festival", "https://www.cheltenhamfestivals.org/venues/category/literature-festival"],
+    "sourceUrls": [
+      "https://www.cheltenhamfestivals.org/festivals/literature-festival",
+      "https://www.cheltenhamfestivals.org/venues/category/literature-festival"
+    ],
     "url": "https://www.cheltenhamfestivals.org/whats-on",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -146,9 +163,13 @@
     "access": "Public tickets",
     "accessNote": "Tickets are available through the official fair site. Check session languages and the programme, due to be published on 22 September.",
     "sourceUrl": "https://kirjamessut.messukeskus.com/en/",
-    "sourceUrls": ["https://kirjamessut.messukeskus.com/en/", "https://kirjamessut.messukeskus.com/", "https://kirjamessut.messukeskus.com/en/info/"],
+    "sourceUrls": [
+      "https://kirjamessut.messukeskus.com/en/",
+      "https://kirjamessut.messukeskus.com/",
+      "https://kirjamessut.messukeskus.com/en/info/"
+    ],
     "url": "https://kirjamessut.messukeskus.com/en/",
-    "verifiedAt": "2026-09-12",
+    "verifiedAt": "2026-10-18",
     "status": "confirmed"
   },
   {
@@ -165,7 +186,10 @@
     "access": "Public tickets",
     "accessNote": "The fair is open to the general public. Public ticket sales are listed as coming soon; trade-visitor registration is a separate route.",
     "sourceUrl": "https://ksiazka.krakow.pl/en",
-    "sourceUrls": ["https://ksiazka.krakow.pl/en", "https://targi.krakow.pl/targi-ksiazki-w-krakowie"],
+    "sourceUrls": [
+      "https://ksiazka.krakow.pl/en",
+      "https://targi.krakow.pl/targi-ksiazki-w-krakowie"
+    ],
     "url": "https://ksiazka.krakow.pl/en",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -184,7 +208,10 @@
     "access": "Public tickets",
     "accessNote": "Open daily 10:00–20:00. Public admission and online tickets are listed on the organiser's calendar page; confirm current programme and ticket terms before visiting.",
     "sourceUrl": "https://sajam.rs/en/third-board-meeting-of-the-69th-belgrade-international-book-fair-convenes-at-belgrade-fair/",
-    "sourceUrls": ["https://sajam.rs/en/third-board-meeting-of-the-69th-belgrade-international-book-fair-convenes-at-belgrade-fair/", "https://sajam.rs/sr/%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80-2026/%D1%81%D0%B0%D1%98%D0%B0%D0%BC-%D0%BA%D1%9A%D0%B8%D0%B3%D0%B0/"],
+    "sourceUrls": [
+      "https://sajam.rs/en/third-board-meeting-of-the-69th-belgrade-international-book-fair-convenes-at-belgrade-fair/",
+      "https://sajam.rs/sr/%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80-2026/%D1%81%D0%B0%D1%98%D0%B0%D0%BC-%D0%BA%D1%9A%D0%B8%D0%B3%D0%B0/"
+    ],
     "url": "https://sajam.rs/sr/%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80-2026/%D1%81%D0%B0%D1%98%D0%B0%D0%BC-%D0%BA%D1%9A%D0%B8%D0%B3%D0%B0/",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -203,7 +230,10 @@
     "access": "Public tickets",
     "accessNote": "Public ticket sales are open through the organiser. Check programme times and languages; the children's festival has its own opening hours.",
     "sourceUrl": "https://bogforum.dk/en/bogforum-festival/practical-information",
-    "sourceUrls": ["https://bogforum.dk/en", "https://bogforum.dk/en/bogforum-festival/practical-information"],
+    "sourceUrls": [
+      "https://bogforum.dk/en",
+      "https://bogforum.dk/en/bogforum-festival/practical-information"
+    ],
     "url": "https://bogforum.dk/en",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -222,7 +252,10 @@
     "access": "Mixed access",
     "accessNote": "Choose individual events in the official programme; the festival includes a weekend of free family activities alongside bookable sessions.",
     "sourceUrl": "https://dublinbookfestival.com/save-the-date-dublin-book-festival-2026-taking-place-4-8-november/",
-    "sourceUrls": ["https://dublinbookfestival.com/save-the-date-dublin-book-festival-2026-taking-place-4-8-november/", "https://dublinbookfestival.com/"],
+    "sourceUrls": [
+      "https://dublinbookfestival.com/save-the-date-dublin-book-festival-2026-taking-place-4-8-november/",
+      "https://dublinbookfestival.com/"
+    ],
     "url": "https://dublinbookfestival.com/",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -241,7 +274,10 @@
     "access": "Public tickets",
     "accessNote": "Book individual readings and workshops through the official ticket link. Check each session's venue and access information.",
     "sourceUrl": "https://www.poetryinaldeburgh.org/accessibility-1",
-    "sourceUrls": ["https://www.poetryinaldeburgh.org/accessibility-1", "https://www.poetryinaldeburgh.org/"],
+    "sourceUrls": [
+      "https://www.poetryinaldeburgh.org/accessibility-1",
+      "https://www.poetryinaldeburgh.org/"
+    ],
     "url": "https://www.poetryinaldeburgh.org/",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -260,7 +296,10 @@
     "access": "Free entry",
     "accessNote": "The organiser confirms free admission for all visitors; check the programme for individual author sessions and workshops.",
     "sourceUrl": "https://www.zv.hr/sajmovi-7/interliber-2519/posjetitelji-2707/2707",
-    "sourceUrls": ["https://www.zv.hr/sajmovi-7/interliber-2519/posjetitelji-2707/2707", "https://www.zv.hr/sajmovi-7/interliber-2519/o-sajmu-10046/10046"],
+    "sourceUrls": [
+      "https://www.zv.hr/sajmovi-7/interliber-2519/posjetitelji-2707/2707",
+      "https://www.zv.hr/sajmovi-7/interliber-2519/o-sajmu-10046/10046"
+    ],
     "url": "https://www.zv.hr/sajmovi-7/interliber-2519/posjetitelji-2707/2707",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -279,7 +318,10 @@
     "access": "Free entry",
     "accessNote": "Admission to the fair is free. Consult the programme for individual stages and sessions, and the visitor page for transport offers.",
     "sourceUrl": "https://knjizni-sejem.si/",
-    "sourceUrls": ["https://knjizni-sejem.si/", "https://knjizni-sejem.si/obiskovalci/"],
+    "sourceUrls": [
+      "https://knjizni-sejem.si/",
+      "https://knjizni-sejem.si/obiskovalci/"
+    ],
     "url": "https://knjizni-sejem.si/",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -298,7 +340,10 @@
     "access": "Public tickets",
     "accessNote": "Ticket sales begin 15 September. Wednesday opens at 16:30; day tickets and festival passes are offered. Check evening events for venue and entry details.",
     "sourceUrl": "https://www.buchwien.at/besucherinnen-infos/",
-    "sourceUrls": ["https://www.buchwien.at/", "https://www.buchwien.at/besucherinnen-infos/"],
+    "sourceUrls": [
+      "https://www.buchwien.at/",
+      "https://www.buchwien.at/besucherinnen-infos/"
+    ],
     "url": "https://www.buchwien.at/besucherinnen-infos/",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"
@@ -317,7 +362,10 @@
     "access": "Free · booking required",
     "accessNote": "Free entry, but every adult and child needs an online ticket; booking opens 5 October. Monday is the professional day and remains open to all visitors; some professional sessions require accreditation.",
     "sourceUrl": "https://slpj.fr/salon/",
-    "sourceUrls": ["https://slpj.fr/salon/", "https://slpj.fr/salon/preparer-sa-venue/"],
+    "sourceUrls": [
+      "https://slpj.fr/salon/",
+      "https://slpj.fr/salon/preparer-sa-venue/"
+    ],
     "url": "https://slpj.fr/salon/preparer-sa-venue/",
     "verifiedAt": "2026-09-12",
     "status": "confirmed"

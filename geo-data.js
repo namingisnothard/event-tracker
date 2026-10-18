@@ -8,6 +8,8 @@
  * Europe-wide events intentionally have no coordinate or artificial map pin.
  */
 export const CITY_COORDINATES = Object.freeze({
+  "Jihlava|Czechia": [49.3961, 15.5912], // Approximate city centre
+  "Tampere|Finland": [61.4991, 23.7871], // Approximate city centre
   "Cologne|Germany": [50.93333, 6.95], // GeoNames 2886242
   "Essen|Germany": [51.45657, 7.01228], // GeoNames 2928810
   "Bremen|Germany": [53.07582, 8.80717], // GeoNames 2944388

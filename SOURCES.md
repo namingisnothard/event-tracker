@@ -60,3 +60,21 @@ The Saarbrücken/Frankfurt follow-up adds ten listings. Saarbrücken Christkindl
 The wider German-city follow-up adds 30 events, bringing Germany to 54 listings across 20 cities. New coverage prioritises Hamburg and Leipzig alongside ten newly geocoded destinations. Public fair dates are distinguished from separately ticketed or free opening evenings: ART COLOGNE uses 6–8 November with its November 5 vernissage explained; GRASSIMESSE uses 23–25 October with the October 22 free evening explained. Leipzig Jazz Days uses the organiser’s current 17–25 October dates, and Dresden Jazz Days uses the current 2 October–29 November series. Tollwood’s separate New Year’s Eve party is excluded from its winter-festival window. The [German city guide](GERMANY-2026.md) includes date combinations and all German listings.
 
 The Paris Design Week follow-up adds its 10–19 September city festival. Factory runs only 10–14 September and requires free registration. The Chinese guide records three associated exhibitions separately as itinerary notes, including Multiples’ Sunday/Monday closures and Souvenances’ extension through September 20; these do not extend the umbrella festival or add duplicate festival counts. Sources: [organiser](https://www.maison-objet.com/en/paris-design-week) and the linked Paris city event pages.
+
+
+## 18 October 2026 · Nordic / Central and Eastern Europe / Greece refresh
+
+Focus window: 18 October–18 November 2026. Ten additions; ended listings are excluded from `events.json`, while original research is retained. Ongoing events retain their real start date; calendar occurrences and exports begin on 18 October. Festival spans do not guarantee daily sessions.
+
+- **MIX Copenhagen · LGBTQIA+ Film Festival** (Copenhagen, 2026-10-30–2026-11-08): [official organiser or tourism source](https://mixcopenhagen.dk/?lang=en). 哥本哈根酷儿电影节，适合串联市区影院观影；按场次选择影片。
+- **Tampere Jazz Happening** (Tampere, 2026-10-29–2026-11-01): [official organiser or tourism source](https://www.tamperejazz.fi/en/current/). 坦佩雷现代爵士音乐节，第 45 届；具体场馆与演出时间以本届节目单为准。
+- **Liszt Fest · International Cultural Festival** (Budapest, 2026-10-08–2026-10-22): [official organiser or tourism source](https://lisztunnep.hu/en/news/from-the-pioneers-of-contemporary-music-to-liszt-s-monumental-christus-works-and-artists-who-are-not-afraid-to-experiment-at-the-2026-liszt-fest). 布达佩斯李斯特文化节，涵盖古典、当代音乐及跨界演出；今天起仍有尾段节目可选。
+- **Verzió · Human Rights Documentary Film Festival** (Budapest, 2026-11-16–2026-11-25): [official organiser or tourism source](https://www.verzio.org/en/News/2026/more-than-80-films-23_rd-verzio-festival). 第 23 届人权纪录片节。此条为布达佩斯观影入口；其他匈牙利城市及线上安排需另查节目。
+- **Ji.hlava · International Documentary Film Festival** (Jihlava, 2026-10-23–2026-11-01): [official organiser or tourism source](https://www.ji-hlava.com/prihlaseni-filmu). 第 30 届纪录片电影节，此日期仅指 Jihlava 线下节期，不包含之后的线上展映。
+- **Prague Sounds · 30th Anniversary** (Prague, 2026-11-02–2026-11-22): [official organiser or tourism source](https://praguesounds.cz/). 布拉格跨类型音乐节，30 周年；节期是系列音乐会的整体范围，并非每天都有演出。
+- **Jazztopad Festival** (Wrocław, 2026-11-13–2026-11-22): [official organiser or tourism source](https://www.nfm.wroclaw.pl/festiwale/jazztopad-festival). 弗罗茨瓦夫爵士音乐节；官方列出的节期为 11 月 13–16 日及 18–22 日，17 日不列入日历。
+- **Conrad Festival · Disobedience** (Kraków, 2026-10-19–2026-10-25): [official organiser or tourism source](https://visitmalopolska.pl/en_GB/obiekt/-/poi/miedzynarodowy-festiwal-literatury-im-josepha-conrada). 克拉科夫第 18 届康拉德文学节，主题为“不服从”；适合与同期书展组合，语言及预约要求以各场活动为准。
+- **clinamen · Céleste Boursier-Mougenot** (Athens, 2026-09-26–2026-12-05): [official organiser or tourism source](https://www.onassis.org/whats-on/clinamen-celeste-boursier-mougenot). 雅典 Plaka 的声音装置：水池中漂浮的瓷碗碰撞发声。周三至周日开放；恶劣天气可能暂停。
+- **AI Filmfest Athens · Awards Ceremony** (Athens, 2026-11-06–2026-11-06): [official organiser or tourism source](https://www.aifilmfestathens.gr/en). 雅典 AI 电影节闭幕颁奖礼。此条仅记录官网确认的 11 月 6 日仪式，不把影片征集时间当作公众放映日；入场条件需向主办方确认。
+
+Existing Iceland Airwaves, Helsinki Book Fair, Oslo World, Stockholm Film Festival and Thessaloniki Film Festival dates were rechecked with official sources; their verification dates and source links were refreshed.

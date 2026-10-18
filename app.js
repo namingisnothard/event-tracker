@@ -44,8 +44,8 @@ const TODAY = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-
 const checkedLabel = value => date(value).toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
 let saved = [];
 try { const s = JSON.parse(localStorage.getItem('elsewhere-shortlist-v1') || '[]'); if (Array.isArray(s)) saved = s.filter(x => typeof x === 'string'); } catch { /* A disabled store still allows a session shortlist. */ }
-const state = { month: Math.min(11, Math.max(8, Number(params.get('month') || 9) - 1)), view: ['list','map'].includes(params.get('view')) ? params.get('view') : 'calendar', mapAll:params.get('range')==='all', region:['eu-schengen','eu','schengen'].includes(params.get('region'))?params.get('region'):'', search: params.get('q') || '', country: params.get('country') || '', city: params.get('city') || '', category: CATEGORIES[params.get('category')] ? params.get('category') : '', publicOnly: params.get('public') === '1', savedOnly: params.get('saved') === '1' };
-if (!Number.isFinite(state.month)) state.month = 8;
+const state = { month: Math.min(11, Math.max(9, Number(params.get('month') || 10) - 1)), view: ['list','map'].includes(params.get('view')) ? params.get('view') : 'calendar', mapAll:params.get('range')==='all', region:['eu-schengen','eu','schengen'].includes(params.get('region'))?params.get('region'):'', search: params.get('q') || '', country: params.get('country') || '', city: params.get('city') || '', category: CATEGORIES[params.get('category')] ? params.get('category') : '', publicOnly: params.get('public') === '1', savedOnly: params.get('saved') === '1' };
+if (!Number.isFinite(state.month)) state.month = 9;
 let events = [], filtered = [], coverage = null, lastUpdated = AS_OF, toastTimer;
 let mapView = null;
 const dialog = $('#detail-dialog');
@@ -56,7 +56,7 @@ const locationLabel = e => e.geographicScope==='europe-wide'?'Across Europe':`${
 function toast(message) { $('#toast').textContent = message; $('#toast').classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => $('#toast').classList.remove('show'), 2900); }
 function updateURL() {
   const p = new URLSearchParams();
-  if (state.month !== 8) p.set('month', state.month + 1);
+  if (state.month !== 9) p.set('month', state.month + 1);
   if (state.view !== 'calendar') p.set('view', state.view);
   if (state.view !== 'calendar' && state.mapAll) p.set('range','all');
   for (const [key,value] of Object.entries({q:state.search,region:state.region,country:state.country,city:state.city,category:state.category,public:state.publicOnly?'1':'',saved:state.savedOnly?'1':''})) if (value) p.set(key,value);
@@ -66,7 +66,7 @@ function setFilters(patch, jump = true) {
   Object.assign(state, patch);
   filtered = filterEvents(events, state, saved);
   if (jump && filtered.length && !filtered.some(e => overlapsMonth(e, state.month))) {
-    const month = [8,9,10,11].find(m => filtered.some(e => overlapsMonth(e,m)));
+    const month = [9,10,11].find(m => filtered.some(e => overlapsMonth(e,m)));
     if (month !== undefined) state.month = month;
   }
   render();
@@ -141,16 +141,16 @@ function render() {
   $('#event-count').textContent = events.length;
   $('#country-count').textContent = new Set(events.filter(e=>e.geographicScope!=='europe-wide').map(e=>e.country)).size;
   $('#explorer-title').textContent = state.savedOnly ? 'Your personal shortlist' : 'Your next great plan';
-  $('#result-count').textContent = state.view==='map'?`${mapEvents.length} events · ${groupEventsByCity(mapEvents).filter(g=>!g.isRegional).length} cities · ${showAllMapDates?'rest of 2026':'this month'}`:`${showAllMapDates?filtered.length:monthEvents.length} ${showAllMapDates?'across Sep–Dec':'this month'} · ${filtered.length} ${state.savedOnly?'saved':'matching'} in 2026`;
-  $('#month-title').innerHTML = `${showAllMapDates?'Sep – Dec':MONTHS[state.month-8]} <span>2026</span>`;
-  $('#month-tabs').innerHTML = MONTHS.map((m,i)=>`<button class="month-tab ${state.month===i+8&&!showAllMapDates?'active':''}" data-month="${i+8}" aria-label="${m} 2026" aria-pressed="${state.month===i+8&&!showAllMapDates}">${m.slice(0,3)}</button>`).join('');
-  $('#previous-month').disabled = showAllMapDates || state.month===8; $('#next-month').disabled = showAllMapDates || state.month===11;
+  $('#result-count').textContent = state.view==='map'?`${mapEvents.length} events · ${groupEventsByCity(mapEvents).filter(g=>!g.isRegional).length} cities · ${showAllMapDates?'rest of 2026':'this month'}`:`${showAllMapDates?filtered.length:monthEvents.length} ${showAllMapDates?'across Oct–Dec':'this month'} · ${filtered.length} ${state.savedOnly?'saved':'matching'} in 2026`;
+  $('#month-title').innerHTML = `${showAllMapDates?'Oct – Dec':MONTHS[state.month-8]} <span>2026</span>`;
+  $('#month-tabs').innerHTML = MONTHS.slice(1).map((m,i)=>`<button class="month-tab ${state.month===i+9&&!showAllMapDates?'active':''}" data-month="${i+9}" aria-label="${m} 2026" aria-pressed="${state.month===i+9&&!showAllMapDates}">${m.slice(0,3)}</button>`).join('');
+  $('#previous-month').disabled = showAllMapDates || state.month===9; $('#next-month').disabled = showAllMapDates || state.month===11;
   $('#export-button').disabled = !filtered.length;
-  $('#export-button').title = `Export all ${filtered.length} matching events, September–December 2026`;
+  $('#export-button').title = `Export all ${filtered.length} matching events, October–December 2026`;
   for (const view of ['calendar','list','map']) { $(`#${view}-view`).classList.toggle('active',state.view===view); $(`#${view}-view`).setAttribute('aria-pressed',state.view===view); }
   if(state.view==='map'){
     if(!mapView)mapView=createEventMap($('#results'),{onEvent:showEvent,onSave:saveEvent,onScope:all=>setFilters({mapAll:all},false)});
-    mapView.update(mapEvents,{saved,label:showAllMapDates?'Sep–Dec 2026':`${MONTHS[state.month-8]} 2026`,allMonths:state.mapAll,monthLabel:MONTHS[state.month-8]});
+    mapView.update(mapEvents,{saved,label:showAllMapDates?'Oct–Dec 2026':`${MONTHS[state.month-8]} 2026`,allMonths:state.mapAll,monthLabel:MONTHS[state.month-8]});
   }else{
     mapView?.destroy();mapView=null;
     $('#results').innerHTML = state.view==='calendar'?renderCalendar(monthEvents):renderList(mapEvents);
@@ -182,7 +182,7 @@ function showDay(day) {
 }
 function showAbout() {
   delete dialog.dataset.event; delete dialog.dataset.day;
-  openDialog(`${closeButton}<div class="modal-content about-content"><span class="eyebrow">THE ELSEWHERE FIELD NOTES</span><h2>A considered collection.<br>An open invitation.</h2><p class="modal-description">${events.length} handpicked events across ${new Set(events.filter(e=>e.geographicScope!=='europe-wide').map(e=>e.country)).size} European countries, covering 12 September to 31 December 2026. Major stages, sporting occasions, and art worth travelling for.</p><ul><li>Each event links to an official organiser, venue, federation or city source. Latest additions were checked on <strong>${escape(checkedLabel(lastUpdated))}</strong>; each listing shows its own verification date.</li><li>This is a curated snapshot, not a complete directory or a live ticket feed. Ticket availability and schedules can change.</li><li>Concert residencies use their actual performance dates. Festival and exhibition ranges may have varying opening hours; check individual programmes.</li><li>Fashion weeks may need industry accreditation or invitations. The “Public access only” filter excludes invitation-only listings; mixed-access events can still have restricted sessions.</li><li>Sky phenomena are listed as Europe-wide viewing windows. They remain visible when you filter by a country or city and appear separately from city markers on the map. Clear skies and suitable local conditions are needed.</li><li>Your shortlist is saved in this browser. Export downloads an .ics file for Apple Calendar, Google Calendar or Outlook. Calendar dates are all-day planning reminders.</li></ul><p class="modal-subtitle">Photographs are illustrative editorial images from Unsplash; they do not depict the listed events or expected night-sky views.</p></div>`);
+  openDialog(`${closeButton}<div class="modal-content about-content"><span class="eyebrow">THE ELSEWHERE FIELD NOTES</span><h2>A considered collection.<br>An open invitation.</h2><p class="modal-description">${events.length} handpicked events across ${new Set(events.filter(e=>e.geographicScope!=='europe-wide').map(e=>e.country)).size} European countries, covering 18 October to 31 December 2026. Major stages, sporting occasions, and art worth travelling for.</p><ul><li>Each event links to an official organiser, venue, federation or city source. Latest additions were checked on <strong>${escape(checkedLabel(lastUpdated))}</strong>; each listing shows its own verification date.</li><li>This is a curated snapshot, not a complete directory or a live ticket feed. Ticket availability and schedules can change.</li><li>Concert residencies use their actual performance dates. Festival and exhibition ranges may have varying opening hours; check individual programmes.</li><li>Fashion weeks may need industry accreditation or invitations. The “Public access only” filter excludes invitation-only listings; mixed-access events can still have restricted sessions.</li><li>Sky phenomena are listed as Europe-wide viewing windows. They remain visible when you filter by a country or city and appear separately from city markers on the map. Clear skies and suitable local conditions are needed.</li><li>Your shortlist is saved in this browser. Export downloads an .ics file for Apple Calendar, Google Calendar or Outlook. Calendar dates are all-day planning reminders.</li></ul><p class="modal-subtitle">Photographs are illustrative editorial images from Unsplash; they do not depict the listed events or expected night-sky views.</p></div>`);
 }
 function downloadCalendar(selection) {
   if(!selection.length)return;
@@ -212,9 +212,9 @@ $('#all-dates').addEventListener('change',e=>setFilters({mapAll:e.target.checked
 $('#coverage-search').addEventListener('input',renderCoverage);
 $('#public-only').addEventListener('change',e=>setFilters({publicOnly:e.target.checked}));
 $('#reset-button').addEventListener('click',resetFilters);
-$('#previous-month').addEventListener('click',()=>setFilters({month:Math.max(8,state.month-1)},false));
+$('#previous-month').addEventListener('click',()=>setFilters({month:Math.max(9,state.month-1)},false));
 $('#next-month').addEventListener('click',()=>setFilters({month:Math.min(11,state.month+1)},false));
-$('#today-button').addEventListener('click',()=>setFilters({month:Math.min(11,Math.max(8,Number(TODAY.slice(5,7))-1)),mapAll:false},false));
+$('#today-button').addEventListener('click',()=>setFilters({month:Math.min(11,Math.max(9,Number(TODAY.slice(5,7))-1)),mapAll:false},false));
 $('#calendar-view').addEventListener('click',()=>setFilters({view:'calendar'},false));
 $('#list-view').addEventListener('click',()=>setFilters({view:'list'},false));
 $('#map-view').addEventListener('click',()=>setFilters({view:'map'},false));

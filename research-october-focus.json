@@ -1,0 +1,201 @@
+[
+  {
+    "id": "mix-copenhagen-2026",
+    "title": "MIX Copenhagen · LGBTQIA+ Film Festival",
+    "startDate": "2026-10-30",
+    "endDate": "2026-11-08",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "category": "film",
+    "venue": "Copenhagen festival cinemas",
+    "url": "https://mixcopenhagen.dk/?lang=en",
+    "sourceUrl": "https://mixcopenhagen.dk/?lang=en",
+    "description": "哥本哈根酷儿电影节，适合串联市区影院观影；按场次选择影片。",
+    "access": "Public tickets",
+    "verifiedAt": "2026-10-18",
+    "tags": [
+      "October update",
+      "未来一个月"
+    ]
+  },
+  {
+    "id": "tampere-jazz-2026",
+    "title": "Tampere Jazz Happening",
+    "startDate": "2026-10-29",
+    "endDate": "2026-11-01",
+    "city": "Tampere",
+    "country": "Finland",
+    "category": "music",
+    "venue": "Tampere festival venues",
+    "url": "https://www.tamperejazz.fi/en/current/",
+    "sourceUrl": "https://www.tamperejazz.fi/en/current/",
+    "description": "坦佩雷现代爵士音乐节，第 45 届；具体场馆与演出时间以本届节目单为准。",
+    "access": "Public tickets",
+    "verifiedAt": "2026-10-18",
+    "tags": [
+      "October update",
+      "未来一个月"
+    ]
+  },
+  {
+    "id": "liszt-fest-budapest-2026",
+    "title": "Liszt Fest · International Cultural Festival",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-22",
+    "city": "Budapest",
+    "country": "Hungary",
+    "category": "music",
+    "venue": "Müpa and venues across Budapest",
+    "url": "https://lisztunnep.hu/en/news/from-the-pioneers-of-contemporary-music-to-liszt-s-monumental-christus-works-and-artists-who-are-not-afraid-to-experiment-at-the-2026-liszt-fest",
+    "sourceUrl": "https://lisztunnep.hu/en/news/from-the-pioneers-of-contemporary-music-to-liszt-s-monumental-christus-works-and-artists-who-are-not-afraid-to-experiment-at-the-2026-liszt-fest",
+    "description": "布达佩斯李斯特文化节，涵盖古典、当代音乐及跨界演出；今天起仍有尾段节目可选。",
+    "access": "Public tickets",
+    "verifiedAt": "2026-10-18",
+    "tags": [
+      "October update",
+      "未来一个月"
+    ]
+  },
+  {
+    "id": "verzio-budapest-2026",
+    "title": "Verzió · Human Rights Documentary Film Festival",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-25",
+    "city": "Budapest",
+    "country": "Hungary",
+    "category": "film",
+    "venue": "Budapest festival cinemas",
+    "url": "https://www.verzio.org/en/News/2026/more-than-80-films-23_rd-verzio-festival",
+    "sourceUrl": "https://www.verzio.org/en/News/2026/more-than-80-films-23_rd-verzio-festival",
+    "description": "第 23 届人权纪录片节。此条为布达佩斯观影入口；其他匈牙利城市及线上安排需另查节目。",
+    "access": "Public tickets",
+    "verifiedAt": "2026-10-18",
+    "tags": [
+      "October update",
+      "未来一个月"
+    ]
+  },
+  {
+    "id": "jihlava-documentary-2026",
+    "title": "Ji.hlava · International Documentary Film Festival",
+    "startDate": "2026-10-23",
+    "endDate": "2026-11-01",
+    "city": "Jihlava",
+    "country": "Czechia",
+    "category": "film",
+    "venue": "Jihlava festival cinemas",
+    "url": "https://www.ji-hlava.com/prihlaseni-filmu",
+    "sourceUrl": "https://www.ji-hlava.com/prihlaseni-filmu",
+    "description": "第 30 届纪录片电影节，此日期仅指 Jihlava 线下节期，不包含之后的线上展映。",
+    "access": "Public tickets",
+    "verifiedAt": "2026-10-18",
+    "tags": [
+      "October update",
+      "未来一个月"
+    ]
+  },
+  {
+    "id": "prague-sounds-2026",
+    "title": "Prague Sounds · 30th Anniversary",
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-22",
+    "city": "Prague",
+    "country": "Czechia",
+    "category": "music",
+    "venue": "Venues across Prague",
+    "url": "https://praguesounds.cz/",
+    "sourceUrl": "https://praguesounds.cz/",
+    "description": "布拉格跨类型音乐节，30 周年；节期是系列音乐会的整体范围，并非每天都有演出。",
+    "access": "Public tickets",
+    "verifiedAt": "2026-10-18",
+    "tags": [
+      "October update",
+      "未来一个月"
+    ],
+    "scheduleNote": "Festival window only; consult the programme for individual concert dates."
+  },
+  {
+    "id": "jazztopad-wroclaw-2026",
+    "title": "Jazztopad Festival",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-22",
+    "city": "Wrocław",
+    "country": "Poland",
+    "category": "music",
+    "venue": "National Forum of Music and festival venues",
+    "url": "https://www.nfm.wroclaw.pl/festiwale/jazztopad-festival",
+    "sourceUrl": "https://www.nfm.wroclaw.pl/festiwale/jazztopad-festival",
+    "description": "弗罗茨瓦夫爵士音乐节；官方列出的节期为 11 月 13–16 日及 18–22 日，17 日不列入日历。",
+    "access": "Public tickets",
+    "verifiedAt": "2026-10-18",
+    "tags": [
+      "October update",
+      "未来一个月"
+    ],
+    "closedDates": [
+      "2026-11-17"
+    ]
+  },
+  {
+    "id": "conrad-krakow-2026",
+    "title": "Conrad Festival · Disobedience",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25",
+    "city": "Kraków",
+    "country": "Poland",
+    "category": "literature",
+    "venue": "Kraków literary festival venues",
+    "url": "https://visitmalopolska.pl/en_GB/obiekt/-/poi/miedzynarodowy-festiwal-literatury-im-josepha-conrada",
+    "sourceUrl": "https://visitmalopolska.pl/en_GB/obiekt/-/poi/miedzynarodowy-festiwal-literatury-im-josepha-conrada",
+    "description": "克拉科夫第 18 届康拉德文学节，主题为“不服从”；适合与同期书展组合，语言及预约要求以各场活动为准。",
+    "access": "Public tickets",
+    "verifiedAt": "2026-10-18",
+    "tags": [
+      "October update",
+      "未来一个月"
+    ]
+  },
+  {
+    "id": "clinamen-athens-2026",
+    "title": "clinamen · Céleste Boursier-Mougenot",
+    "startDate": "2026-09-26",
+    "endDate": "2026-12-05",
+    "city": "Athens",
+    "country": "Greece",
+    "category": "art",
+    "venue": "Onassis Mandra, Dionysiou Areopagitou 2",
+    "url": "https://www.onassis.org/whats-on/clinamen-celeste-boursier-mougenot",
+    "sourceUrl": "https://www.onassis.org/whats-on/clinamen-celeste-boursier-mougenot",
+    "description": "雅典 Plaka 的声音装置：水池中漂浮的瓷碗碰撞发声。周三至周日开放；恶劣天气可能暂停。",
+    "access": "Public tickets",
+    "verifiedAt": "2026-10-18",
+    "tags": [
+      "October update",
+      "未来一个月"
+    ],
+    "closedWeekdays": [
+      1,
+      2
+    ],
+    "accessNote": "€5 single-day ticket; ages 15 and under free. Wednesday–Sunday, 11:00–14:30 and 17:30–21:30."
+  },
+  {
+    "id": "ai-filmfest-athens-awards-2026",
+    "title": "AI Filmfest Athens · Awards Ceremony",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-06",
+    "city": "Athens",
+    "country": "Greece",
+    "category": "film",
+    "venue": "The Ellinikon Experience Centre",
+    "url": "https://www.aifilmfestathens.gr/en",
+    "sourceUrl": "https://www.aifilmfestathens.gr/en",
+    "description": "雅典 AI 电影节闭幕颁奖礼。此条仅记录官网确认的 11 月 6 日仪式，不把影片征集时间当作公众放映日；入场条件需向主办方确认。",
+    "access": "Check official details",
+    "verifiedAt": "2026-10-18",
+    "tags": [
+      "October update",
+      "未来一个月"
+    ]
+  }
+]

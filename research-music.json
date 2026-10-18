@@ -4,7 +4,24 @@
     "name": "Céline Dion · Paris 2026",
     "startDate": "2026-09-12",
     "endDate": "2026-10-17",
-    "dates": ["2026-09-12", "2026-09-16", "2026-09-18", "2026-09-19", "2026-09-23", "2026-09-25", "2026-09-26", "2026-09-30", "2026-10-02", "2026-10-03", "2026-10-07", "2026-10-09", "2026-10-10", "2026-10-14", "2026-10-16", "2026-10-17"],
+    "dates": [
+      "2026-09-12",
+      "2026-09-16",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-23",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-30",
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-14",
+      "2026-10-16",
+      "2026-10-17"
+    ],
     "city": "Paris",
     "country": "France",
     "venue": "Plenitude Arena, Nanterre (formerly Paris La Défense Arena)",
@@ -50,7 +67,18 @@
     "name": "Backstreet Boys · Into the Millennium",
     "startDate": "2026-09-25",
     "endDate": "2026-10-07",
-    "dates": ["2026-09-25", "2026-09-26", "2026-09-27", "2026-09-29", "2026-09-30", "2026-10-02", "2026-10-03", "2026-10-04", "2026-10-06", "2026-10-07"],
+    "dates": [
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27",
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-06",
+      "2026-10-07"
+    ],
     "city": "Düsseldorf",
     "country": "Germany",
     "venue": "MERKUR SPIEL-ARENA",
@@ -180,7 +208,10 @@
     "description": "The main three-day programme pairs Icelandic discoveries with international artists across Reykjavík. Additional special events run outside these main festival dates.",
     "officialUrl": "https://icelandairwaves.is/",
     "sourceUrl": "https://icelandairwaves.is/lineup/",
-    "verifiedAt": "2026-09-12"
+    "verifiedAt": "2026-10-18",
+    "sourceUrls": [
+      "https://icelandairwaves.is/lineup/"
+    ]
   },
   {
     "id": "le-guess-who",
@@ -217,7 +248,12 @@
     "name": "Niall Horan · Dinner Party",
     "startDate": "2026-11-09",
     "endDate": "2026-11-13",
-    "dates": ["2026-11-09", "2026-11-10", "2026-11-12", "2026-11-13"],
+    "dates": [
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-13"
+    ],
     "city": "Dublin",
     "country": "Ireland",
     "venue": "3Arena",
