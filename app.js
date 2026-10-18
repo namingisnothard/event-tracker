@@ -89,8 +89,8 @@ function renderSelects() {
   $('#country').value = state.country; $('#city').value = state.city; $('#search').value = state.search; $('#public-only').checked = state.publicOnly;
 }
 function renderFeatured() {
-  const picks = ['backstreet-boys-dusseldorf','laver-cup-2026','art-basel-paris-2026'].map(id=>events.find(e=>e.id===id)).filter(Boolean);
-  const labels = ['A little nostalgia, live','Rivalry at its finest','An art-filled autumn'];
+  const picks = ['iceland-airwaves','conrad-krakow-2026','thessaloniki-film-2026'].map(id=>events.find(e=>e.id===id)).filter(Boolean);
+  const labels = ['Reykjavík, after dark','A week of words','Cinema by the sea'];
   $('#featured-grid').innerHTML = picks.map((e,i)=>`<article class="featured-card"><img src="./assets/${imageFor(e)}.jpg" alt="" width="600" height="350"><button class="featured-open" data-event="${e.id}" aria-label="View ${escape(e.title)}"><span class="feature-tag">${icon(CATEGORIES[e.category].icon)}${labels[i].toUpperCase()}</span><h3>${escape(shortTitle(e))}</h3><span class="feature-meta">${icon('pin')}${escape(e.city)}<span class="meta-dot">·</span>${escape(dateLabel(e))}${e.dates?' · selected nights':''}</span><span class="featured-arrow">↗</span></button><button class="feature-save ${saved.includes(e.id)?'is-saved':''}" data-save="${e.id}" aria-label="${saved.includes(e.id)?'Remove':'Save'} ${escape(shortTitle(e))}" aria-pressed="${saved.includes(e.id)}">${icon('bookmark')}</button></article>`).join('');
 }
 function orderedDayEvents(day) {
